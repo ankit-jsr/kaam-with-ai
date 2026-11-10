@@ -58,6 +58,6 @@ if "Sitemap: https://kaamwithai.pages.dev/sitemap.xml" not in robots:
     errors.append("robots.txt does not reference the production sitemap")
 
 if errors:
-    print("\\n".join(f"ERROR: {item}" for item in errors))
+    print("\n".join(f"ERROR: {item}" for item in errors))
     sys.exit(1)
 print("KaamWithAI validation passed.")
