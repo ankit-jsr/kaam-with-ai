@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://kaamwithai.pages.dev/sitemap.xml
