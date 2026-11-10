@@ -25,6 +25,32 @@ Write for one real reader about one concrete problem. If a sentence could appear
 - Write headlines that promise a specific answer, not generic transformation or urgency.
 - Use diagrams, tables and original graphics when they explain a process or comparison. Do not use generic AI imagery as decoration.
 
+
+
+## Earn the drama
+
+Do not manufacture significance through phrasing. A useful point can be stated plainly; it does not need a dramatic setup.
+
+- Never use a "not X, but Y" construction just because it sounds punchy. Use a contrast only when X is a real, common belief or option the reader might genuinely choose, and explaining the difference changes their understanding or decision.
+- Do not invent a weak opposing position to make our recommendation look insightful. If the "not this" half is irrelevant to the reader, delete it.
+- Avoid inflated stakes, suspense, grand claims and artificial urgency. The importance of a point should come from evidence, consequences or a recognisable problem.
+- Match the emotional volume of the sentence to the substance behind it. If the evidence is modest, say something modest. If a finding is genuinely surprising or consequential, show the evidence and let the reader feel its weight.
+- Prefer a direct explanation over a rhetorical reveal. Do not make an ordinary workflow sound like a breakthrough.
+
+## Write for non-technical business readers
+
+Assume the reader is intelligent, busy and unfamiliar with AI terminology. They may run a shop, clinic, agency, local service business or small online business. They are trying to get work done; they are not studying AI.
+
+- Start from a task they recognise: replying to enquiries, chasing invoices, updating stock, booking appointments, preparing quotes or following up with customers.
+- Explain what happens in the business before explaining the technology behind it.
+- Use everyday words. If a technical term is genuinely useful, explain it in the same sentence with a plain-language example. Do not stack unexplained terms such as agent, API, webhook, token, vector database or orchestration.
+- Describe AI in terms of what the owner or employee sees: what information goes in, what comes back, what the system can do next, and when a person steps in.
+- Keep examples small enough to picture. Use familiar businesses and realistic volumes, costs and constraints. Label invented scenarios as hypothetical.
+- Explain costs in money, time, errors and staff effort where possible. Avoid abstract performance language.
+- Do not assume the reader wants to build anything. Recommend an off-the-shelf tool, a simple automation, a spreadsheet or doing nothing when that is the sensible answer.
+- Define unavoidable jargon once, then use the plain term consistently.
+- A reader should be able to explain the article's main point to a colleague who knows nothing about AI.
+
 ## Patterns to remove on edit
 - Stock openers: "In today's rapidly evolving...", "As businesses navigate...", "In an increasingly digital world..."
 - Inflated importance: "pivotal", "game-changing", "revolutionary", "transformative", "critical role", "underscores the importance".
