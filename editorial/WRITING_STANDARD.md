@@ -93,3 +93,14 @@ Assume the reader is intelligent, busy and unfamiliar with AI terminology. They 
 
 ## Editorial voice
 Knowledgeable operator, not breathless futurist. Curious and direct, with a point of view. Comfortable saying "we don't know", "this is overkill" or "use a spreadsheet instead". No fake founder stories, fake field tests or manufactured personality.
+
+
+## Audience and geography
+
+Write for international English-speaking small-business readers, using the United States as the default reference market for illustrative examples unless the topic calls for another geography.
+
+- Use familiar US names, places and business contexts where they make examples easier to picture. Use US currency, units and business terminology when the example is set in the US.
+- Do not force every example to be American. Use another market when it is relevant to the subject or adds a useful comparison.
+- Avoid India-specific names, rupee prices, platforms, regulations and assumptions unless the article is specifically about India or the comparison genuinely helps.
+- Make examples plausible and specific without leaning on stereotypes. Label hypothetical examples clearly.
+- Product availability, pricing, laws and platform features vary by market. State the geography and verify those details before making claims.
