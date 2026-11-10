@@ -2,31 +2,38 @@
 
 Static publication hosted on https://kaamwithai.pages.dev/.
 
-## Site structure
-- `index.html`: homepage
-- `articles/`: editorial articles
-- `styles.css`: shared styles
-- `sitemap.xml` and `robots.txt`: crawl discovery
+## Repository layout
+- `site/`: files deployed to Cloudflare Pages
+- `site/index.html`: homepage
+- `site/articles/`: editorial articles
+- `site/styles.css`: shared styles
+- `site/sitemap.xml` and `site/robots.txt`: crawl discovery
 - `scripts/validate_site.py`: local link, template and sitemap validation
-- `.github/workflows/deploy.yml`: validation and Cloudflare deployment
+- `.github/workflows/deploy.yml`: pull-request validation, preview deploys and production deploys
 
 ## Publishing workflow
 1. Create a branch for each content or site change.
-2. Edit the HTML and related assets.
+2. Edit files under `site/`.
 3. Run `python3 scripts/validate_site.py`.
-4. Open a pull request; GitHub Actions validates it.
-5. Review and merge to `main`.
-6. GitHub Actions deploys `main` to the existing Cloudflare Pages project `kaamwithai`.
+4. Open a pull request to `main`. Automated validation and a Cloudflare preview deployment run.
+5. Review the preview and merge the pull request.
+6. A passing change merged to `main` deploys to the existing Cloudflare Pages project `kaamwithai`.
 
-## Required GitHub Actions secrets
-Add these under repository Settings → Secrets and variables → Actions:
-- `CLOUDFLARE_API_TOKEN`: scoped to the Cloudflare account with Pages deployment permission.
-- `CLOUDFLARE_ACCOUNT_ID`: Cloudflare account ID.
+## One-time Cloudflare credentials
+In Cloudflare, create a **Custom API Token** with:
+- Account permission: **Cloudflare Pages — Edit**
+- Scope it to the Cloudflare account that owns the Pages project.
 
-Never put secrets in source files, commits, issues or chat.
+Find the Account ID in the Cloudflare dashboard's account overview.
+
+In this GitHub repository, open Settings → Secrets and variables → Actions and add:
+- `CLOUDFLARE_API_TOKEN`: the new token value
+- `CLOUDFLARE_ACCOUNT_ID`: the account ID
+
+Do not put secrets in source files, commits, issues or chat. Do not paste the API token here.
 
 ## Deployment architecture
-The existing Cloudflare Pages project was created using Direct Upload, so it cannot be switched to Cloudflare's native Git integration in place. GitHub Actions can still deploy to that same Pages project using Wrangler, preserving the `kaamwithai.pages.dev` production URL.
+The existing Pages project was created using Direct Upload, so it cannot be switched to native Cloudflare Git integration in place. GitHub Actions deploys the `site/` folder to that same Pages project using Wrangler. This preserves the `kaamwithai.pages.dev` URL.
 
 ## Editorial rules
 - Do not invent first-hand testing, customers, statistics or results.
