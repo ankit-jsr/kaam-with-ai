@@ -2,12 +2,19 @@
 
 Static publication hosted on https://kaamwithai.pages.dev/.
 
+## Start here: durable project context
+
+**Read [editorial/OPERATING_CONTEXT.md](editorial/OPERATING_CONTEXT.md) first when resuming work in a new ChatGPT conversation.** It records the audience, editorial standards, decisions, LinkedIn operating model, current status and handover instructions.
+
 ## Repository layout
 - `site/`: files deployed to Cloudflare Pages
 - `site/index.html`: homepage
 - `site/articles/`: editorial articles
 - `site/styles.css`: shared styles
 - `site/sitemap.xml` and `site/robots.txt`: crawl discovery
+- `editorial/research/`: research briefs and source notes
+- `editorial/drafts/`: unpublished article drafts
+- `editorial/distribution/`: social drafts, calendar and performance log
 - `scripts/validate_site.py`: local link, template and sitemap validation
 - `.github/workflows/deploy.yml`: pull-request validation, preview deploys and production deploys
 
