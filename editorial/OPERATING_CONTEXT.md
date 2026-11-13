@@ -171,7 +171,7 @@ Then state only genuinely important changes since the last handover. Continue th
 ### Website/editorial status
 
 - The website repository currently contains three published articles: the first-agent guide, the customer-enquiry workflow guide and the Project Vend field report. The homepage links to these three articles.
-- The ChatGPT Business Hub explainer remains an unpublished draft. It was rechecked against current OpenAI product, Help Center and policy pages on 13 November 2026. The draft now explicitly states that claiming a profile does not change its visibility in ChatGPT. It is awaiting editorial approval; do not publish without the user's approval.
+- **ChatGPT Business Hub explainer:** user approved publication. Article created at `site/articles/chatgpt-business-hub-small-business.html`; homepage and sitemap updated on the `publish/chatgpt-business-hub` branch. Current official OpenAI product page, Help Center and Business Agents Policy were rechecked on 13 November 2026. It is desk research, not hands-on testing. Publication is pending PR checks, preview review and merge/deployment verification.
 - Google Search Console work is paused because the user explicitly said to leave Google alone. Do not resume the GSC investigation unless the user reopens it.
 - Repository SEO basics observed: homepage canonical is present; `robots.txt` allows crawling and references the sitemap; sitemap lists six site URLs. A live production fetch could not be independently verified in this run.
 
@@ -186,3 +186,12 @@ Then state only genuinely important changes since the last handover. Continue th
 ## 11. Change log
 
 - **13 Nov 2026:** Recorded LinkedIn posts #1 and #2 as published, created the durable content/performance library, added LinkedIn 0-to-100 research and started the Reddit Operator Radar. Refreshed the Business Hub article fact-check. GSC work paused per user instruction.
+
+
+## 12. Website publishing update — 13 November 2026
+
+- User approved the ChatGPT Business Hub article for publication; approval is explicit and no further approval is required.
+- Article page created on branch `publish/chatgpt-business-hub` at `site/articles/chatgpt-business-hub-small-business.html`. Homepage card and sitemap entry added. Editorial draft marked published in the source file.
+- Official OpenAI product page, Help Center and Business Agents Policy rechecked on publication day. Key caveats retained: claiming does not guarantee increased visibility or control independent recommendations; Business Agents are US-only for eligible ecommerce/online-service businesses; agents cannot complete purchases, bookings or order lookups; insights are aggregate and privacy-preserving.
+- Article is desk research, not hands-on testing. Do not imply access to or testing of Business Hub.
+- Branch changes are committed. PR, automated checks, Cloudflare preview, merge and production deployment remain outstanding. Do not call the article live until production URL is verified.
