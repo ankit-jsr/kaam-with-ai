@@ -1,9 +1,9 @@
 # ChatGPT Has a New Business Hub. What Small Business Owners Can Actually Do With It.
 
-**Status:** Editorial draft — not approved for publication  
+**Status:** Editorial draft — fact-checked 13 November 2026; awaiting editorial approval (not published)  
 **Drafted:** 13 November 2026  
 **Audience:** Small-business owners and operators  
-**Primary sources checked:** OpenAI Business Hub page, Help Center setup guide (updated 14 hours before review), Business Agents Policy (updated 10 November 2026)
+**Primary sources checked:** Rechecked 13 November 2026 against the OpenAI Businesses in ChatGPT page, Help Center setup guide (which showed “Updated: yesterday” at review), and Business Agents Policy (updated 10 November 2026)
 
 ---
 
@@ -17,7 +17,7 @@ Its Business Hub lets eligible businesses claim a profile, update details, share
 
 That sounds like a big shift. It is—but not quite in the way the launch headlines might suggest.
 
-Claiming a profile does not buy a better position in ChatGPT's recommendations. An agent cannot currently take a payment, make a booking or look up an individual order. And the agent feature is currently limited to eligible ecommerce and online-service businesses in the United States.
+Claiming a profile does not buy a better position in ChatGPT's recommendations. The current Help Center is explicit that claiming a profile or disputing ownership does not change its visibility in ChatGPT. It gives an eligible owner a way to manage business information; it does not control the system's independent recommendations. An agent cannot currently take a payment, make a booking or look up an individual order. And the agent feature is currently limited to eligible ecommerce and online-service businesses in the United States.
 
 For a small-business owner, the useful question is not “How do I get ChatGPT to recommend me?” It is: “What information can I keep accurate, what can I learn from the new insights, and what should I not expect this system to do?”
 
@@ -143,3 +143,6 @@ The new Business Hub is a useful control surface. It is not a shortcut around th
 - Do not add screenshots unless captured from a real, eligible account.
 - Do not describe profile claiming as a ranking boost or guarantee of recommendations.
 - This article is desk research based on official documentation; it does not claim hands-on testing of Business Hub.
+
+
+**Fact-check update — 13 November 2026:** Rechecked the current OpenAI product page, Help Center and Business Agents Policy. The Help Center now explicitly states that claiming a profile or disputing ownership does not change its visibility in ChatGPT; claiming does not guarantee increased visibility or control over independent recommendations. Recheck eligibility, geography and agent capabilities again on the publication day. This remains an unpublished editorial draft.
