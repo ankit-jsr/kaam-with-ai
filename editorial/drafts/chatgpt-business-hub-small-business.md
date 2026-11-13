@@ -1,6 +1,6 @@
 # ChatGPT Has a New Business Hub. What Small Business Owners Can Actually Do With It.
 
-**Status:** Published — approved by user; published to website on 13 November 2026 at `/articles/chatgpt-business-hub-small-business.html`  
+**Status:** Approved — publication PR opened; not yet live on production  
 **Drafted:** 13 November 2026  
 **Audience:** Small-business owners and operators  
 **Primary sources checked:** Rechecked 13 November 2026 against the OpenAI Businesses in ChatGPT page, Help Center setup guide (which showed “Updated: yesterday” at review), and Business Agents Policy (updated 10 November 2026)
@@ -145,4 +145,4 @@ The new Business Hub is a useful control surface. It is not a shortcut around th
 - This article is desk research based on official documentation; it does not claim hands-on testing of Business Hub.
 
 
-**Fact-check update — 13 November 2026:** Rechecked the current OpenAI product page, Help Center and Business Agents Policy. The Help Center now explicitly states that claiming a profile or disputing ownership does not change its visibility in ChatGPT; claiming does not guarantee increased visibility or control over independent recommendations. Recheck eligibility, geography and agent capabilities again on the publication day. This article was approved and published on 13 November 2026. The live HTML version is in `site/articles/chatgpt-business-hub-small-business.html`.
+**Fact-check update — 13 November 2026:** Rechecked the current OpenAI product page, Help Center and Business Agents Policy. The Help Center now explicitly states that claiming a profile or disputing ownership does not change its visibility in ChatGPT; claiming does not guarantee increased visibility or control over independent recommendations. Recheck eligibility, geography and agent capabilities again on the publication day. This article was approved on 13 November 2026. The website HTML version is in `site/articles/chatgpt-business-hub-small-business.html`; publication is pending PR checks and production deployment.
