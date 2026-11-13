@@ -148,3 +148,41 @@ Then state only genuinely important changes since the last handover. Continue th
 
 - **13 Nov 2026:** Established manual LinkedIn operating model for KaamWithAI Company Page only; initial target around three posts/week; assistant owns editorial selection and library; user manually reviews and publishes; 30-day learning experiment before considering automation.
 - **13 Nov 2026:** Recorded existing Business Hub LinkedIn drafts and current publishing/tool status.
+
+
+## 10. Latest operating update — 13 November 2026
+
+### LinkedIn publication and distribution
+
+- **Post #1** was published on 10 November 2026. Its angle was the administrative burden of running a small business and the practical value of a first AI agent. The article link `https://kaamwithai.pages.dev/articles/first-ai-agent-small-business` was placed in the first comment after LinkedIn flagged the URL in the post body. Exact final copy and post URL were not preserved; no performance metrics supplied.
+- **Post #2** was confirmed live by the user on 13 November 2026. It covered OpenAI Businesses in ChatGPT and the need to make business information accurate before building an agent. The user's screenshot showed 0 followers shortly after publication; this is not a post-performance metric. Post URL and analytics not supplied.
+- The durable log is now `editorial/distribution/2026-11-linkedin-content-library.md`. It tracks both published posts, old drafts, the rolling queue and performance data.
+- The earlier Business Hub information-audit draft overlaps with post #2 and should not be repeated. The separate Business Agent-boundaries draft is on hold pending a future need and fresh fact-check.
+- The user reports that the Company Page is not appearing in LinkedIn search. The direct public Page URL is not yet recorded; obtain it before attempting a precise Page audit or adding the LinkedIn Follow link to the website.
+- No further post is recommended on 13 November because post #2 was just published. The next candidate is a Reddit-sourced operator story about a staff accountant using ChatGPT to write VBA macros, targeted for 16 November if the final copy is sound.
+- Research saved to `editorial/research/linkedin-company-page-growth-0-to-100-2026-11-13.md`.
+
+### Reddit Operator Radar
+
+- A recurring research programme has been started in `editorial/research/operator-radar-2026-11-13.md`.
+- Best current leads: a staff accountant using ChatGPT to write VBA macros for reconciliations; a fractional CPA's mixed stack of OCR, rules, integrations and selective Claude use; and recurring operator pain points around invoice chasing, RFPs, customer inquiries and WhatsApp-to-CRM updates.
+- Reddit claims are leads, not verified case studies. Preserve source type, caveats, comments, counterevidence and privacy. Do not publish self-reported time savings as verified results.
+
+### Website/editorial status
+
+- The website repository currently contains three published articles: the first-agent guide, the customer-enquiry workflow guide and the Project Vend field report. The homepage links to these three articles.
+- The ChatGPT Business Hub explainer remains an unpublished draft. It was rechecked against current OpenAI product, Help Center and policy pages on 13 November 2026. The draft now explicitly states that claiming a profile does not change its visibility in ChatGPT. It is awaiting editorial approval; do not publish without the user's approval.
+- Google Search Console work is paused because the user explicitly said to leave Google alone. Do not resume the GSC investigation unless the user reopens it.
+- Repository SEO basics observed: homepage canonical is present; `robots.txt` allows crawling and references the sitemap; sitemap lists six site URLs. A live production fetch could not be independently verified in this run.
+
+### Active automations and pending commitments
+
+- **KaamWithAI Daily OS:** active, daily at 8:00 Asia/Kolkata.
+- **Revisit YouTube:** active, one-time on 1 December 2026; prepare a lightweight setup recommendation only, no publishing without approval.
+- **Publish Project Vend story:** completed and disabled.
+- **Start workout:** disabled.
+- Next priorities: (1) get the Company Page URL and diagnose LinkedIn Page settings/search insights; (2) add a Follow link to the website once the URL is known; (3) get the Business Hub article approved before publishing; (4) draft the next operator-story post; (5) collect post-level LinkedIn metrics.
+
+## 11. Change log
+
+- **13 Nov 2026:** Recorded LinkedIn posts #1 and #2 as published, created the durable content/performance library, added LinkedIn 0-to-100 research and started the Reddit Operator Radar. Refreshed the Business Hub article fact-check. GSC work paused per user instruction.
