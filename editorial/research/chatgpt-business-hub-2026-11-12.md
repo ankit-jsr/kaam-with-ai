@@ -121,3 +121,22 @@ OpenAI explicitly says claiming a business does not guarantee increased visibili
 ## Editorial recommendation
 
 **Proceed to a reported practical explainer, not a breaking-news rewrite.** The strongest value is helping an owner understand what they can update, what the metrics mean, and why claiming a profile is not a ranking guarantee. Do not publish until the availability caveats and policy details are rechecked.
+
+
+## Update — 13 November 2026
+
+The official OpenAI product page, Help Center and Business Agents Policy were rechecked on 13 November 2026.
+
+- The Help Center now explicitly says that claiming a profile or disputing ownership does not change its visibility in ChatGPT.
+- Claiming does not guarantee increased visibility or give the owner direct control over ChatGPT's independent recommendations.
+- The current Help Center says eligible ecommerce and online-service businesses in the US can create a Business Agent; local stores and restaurants can currently claim only an existing US listing.
+- Insights are aggregate activity over the previous 28 days, including mentions, website clicks and discovery topics. Discovery topics do not reveal individual prompts or directly measure purchase intent.
+- A blank insight metric does not necessarily mean zero activity; it may reflect reporting thresholds, data collection or availability.
+- The current Help Center says agents cannot complete purchases, make bookings or check individual customer orders.
+
+Sources rechecked:
+- https://openai.com/business/businesses-in-chatgpt/
+- https://help.openai.com/en/articles/20001635-setting-up-your-business-on-chatgpt
+- https://openai.com/policies/business-agents-policy/
+
+This is a research update only. The article remains an editorial draft and has not been published.
