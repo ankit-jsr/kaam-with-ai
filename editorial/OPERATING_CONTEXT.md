@@ -159,7 +159,7 @@ Then state only genuinely important changes since the last handover. Continue th
 - The durable log is now `editorial/distribution/2026-11-linkedin-content-library.md`. It tracks both published posts, old drafts, the rolling queue and performance data.
 - The earlier Business Hub information-audit draft overlaps with post #2 and should not be repeated. The separate Business Agent-boundaries draft is on hold pending a future need and fresh fact-check.
 - The user reports that the Company Page is not appearing in LinkedIn search. The direct public Page URL is not yet recorded; obtain it before attempting a precise Page audit or adding the LinkedIn Follow link to the website.
-- No further post is recommended on 13 November because post #2 was just published. The next candidate is a Reddit-sourced operator story about a staff accountant using ChatGPT to write VBA macros, targeted for 16 November if the final copy is sound.
+- No further post is recommended on 13 November because post #2 was just published. A Reddit-sourced operator story about a staff accountant using ChatGPT to write VBA macros has now been drafted in the content library for a possible 16 November post; it is not yet approved or published.
 - Research saved to `editorial/research/linkedin-company-page-growth-0-to-100-2026-11-13.md`.
 
 ### Reddit Operator Radar
