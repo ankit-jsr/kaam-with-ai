@@ -205,7 +205,7 @@ The original Reddit discussion is in the first comment. This is a self-reported 
 
 ### KWAI-LI-007 — The AI back office that nearly cost a solo agency its deals
 
-- **Status:** Researched; article candidate, not drafted as a LinkedIn post or approved.
+- **Status:** Website article draft created; not approved or published. No LinkedIn derivative drafted yet.
 - **Audience:** Small-business owners and solo operators using AI for email, vendors, calendars or internal records.
 - **Angle:** A solo event-staffing operator says Claude misread an email preview, claimed a nonexistent draft was staged, confused a vendor with a sponsor and misreported a database table. The operator added source-verification rules and fact labels; they report fewer errors, but no independent measurement is available.
 - **Source:** https://www.reddit.com/r/ClaudeCode/comments/1wd3hgd/anyone_actually_running_a_business_with_claude/
