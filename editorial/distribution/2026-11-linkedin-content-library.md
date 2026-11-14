@@ -193,7 +193,7 @@ The original Reddit discussion is in the first comment. This is a self-reported 
 
 ### KWAI-LI-006 — A 300-client accounting firm uses Claude, but keeps approval human
 
-- **Status:** Researched; research brief complete, future queue, not drafted or approved.
+- **Status:** On hold — potential vendor conflict; identity not independently confirmed. Do not use as an independent customer case without confirmation and disclosure.
 - **Audience:** Small-business owners and operators who work with accountants, plus accounting practitioners.
 - **Angle:** A Reddit user who says they run a small firm serving roughly 300 clients describes six months of Claude use for management commentary, transaction suggestions, document summaries, client-comms drafts, checklists and reconciliation investigation. The firm says it verifies calculations, traces conclusions to source documents and requires human approval before anything reaches the books or a client.
 - **Source:** https://www.reddit.com/r/Accounting/comments/1vvmkwr/what_weve_learned_after_six_months_of_using_ai_in/
@@ -201,3 +201,14 @@ The original Reddit discussion is in the first comment. This is a self-reported 
 - **Evidence caveat:** First-hand self-report, no independent verification or quantified time saving. Do not claim client acceptance or regulatory compliance as established fact. Include counterexamples from the thread about inaccurate workpapers and review burden.
 - **Suggested format:** Website field report first; possible LinkedIn derivative after the article.
 - **Research brief:** `editorial/research/300-client-accounting-firm-claude-2026-11-14.md`.
+
+
+### KWAI-LI-007 — The AI back office that nearly cost a solo agency its deals
+
+- **Status:** Researched; article candidate, not drafted as a LinkedIn post or approved.
+- **Audience:** Small-business owners and solo operators using AI for email, vendors, calendars or internal records.
+- **Angle:** A solo event-staffing operator says Claude misread an email preview, claimed a nonexistent draft was staged, confused a vendor with a sponsor and misreported a database table. The operator added source-verification rules and fact labels; they report fewer errors, but no independent measurement is available.
+- **Source:** https://www.reddit.com/r/ClaudeCode/comments/1wd3hgd/anyone_actually_running_a_business_with_claude/
+- **Evidence caveat:** First-person self-report; errors nearly cost deals, but no actual loss is claimed. The reported error reduction is the author's estimate. Comments provide useful counterpoints about state files, source receipts and human approval.
+- **Suggested format:** Website field report first; LinkedIn derivative after publication if the article performs a distinct reader job.
+- **Research brief:** `editorial/research/solo-event-agency-claude-back-office-2026-11-14.md`.
