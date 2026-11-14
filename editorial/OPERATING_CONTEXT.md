@@ -1,6 +1,6 @@
 # KaamWithAI — Operating Context
 
-**Last updated:** 13 November 2026  
+**Last updated:** 14 November 2026  
 **Purpose:** Durable handover and source of truth for work across ChatGPT conversations. Read this before making project decisions or asking the user to repeat context.
 
 ## 1. Project
@@ -97,9 +97,7 @@ A set of three draft posts about OpenAI Business Hub / Business Agents exists:
 - Topics: (1) profile vs product feed vs Business Agent distinction, (2) practical business information audit, (3) current boundaries of Business Agents.
 - These claims were based on a research brief and must be rechecked against current official documentation before posting because product availability and policy can change.
 
-The broader article draft is:
-- `editorial/drafts/chatgpt-business-hub-small-business.md`
-- Status: draft, not approved/published.
+The ChatGPT Business Hub explainer is approved for publication. Its HTML page, homepage card and sitemap entry are in branch `publish/chatgpt-business-hub`; PR #4 is open. The editorial source remains a record of the approved article and is not live content.
 
 Other recent LinkedIn activity:
 - A Make vs n8n vs manual publishing discussion took place.
@@ -170,8 +168,7 @@ Then state only genuinely important changes since the last handover. Continue th
 
 ### Website/editorial status
 
-- The website repository currently contains three published articles: the first-agent guide, the customer-enquiry workflow guide and the Project Vend field report. The homepage links to these three articles.
-- **ChatGPT Business Hub explainer:** user approved publication. Article created at `site/articles/chatgpt-business-hub-small-business.html`; homepage and sitemap updated on the `publish/chatgpt-business-hub` branch. Current official OpenAI product page, Help Center and Business Agents Policy were rechecked on 13 November 2026. It is desk research, not hands-on testing. Publication is pending PR checks, preview review and merge/deployment verification.
+- The `main` branch still contains three published articles. PR #4 adds the approved ChatGPT Business Hub explainer as a fourth article, with a homepage card and sitemap entry. The official OpenAI product page, Help Center and Business Agents Policy were rechecked on 14 November 2026. It is desk research, not hands-on testing. GitHub Actions validation passed and the Cloudflare PR preview deployed successfully; production deployment has not run because the PR is not merged.
 - Google Search Console work is paused because the user explicitly said to leave Google alone. Do not resume the GSC investigation unless the user reopens it.
 - Repository SEO basics observed: homepage canonical is present; `robots.txt` allows crawling and references the sitemap; sitemap lists six site URLs. A live production fetch could not be independently verified in this run.
 
@@ -181,7 +178,7 @@ Then state only genuinely important changes since the last handover. Continue th
 - **Revisit YouTube:** active, one-time on 1 December 2026; prepare a lightweight setup recommendation only, no publishing without approval.
 - **Publish Project Vend story:** completed and disabled.
 - **Start workout:** disabled.
-- Next priorities: (1) get the Company Page URL and diagnose LinkedIn Page settings/search insights; (2) add a Follow link to the website once the URL is known; (3) get the Business Hub article approved before publishing; (4) draft the next operator-story post; (5) collect post-level LinkedIn metrics.
+- Next priorities: (1) finish the Business Hub article PR review and merge after validation/preview; (2) prepare the accountant/VBA Company Page post for 16 November; (3) investigate the fractional CPA story for a possible website feature; (4) get the Company Page URL to add a Follow link and audit its Page settings; (5) collect post-level metrics when available.
 
 ## 11. Change log
 
@@ -191,7 +188,29 @@ Then state only genuinely important changes since the last handover. Continue th
 ## 12. Website publishing update — 13 November 2026
 
 - User approved the ChatGPT Business Hub article for publication; approval is explicit and no further approval is required.
-- Article page created on branch `publish/chatgpt-business-hub` at `site/articles/chatgpt-business-hub-small-business.html`. Homepage card and sitemap entry added. Editorial draft marked published in the source file.
-- Official OpenAI product page, Help Center and Business Agents Policy rechecked on publication day. Key caveats retained: claiming does not guarantee increased visibility or control independent recommendations; Business Agents are US-only for eligible ecommerce/online-service businesses; agents cannot complete purchases, bookings or order lookups; insights are aggregate and privacy-preserving.
+- Article page created on branch `publish/chatgpt-business-hub` at `site/articles/chatgpt-business-hub-small-business.html`. Homepage card and sitemap entry added. Editorial source marked approved, not yet live.
+- Official OpenAI product page, Help Center and Business Agents Policy rechecked on 14 November 2026. Key caveats retained: claiming does not guarantee increased visibility or control independent recommendations; Business Agents are US-only for eligible ecommerce/online-service businesses; agents cannot complete purchases, bookings or order lookups; insights are aggregate and privacy-preserving.
 - Article is desk research, not hands-on testing. Do not imply access to or testing of Business Hub.
-- Branch changes are committed. PR, automated checks, Cloudflare preview, merge and production deployment remain outstanding. Do not call the article live until production URL is verified.
+- PR #4 is open. GitHub Actions run #51 completed: site validation passed; Cloudflare PR preview deployed successfully to `https://pr-4.kaamwithai.pages.dev` (deployment ID URL `https://631778a9.kaamwithai.pages.dev`). Production deployment is skipped until merge. The preview was deployed, but a separate browser fetch was not available in this run; source and automated validation were reviewed. Do not call the article live until merged and production URL is verified.
+
+
+## 13. Daily operating update — 14 November 2026
+
+### Website and publishing
+- PR #4 — [Publish ChatGPT Business Hub field guide](https://github.com/ankit-jsr/kaam-with-ai/pull/4) — remains open and mergeable.
+- GitHub Actions run #51 succeeded. The `Validate site` job passed. The Cloudflare `Deploy pull-request preview` job succeeded and produced `https://pr-4.kaamwithai.pages.dev`; production deployment was skipped as expected for a PR.
+- OpenAI's product page, Help Center (updated two days before this check) and Business Agents Policy (updated 10 November) were rechecked on 14 November. Eligibility and capability caveats remain in the article.
+- PR is approved by the user at the editorial level; production publication still requires merge and deployment verification.
+
+### LinkedIn
+- No post recommended on 14 November. Post #2 was published 13 November; the next distinct story is reserved for Monday 16 November.
+- KWAI-LI-003 is now drafted and ready for user review. It covers a staff accountant using ChatGPT to write VBA macros for reconciliation tasks. The source is first-hand but self-reported, from an employee at a private company, and has no quantified savings. IT/security restrictions are explicitly noted.
+- Do not mark KWAI-LI-003 posted until the user confirms.
+
+### Research
+- Re-opened the original Reddit thread and checked comments for the VBA story. Updated the Operator Radar with evidence limits and IT-control counterpoints.
+- Fresh small-business subreddit searches surfaced mostly weak, promotional or generic prompts; no stronger case-study candidate replaced the current queue.
+- Fractional CPA story remains the leading candidate for the next website article, but needs deeper source extraction and tool-role verification.
+
+### Google Search Console
+- Remains paused at the user's instruction. No GSC access, screenshots or changes were requested or made.
