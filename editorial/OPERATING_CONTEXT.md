@@ -97,7 +97,7 @@ A set of three draft posts about OpenAI Business Hub / Business Agents exists:
 - Topics: (1) profile vs product feed vs Business Agent distinction, (2) practical business information audit, (3) current boundaries of Business Agents.
 - These claims were based on a research brief and must be rechecked against current official documentation before posting because product availability and policy can change.
 
-The ChatGPT Business Hub explainer is approved for publication. Its HTML page, homepage card and sitemap entry are in branch `publish/chatgpt-business-hub`; PR #4 is open. The editorial source remains a record of the approved article and is not live content.
+The ChatGPT Business Hub explainer was published on 14 November 2026 at https://kaamwithai.pages.dev/articles/chatgpt-business-hub-small-business.html. PR #4 is merged; GitHub Actions run #62 passed site validation and production deployment. The article is desk research, not hands-on testing.
 
 Other recent LinkedIn activity:
 - A Make vs n8n vs manual publishing discussion took place.
@@ -168,9 +168,9 @@ Then state only genuinely important changes since the last handover. Continue th
 
 ### Website/editorial status
 
-- The `main` branch still contains three published articles. PR #4 adds the approved ChatGPT Business Hub explainer as a fourth article, with a homepage card and sitemap entry. The official OpenAI product page, Help Center and Business Agents Policy were rechecked on 14 November 2026. It is desk research, not hands-on testing. GitHub Actions validation passed and the Cloudflare PR preview deployed successfully; production deployment has not run because the PR is not merged.
+- The `main` branch now contains four published articles: the first-agent guide, the customer-enquiry workflow guide, the Project Vend field report and the ChatGPT Business Hub explainer. The Business Hub article is at https://kaamwithai.pages.dev/articles/chatgpt-business-hub-small-business.html; homepage and sitemap updated. OpenAI's product page, Help Center and Business Agents Policy were rechecked on 14 November 2026. It is desk research, not hands-on testing. PR #4 merged and production deployment succeeded in GitHub Actions run #62.
 - Google Search Console work is paused because the user explicitly said to leave Google alone. Do not resume the GSC investigation unless the user reopens it.
-- Repository SEO basics observed: homepage canonical is present; `robots.txt` allows crawling and references the sitemap; sitemap lists six site URLs. A live production fetch could not be independently verified in this run.
+- Repository SEO basics: homepage and article canonicals are present; `robots.txt` allows crawling and references the sitemap; the sitemap now lists seven site URLs. The production deployment job succeeded, although a separate browser fetch of the Pages URL was not available in this run.
 
 ### Active automations and pending commitments
 
@@ -178,7 +178,7 @@ Then state only genuinely important changes since the last handover. Continue th
 - **Revisit YouTube:** active, one-time on 1 December 2026; prepare a lightweight setup recommendation only, no publishing without approval.
 - **Publish Project Vend story:** completed and disabled.
 - **Start workout:** disabled.
-- Next priorities: (1) finish the Business Hub article PR review and merge after validation/preview; (2) prepare the accountant/VBA Company Page post for 16 November; (3) investigate the 300-client accounting firm / Claude story for the next website feature, using the fractional CPA as a contrasting account; (4) get the Company Page URL to add a Follow link and audit its Page settings; (5) collect post-level metrics when available.
+- Next priorities: (1) draft and fact-check the solo event-agency/Claude field report; (2) prepare the accountant/VBA Company Page post for 16 November; (3) keep the 300-client accounting-firm story on hold pending identity/vendor disclosure; (4) get the Company Page URL to add a Follow link and audit its Page settings; (5) collect post-level metrics when available.
 
 ## 11. Change log
 
@@ -186,6 +186,8 @@ Then state only genuinely important changes since the last handover. Continue th
 
 
 ## 12. Website publishing update — 13 November 2026
+
+**Historical snapshot:** the PR review state before merge; the final publication result is recorded in Section 14.
 
 - User approved the ChatGPT Business Hub article for publication; approval is explicit and no further approval is required.
 - Article page created on branch `publish/chatgpt-business-hub` at `site/articles/chatgpt-business-hub-small-business.html`. Homepage card and sitemap entry added. Editorial source marked approved, not yet live.
@@ -217,3 +219,27 @@ Then state only genuinely important changes since the last handover. Continue th
 
 
 - **Research correction (14 Nov):** The Operator Radar previously conflated two separate Reddit accounts. The fractional CPA describes an OCR/rules/integrations-heavy stack; a different account, who says they run a 300-client firm, describes Claude, QBO/MCP and Loopfour. The research brief and content library now separate them. The 300-client firm story is the strongest next website candidate; the staff accountant VBA story remains the next LinkedIn candidate for 16 Nov.
+
+
+## 14. Post-merge and research update — 14 November 2026
+
+### Website
+- PR #4 merged on 14 November 2026 at 02:40 UTC (merge commit `3013440a1379e291a8159a48198911cbd3996075`).
+- GitHub Actions run #62 completed successfully. The `Validate site` job passed and `Deploy production to Cloudflare Pages` succeeded.
+- Published article: https://kaamwithai.pages.dev/articles/chatgpt-business-hub-small-business.html
+- Homepage card and sitemap entry are in `main`. The sitemap now lists seven URLs. A separate browser fetch of the production Pages URL was unavailable in this run; deployment success is confirmed by the production workflow.
+
+### Distribution
+- No LinkedIn post recommended on 14 November. Post #2 went live 13 November; KWAI-LI-003 is ready for user review for Monday 16 November. The user still manually reviews and posts; nothing has been scheduled or published by the assistant.
+- KWAI-LI-006 (300-client accounting firm using Claude) is on hold because the Reddit account may be commercially connected to NumbersGame/Loopfour. Do not frame as an independent customer case without confirming identity and disclosing ownership.
+- KWAI-LI-007 (solo event-staffing operator using Claude) is a researched future derivative; write the website article first.
+
+### Editorial research
+- Strongest next website candidate: the solo event-staffing operator whose Claude back office made confident errors that nearly cost deals. Full research brief: `editorial/research/solo-event-agency-claude-back-office-2026-11-14.md`.
+- The 300-client accounting-firm brief now includes Anthropic's current commercial data/training/retention controls and Enterprise pricing, plus the possible vendor conflict. It is held pending identity confirmation.
+- The fractional CPA's OCR/rules/integrations account remains a separate, non-AI-heavy contrast story. Do not conflate it with the Claude/Loopfour account.
+
+### Automations and constraints
+- KaamWithAI Daily OS remains active daily at 08:00 Asia/Kolkata.
+- Revisit YouTube remains active for 1 December 2026; faceless production, ElevenLabs narration and minimal hands-on work remain the recorded preference. No publishing without approval.
+- Google Search Console remains paused at the user's instruction. No GSC access or changes were made.
