@@ -123,6 +123,31 @@ In an earlier thread, the same account described using Claude for commentary, re
 
 **Editorial priority:** Highest current website-story candidate after the Business Hub article is published. Full research brief: `editorial/research/300-client-accounting-firm-claude-2026-11-14.md`.
 
+### 7. A solo event-staffing agency uses Claude as its back office — and nearly loses deals to confident errors
+
+**Source:** https://www.reddit.com/r/ClaudeCode/comments/1wd3hgd/anyone_actually_running_a_business_with_claude/  
+**Thread date:** 11 September 2026.  
+**Source type:** First-hand self-report from a solo operator who says they run a small event-staffing/activation agency.  
+**Evidence status:** Detailed first-person account; no independent verification.
+
+The operator says Claude has become part of the business back office across email, vendor communication, the applicant database and calendar. They describe several confident errors that nearly cost deals:
+- Claude treated an email search preview as the full thread and said a vendor had gone silent even though the vendor had replied that morning.
+- It said an email was staged when no draft had actually been created.
+- It confused a vendor (paid by the agency) with a sponsor (who pays the agency), leading the operator to spend two days planning around an opportunity that did not exist.
+- It claimed a database table did not exist without checking; the table was present.
+
+The operator says the common failure is treating incomplete context or earlier conversation as verified fact. They added a master state file, fact labels (CONFIRMED / STATED / ASSUMED / OPEN), and rules against treating previews as full sources or claiming actions happened without tool output. They report errors falling from several per week to a few per month. This is a self-reported estimate, not independently measured.
+
+**Comment-level counterpoints:** Another solo operator warns that a model-written state file can fossilize its own assumptions; only tool output should update durable state, entries should be dated, and a factual claim should quote the source or remain UNVERIFIED. Other commenters recommend fresh sessions, explicit instructions, human approval for consequential decisions, and deterministic dashboards for system changes.
+
+**Why it is interesting:** This is a real small-business workflow story about a less obvious failure mode: an AI back office can turn a search preview, summary or proposed action into a confident business fact.
+
+**Potential article:** “The AI Back Office That Nearly Cost a Solo Agency Its Deals.”
+
+**What we still need:** The operator's account is self-reported and has low visible engagement. We have not independently inspected their systems, interviewed them or reproduced the failures. Do not claim the errors actually caused losses; the author says they nearly cost deals.
+
+**Editorial priority:** Highest current website-story candidate after the Business Hub article is live. Full brief: `editorial/research/solo-event-agency-claude-back-office-2026-11-14.md`.
+
 ### 4. Small-business automation builders are repeatedly asked to solve boring workflow problems
 
 **Source:** https://www.reddit.com/r/AiAutomations/comments/1wpzmnj/ive_been_automating_work_for_small_businesses/  
@@ -189,13 +214,13 @@ A reply raised cybersecurity and maintenance concerns; the owner acknowledged th
 
 ## First editorial candidate
 
-**Recommended next website story:** the 300-client accounting firm using Claude for bounded drafting, summarisation and investigation, with human approval before anything reaches the books or a client.
-
-Why: the account has concrete tasks, a clear review model, a useful privacy/security question and counterevidence in the same thread. It is self-reported, not verified, and has no quantified time-saving claim. Verify current vendor controls and integration details before drafting.
+**Recommended next website story:** the solo event-staffing operator whose Claude back office made confident mistakes that nearly cost deals. The source has specific failures, a self-reported guardrail improvement and counterarguments about state files and source verification. It is not independently verified; label it as a Reddit account and do not imply measured financial losses.
 
 **Contrast story:** the fractional CPA's OCR/rules/integration stack demonstrates where conventional automation may be more useful than adding AI.
 
-**LinkedIn candidate already ready:** the staff accountant's VBA macro story. Keep it separate from the 300-client firm and fractional CPA accounts.
+**On hold:** the 300-client accounting firm/Claude account has a likely vendor conflict because the Reddit account describes NumbersGame and Loopfour, whose founder may be the same person. Confirm identity and disclose ownership before using it.
+
+**LinkedIn candidate already ready:** the staff accountant's VBA macro story. Keep it separate from the 300-client firm, fractional CPA and solo event-staffing accounts.
 
 ## Recurring research workflow
 
@@ -230,3 +255,6 @@ A fresh scan of recent small-business AI threads surfaced many open-ended “wha
 
 
 **Research correction — 14 November 2026:** The previous version of this brief incorrectly combined the fractional CPA's OCR/rules stack with a separate practitioner's Claude/NumbersGame AI MCP/Loopfour workflow. These are distinct Reddit accounts. The 300-client firm and Claude workflow belongs to the same account that described NumbersGame AI MCP and Loopfour in a separate comment. The brief above now separates them.
+
+
+**Research update — 14 November 2026:** A stronger direct small-business story has been added: a solo event-staffing operator using Claude as a back office, with concrete near-miss errors and source-verification guardrails. The 300-client accounting firm story has been downgraded to hold because the Reddit account may be commercially connected to NumbersGame/Loopfour. Do not treat that account as an independent customer case without confirmation and disclosure.
