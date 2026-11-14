@@ -32,36 +32,33 @@ For each candidate:
 ### 1. A staff accountant used ChatGPT to write VBA macros for monthly reconciliations
 
 **Source:** https://www.reddit.com/r/Accounting/comments/1v12xrz/how_i_use_ai_as_a_staff_accountant/  
-**Thread date:** 19 July 2026  
-**Signal:** 266 points at time of search  
-**Source type:** First-hand employee/operator account; works for a private company. Not established as a small-business owner.  
-**Evidence status:** Detailed self-report; not independently verified.
+**Thread date:** July 2026.  
+**Source type:** First-hand self-report from a staff accountant at a private company.  
+**Evidence status:** Detailed first-hand account; no independent verification or quantified time saving.
 
-The accountant says they use ChatGPT primarily to write VBA scripts/macros, rather than upload a workbook and ask a model to perform accounting work. They describe macros that:
-- Open the latest downloaded workbook based on a filename prefix.
-- Find relevant data by header names rather than fixed column letters.
-- Append data to a reconciliation workbook.
+The author says their role is Excel-heavy, involving journal entries and balance-sheet reconciliations. They use ChatGPT to write VBA scripts and macros rather than asking the model to perform accounting directly. They say they did not know how to code before using ChatGPT.
+
+Examples described:
+- Open the newest downloaded workbook matching a filename prefix.
+- Filter the needed data and append it to a reconciliation workbook.
 - Refresh pivot-table ranges.
-- Roll reconciliation dates forward based on the file name.
-- Include error handling so the macro can stop and explain what is wrong.
-- Help automate repeated spreadsheet work.
+- Roll dates forward using the month and year in a filename.
+- Use dynamic header names (for example, find the “Amount” header) instead of fixed column letters or row positions.
+- Add error handling so missing inputs or broken steps produce a clear message and a clean stop.
 
-The author says they did not know how to code before using ChatGPT. They also describe using Codex/Python for more general computer workflows and one-off research databases.
+The author says they learn a new task manually for a month or two before automating it. They also says the reconciliation process already has redundancies that help check the result.
 
-**Useful counterpoints in the comments:**
-- The author confirms the company is private.
-- Other accountants raise IT controls and review requirements.
-- One commenter says processes should be understood manually before automating them.
-- The author agrees they typically perform a new task manually for a month or two before automating it.
-- Commenters stress verifying that a macro ran correctly, not just that it completed without an error.
+**Useful comment-level caveats:**
+- A commenter raised IT general controls and public-company restrictions. The author confirmed they work at a private company.
+- Other commenters note that local VBA may be allowed in some environments while external connections or certain ERP systems (such as SAP) can be restricted.
+- One commenter points out that the dangerous failure is a macro that runs but produces the wrong output; they suggest comparing source row counts and totals. The author says their reconciliation process already has redundancies.
+- Do not attribute a separate commenter's “30 minutes to 5 minutes” macropad result to the original author.
 
-**Why it is interesting:** The AI did not replace accounting judgment. It helped a non-programmer turn a known, repetitive process into deterministic code. The story gives us concrete steps and a useful distinction between AI-generated code and AI making financial decisions.
+**Why it is interesting:** It shows AI helping a person who understands a process create deterministic code for the repetitive parts. The model is not being trusted to make the accounting judgment.
 
-**Potential angle:** “An accountant didn't ask AI to do the accounting. He asked it to write the macro.”
+**Potential LinkedIn angle:** “He didn't ask ChatGPT to do the reconciliation. He asked it to write the macro.”
 
-**What we still need:** Clarify the actual time saved, the review process, the security approval, and whether the macros are still in use. No quantified saving is stated in the original post.
-
-**Editorial priority:** High as an operator story, with a clear caveat that the author is an employee at a private company rather than a confirmed small-business owner.
+**Editorial decision:** Ready as a carefully caveated LinkedIn Company Page post. Not yet a full website case study: the author is an employee, not a confirmed business owner, and no measured outcome is provided.
 
 ### 2. A fractional CPA's accounting stack relies more on OCR and rules than AI
 
