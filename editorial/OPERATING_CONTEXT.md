@@ -243,3 +243,6 @@ Then state only genuinely important changes since the last handover. Continue th
 - KaamWithAI Daily OS remains active daily at 08:00 Asia/Kolkata.
 - Revisit YouTube remains active for 1 December 2026; faceless production, ElevenLabs narration and minimal hands-on work remain the recorded preference. No publishing without approval.
 - Google Search Console remains paused at the user's instruction. No GSC access or changes were made.
+
+
+- **Next article draft (14 Nov):** `editorial/drafts/solo-event-agency-claude-back-office.md` created from the Operator Radar source. Status is draft only; it has not been approved or published. The 300-client accounting-firm story is on hold due to a likely vendor relationship that has not been independently confirmed.
