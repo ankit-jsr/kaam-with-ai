@@ -191,7 +191,7 @@ The original Reddit discussion is in the first comment. This is a self-reported 
 
 ### KWAI-LI-006 — A 300-client accounting firm uses Claude, but keeps approval human
 
-- **Status:** Researched; future queue, not drafted or approved.
+- **Status:** Researched; research brief complete, future queue, not drafted or approved.
 - **Audience:** Small-business owners and operators who work with accountants, plus accounting practitioners.
 - **Angle:** A Reddit user who says they run a small firm serving roughly 300 clients describes six months of Claude use for management commentary, transaction suggestions, document summaries, client-comms drafts, checklists and reconciliation investigation. The firm says it verifies calculations, traces conclusions to source documents and requires human approval before anything reaches the books or a client.
 - **Source:** https://www.reddit.com/r/Accounting/comments/1vvmkwr/what_weve_learned_after_six_months_of_using_ai_in/
