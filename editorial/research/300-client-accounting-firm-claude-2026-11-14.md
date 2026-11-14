@@ -1,7 +1,7 @@
 # Field brief: A 300-client accounting firm using Claude
 
 **Research date:** 14 November 2026  
-**Status:** Strong editorial candidate; self-reported, not independently verified  
+**Status:** On hold — likely vendor affiliation; identity link not confirmed; self-reported and not independently verified  
 **Audience:** Small-business owners, operators and people responsible for bookkeeping/accounting workflows
 
 ## The story
