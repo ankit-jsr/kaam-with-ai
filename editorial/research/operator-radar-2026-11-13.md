@@ -146,7 +146,7 @@ The operator says the common failure is treating incomplete context or earlier c
 
 **What we still need:** The operator's account is self-reported and has low visible engagement. We have not independently inspected their systems, interviewed them or reproduced the failures. Do not claim the errors actually caused losses; the author says they nearly cost deals.
 
-**Editorial priority:** Highest current website-story candidate after the Business Hub article is live. Full brief: `editorial/research/solo-event-agency-claude-back-office-2026-11-14.md`.
+**Editorial priority:** Draft created at `editorial/drafts/solo-event-agency-claude-back-office.md`; awaiting editorial review, not approved or published. Full brief: `editorial/research/solo-event-agency-claude-back-office-2026-11-14.md`.
 
 ### 4. Small-business automation builders are repeatedly asked to solve boring workflow problems
 
