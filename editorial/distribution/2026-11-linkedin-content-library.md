@@ -101,14 +101,14 @@ Source file: `editorial/distribution/2026-11-linkedin-drafts.md`
 - **Suggested format:** Text-led operator story. No graphic required.
 - **Why it is a good next angle:** It is distinct from the two published posts and demonstrates a real, less obvious use of AI rather than another product announcement.
 
-### KWAI-LI-004 — A fractional CPA's AI stack is mostly not AI
+### KWAI-LI-004 — A fractional CPA relies on OCR and rules before AI
 
 - **Status:** Researched; idea.
 - **Target window:** After KWAI-LI-003.
-- **Angle:** A CPA serving small businesses describes using OCR, supplier rules, Gmail filters, QuickBooks and Zapier for much of the work, reserving Claude for commentary and anomaly analysis.
+- **Angle:** A fractional CPA in Canada says OCR, supplier rules, QBO, Dext, Gmail filters, Float, Google Sheets, Synder and a small Zapier flow do most of the repetitive work. This is a separate account from the practitioner using Claude/Loopfour.
 - **Reader takeaway:** Automate the predictable parts with reliable rules and integrations; use AI where interpretation helps; keep a human approver.
 - **Source:** https://www.reddit.com/r/Accounting/comments/1ri7g98/best_ai_tools_for_accountants_in_2026_looking_to/
-- **Evidence caveat:** Detailed self-report; verify current tools and separate the CPA's own account from vendor comments in the thread.
+- **Evidence caveat:** Detailed self-report from one CPA serving businesses with roughly $100K–$9M revenue; no quantified savings. Do not attribute Claude, NumbersGame AI MCP or Loopfour to this CPA.
 - **Suggested format:** Text-led story or native document showing the workflow split.
 
 ### KWAI-LI-005 — Before building an AI invoice chaser, check your accounting software
@@ -188,3 +188,14 @@ The original Reddit discussion is in the first comment. This is a self-reported 
 #Accounting #SmallBusiness #PracticalAI
 
 **Status:** Ready. Target Monday, 16 November 2026. Do not mark posted until the user confirms.
+
+### KWAI-LI-006 — A 300-client accounting firm uses Claude, but keeps approval human
+
+- **Status:** Researched; future queue, not drafted or approved.
+- **Audience:** Small-business owners and operators who work with accountants, plus accounting practitioners.
+- **Angle:** A Reddit user who says they run a small firm serving roughly 300 clients describes six months of Claude use for management commentary, transaction suggestions, document summaries, client-comms drafts, checklists and reconciliation investigation. The firm says it verifies calculations, traces conclusions to source documents and requires human approval before anything reaches the books or a client.
+- **Source:** https://www.reddit.com/r/Accounting/comments/1vvmkwr/what_weve_learned_after_six_months_of_using_ai_in/
+- **Related source by the same account:** https://www.reddit.com/r/Accounting/comments/1ri7g98/best_ai_tools_for_accountants_in_2026_looking_to/ (Claude, QBO integration, NumbersGame AI MCP and Loopfour details).
+- **Evidence caveat:** First-hand self-report, no independent verification or quantified time saving. Do not claim client acceptance or regulatory compliance as established fact. Include counterexamples from the thread about inaccurate workpapers and review burden.
+- **Suggested format:** Website field report first; possible LinkedIn derivative after the article.
+- **Research brief:** `editorial/research/300-client-accounting-firm-claude-2026-11-14.md`.
