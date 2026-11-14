@@ -1,7 +1,7 @@
 # Field brief: A 300-client accounting firm using Claude
 
 **Research date:** 14 November 2026  
-**Status:** Strong editorial candidate; self-reported, not independently verified  
+**Status:** On hold — likely vendor affiliation; identity link not confirmed; self-reported and not independently verified  
 **Audience:** Small-business owners, operators and people responsible for bookkeeping/accounting workflows
 
 ## The story
@@ -92,3 +92,20 @@ The reader benefit is practical: business owners can understand what a capable a
 ## Editorial next step
 
 Use this as the leading candidate for the next website field report after the Business Hub article is live. Before drafting, verify current Claude Enterprise data controls and the named integration capabilities from official vendor documentation, and keep the story clearly labelled as a self-reported account. No direct interview or independent reproduction has been completed.
+
+
+## Vendor relationship and independent-case-study status — 14 November 2026
+
+A later source check surfaced a material potential conflict of interest. The Reddit account that describes the 300-client accounting firm is named “Anelya” and also describes using NumbersGame MCP and Loopfour. Public sources identify Anelya Grant as co-founder/CEO of NumbersGame and founder of Loopfour. A direct identity link between the Reddit account and Anelya Grant has not been independently confirmed, so do not state it as fact. Nevertheless, treat the account as potentially vendor-affiliated and **do not present it as an independent customer case** until the identity is confirmed. If it is the founder, frame it transparently as a founder's own-firm implementation and disclose ownership.
+
+Public sources reviewed:
+- [Anthropic Claude Enterprise plan](https://support.claude.com/en/articles/9797531-what-is-the-enterprise-plan) — current plan includes audit logs, SCIM, custom retention, Compliance API, Analytics API and customer-managed encryption keys. The September 1, 2026 plan update says the seat fee covers access only and usage is billed separately at API rates; self-serve has a 20-seat minimum and sales-assisted a 50-seat minimum. The Reddit account does not disclose its seat count or contract, so do not assume another small firm can copy the same plan or cost.
+- [Anthropic commercial model-training policy](https://privacy.claude.com/en/articles/7996868-is-my-data-used-for-model-training) — commercial inputs/outputs are not used to train models by default, but explicit feedback/bug reports or opt-in can be used. Feedback can include the related conversation and is retained for up to five years. “Not used for training” does not mean “not stored”.
+- [Anthropic organization data retention](https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data) — saved conversations remain in the product; deleting a conversation removes it from history immediately and backend storage within 30 days, subject to stated exceptions.
+- [Enterprise custom retention controls](https://support.claude.com/en/articles/10440198-configure-custom-data-retention-controls-for-enterprise-plans) — custom retention is available to Enterprise owners; by default data is retained indefinitely unless a custom period is set, with a 30-day minimum. Project retention can supersede chat retention.
+- [Who owns and manages team data](https://privacy.claude.com/en/articles/9265372-who-owns-and-manages-the-data-of-my-team) — the organization controls access and may export user data; Anthropic acts as processor under the commercial agreement.
+- [NumbersGame MCP in Claude's connector directory](https://claude.com/marketplace/connectors/numbersgame-mcp) — the connector is listed as able to query and update QuickBooks Online and Xero. This verifies the product listing, not the Reddit firm's actual configuration.
+- [Loopfour workflow documentation](https://loopfour.ai/docs/start/what-is-loopfour) — its docs describe deterministic workflows, person-in-the-loop approval and run audit trails. This does not independently verify the Reddit firm's use.
+- Public materials identify [Anelya Grant on LinkedIn](https://www.linkedin.com/in/anelya) and [NumbersGame's founder/CEO](https://www.streetinsider.com/PRNewswire/NumbersGame%2Badds%2BStripe%2BSquare%2Band%2BRamp%2Bto%2Bits%2BQuickBooks%2BOnline%2Band%2BXero%2BMCP%2Bfor%2Baccounting%2Bfirms%2Busing%2BClaude%2Bor%2BChatGPT/27272748.html). This is a strong clue, not direct proof that the Reddit account belongs to the same person.
+
+**Editorial decision:** Hold this story as a possible founder/operator case. Do not recommend Claude Enterprise or the named integrations based solely on this account. Keep the solo event-agency story as the next independent operator candidate.
