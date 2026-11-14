@@ -178,7 +178,7 @@ Then state only genuinely important changes since the last handover. Continue th
 - **Revisit YouTube:** active, one-time on 1 December 2026; prepare a lightweight setup recommendation only, no publishing without approval.
 - **Publish Project Vend story:** completed and disabled.
 - **Start workout:** disabled.
-- Next priorities: (1) finish the Business Hub article PR review and merge after validation/preview; (2) prepare the accountant/VBA Company Page post for 16 November; (3) investigate the fractional CPA story for a possible website feature; (4) get the Company Page URL to add a Follow link and audit its Page settings; (5) collect post-level metrics when available.
+- Next priorities: (1) finish the Business Hub article PR review and merge after validation/preview; (2) prepare the accountant/VBA Company Page post for 16 November; (3) investigate the 300-client accounting firm / Claude story for the next website feature, using the fractional CPA as a contrasting account; (4) get the Company Page URL to add a Follow link and audit its Page settings; (5) collect post-level metrics when available.
 
 ## 11. Change log
 
@@ -214,3 +214,6 @@ Then state only genuinely important changes since the last handover. Continue th
 
 ### Google Search Console
 - Remains paused at the user's instruction. No GSC access, screenshots or changes were requested or made.
+
+
+- **Research correction (14 Nov):** The Operator Radar previously conflated two separate Reddit accounts. The fractional CPA describes an OCR/rules/integrations-heavy stack; a different account, who says they run a 300-client firm, describes Claude, QBO/MCP and Loopfour. The research brief and content library now separate them. The 300-client firm story is the strongest next website candidate; the staff accountant VBA story remains the next LinkedIn candidate for 16 Nov.
