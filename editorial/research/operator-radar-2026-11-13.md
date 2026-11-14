@@ -126,7 +126,7 @@ In an earlier thread, the same account described using Claude for commentary, re
 
 **Editorial priority:** Highest current website-story candidate after the Business Hub article is published. Full research brief: `editorial/research/300-client-accounting-firm-claude-2026-11-14.md`.
 
-### 3. Small-business automation builders are repeatedly asked to solve boring workflow problems
+### 4. Small-business automation builders are repeatedly asked to solve boring workflow problems
 
 **Source:** https://www.reddit.com/r/AiAutomations/comments/1wpzmnj/ive_been_automating_work_for_small_businesses/  
 **Thread date:** September 2026  
@@ -148,7 +148,7 @@ The thread includes people describing work such as:
 
 **Editorial priority:** Medium for workflow discovery; do not write a success story from this thread.
 
-### 4. Invoice follow-up automation — and the warning not to reinvent existing software
+### 5. Invoice follow-up automation — and the warning not to reinvent existing software
 
 **Source:** https://www.reddit.com/r/smallbusiness/comments/1qq7raa/invoice_followup_automated/  
 **Thread date:** 29 January 2026  
@@ -167,7 +167,7 @@ A commenter immediately points out that QuickBooks and other billing systems alr
 
 **Editorial priority:** Medium as a counterexample, not as a standalone success story.
 
-### 5. An older small-business job-tracking system built with AI
+### 6. An older small-business job-tracking system built with AI
 
 **Source:** https://www.reddit.com/r/smallbusiness/comments/1k87bzg/how_are_small_businesses_actually_using_ai_in/  
 **Thread date:** 2024/2025-era thread; older than the other leads.  
