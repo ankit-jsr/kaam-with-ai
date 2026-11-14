@@ -63,33 +63,68 @@ The author says they did not know how to code before using ChatGPT. They also de
 
 **Editorial priority:** High as an operator story, with a clear caveat that the author is an employee at a private company rather than a confirmed small-business owner.
 
-### 2. A fractional CPA uses AI selectively and relies on ordinary automation for the rest
+### 2. A fractional CPA's accounting stack relies more on OCR and rules than AI
 
 **Source:** https://www.reddit.com/r/Accounting/comments/1ri7g98/best_ai_tools_for_accountants_in_2026_looking_to/  
-**Thread started:** March 2026; the detailed CPA comment was posted later in the thread.  
-**Source type:** First-hand fractional CPA in Canada, reporting work for multiple small businesses from roughly $100,000 to $9 million in annual revenue.  
+**Thread started:** March 2026; the detailed CPA comment was posted later.  
+**Source type:** First-hand fractional CPA in Canada, serving multiple small businesses with roughly $100,000 to $9 million in annual revenue.  
 **Evidence status:** Detailed self-report; not independently verified.
 
-The CPA describes a deliberately mixed stack:
-- Dext for invoice extraction, supplier rules and publishing into QuickBooks Online.
-- Gmail filters to forward vendor invoices/receipts into Dext.
+The CPA describes a stack built mostly around existing accounting systems and conventional automation:
+- QuickBooks Online as the ledger.
+- Dext for invoice extraction and supplier rules that code and, after a period of review, can auto-publish suitable invoices into QBO.
+- Gmail filters to forward vendor invoices and receipts to Dext.
 - Float for employee expenses and reimbursements.
+- Google Sheets templates for bank CSV imports and recurring client models.
 - Synder for sales/Stripe reconciliation.
 - A simple Zapier flow for Square transactions where the native integration was inadequate.
-- Google Sheets templates for bank data and recurring client models.
-- Claude for commentary/report preparation, anomaly flags and some transaction work, with additional integration to the accounting system.
-- Asana SOPs written in plain steps; processes are performed manually for a month or two before being turned into workflows.
-- Human approvers are assigned for automated actions.
+- QBO/Shopify integration for Shopify sales.
 
-The CPA is skeptical of AI-native accounting startups and says reliable OCR, rules and integrations often solve more than adding an AI layer. They also describe limitations in built-in AI financial analysis.
+The CPA says OCR, supplier rules and reliable data connections remove much of the repetitive work. They are skeptical of AI-native accounting startups, do not see a need for AI-drafted client emails or marketing, and say built-in QBO AI analysis they tried was unreliable for at least one vendor-spend query.
 
-**Why it is interesting:** It is an unusually practical account of where AI is useful, where ordinary rules-based automation is better, and why a human approval step matters.
+**Important correction:** This CPA does **not** describe using Claude, NumbersGame AI MCP or Loopfour. Those tools were described by a different Reddit account in another comment. Do not merge the two practitioners' workflows.
 
-**Potential angle:** “A fractional CPA's AI stack is mostly not AI.”
+**Why it is interesting:** It is a concrete counterweight to AI-everywhere advice. For a small business, reliable OCR, accounting-system rules and clean integrations may be more useful than adding another AI layer.
 
-**What we still need:** Verify the CPA's current stack and exact tool roles, understand the MCP integration, and avoid endorsing products based on a single Reddit comment. The thread contains vendor-like comments and tool recommendations; keep those separate from the CPA's own account.
+**Potential angle:** “A fractional CPA's best automation may have very little AI in it.”
 
-**Editorial priority:** High. Strong fit for small-business operators, especially as a counterweight to AI-everywhere hype.
+**What we still need:** Verify current product capabilities and avoid endorsing vendors based on a single account. The CPA's experience is self-reported and Canada-specific.
+
+**Editorial priority:** High as a contrast story, but the 300-client firm's Claude workflow below is currently the stronger standalone article candidate.
+
+### 3. A 300-client accounting firm has used Claude for six months
+
+**Source:** https://www.reddit.com/r/Accounting/comments/1vvmkwr/what_weve_learned_after_six_months_of_using_ai_in/  
+**Related source by the same Reddit account:** https://www.reddit.com/r/Accounting/comments/1ri7g98/best_ai_tools_for_accountants_in_2026_looking_to/  
+**Thread date:** Approximately two months before 14 November 2026.  
+**Source type:** First-hand self-report from someone who says they run a small accounting firm serving roughly 300 clients.  
+**Evidence status:** Detailed self-report; no independent verification or quantified time savings.
+
+The author says the firm has spent about six months testing Claude and training its team. Reported use cases include:
+- Drafting management-report commentary from reviewed financial data.
+- Suggesting transaction categories for human approval.
+- Summarising documents and identifying missing information.
+- Preparing first drafts of client communications.
+- Turning recurring procedures into checklists and workflows.
+- Helping investigate reconciliations and unusual movements.
+
+The author says calculations are verified, conclusions are traced to source documents, and a human approves anything before it affects the books or reaches a client. They say the firm uses Claude Enterprise and notified clients; the author reports no complaints. Treat that as a self-report, not evidence of compliance or universal client acceptance.
+
+In an earlier thread, the same account described using Claude for commentary, report preparation, anomaly flags and potentially personal expenses; connecting it to QBO through NumbersGame AI MCP; documenting SOPs in Asana; and using Loopfour to turn stable procedures into workflows after people had performed them manually for a month or two. A human approver is assigned, with Slack used for notifications. These are additional self-reported details, not independently tested.
+
+**Counterevidence in the six-month thread:**
+- One accountant reports an AI-generated workpaper listing procedures that had not actually been performed.
+- Another says AI output still requires manual review and reperformance.
+- A different commenter finds AI more useful as a first-level review aid than for subjective preparation.
+- A commenter stresses explicit client approval and current controls documentation before cloud tools are used with client data.
+
+**Why it is interesting:** This is a stronger small-practice story than a tool list. The central idea is not that Claude runs accounting; it is that the firm uses it for bounded preparation and investigation while keeping source verification and approval in human hands.
+
+**Potential article:** “A 300-Client Accounting Firm Uses Claude. Here's What It Still Keeps Human.”
+
+**What we still need:** Verify current Claude Enterprise data controls and the named integrations from official vendor documentation; do not infer legal compliance. No measured time savings or independent reproduction is available.
+
+**Editorial priority:** Highest current website-story candidate after the Business Hub article is published. Full research brief: `editorial/research/300-client-accounting-firm-claude-2026-11-14.md`.
 
 ### 3. Small-business automation builders are repeatedly asked to solve boring workflow problems
 
@@ -157,11 +192,13 @@ A reply raised cybersecurity and maintenance concerns; the owner acknowledged th
 
 ## First editorial candidate
 
-**Recommended first story:** the fractional CPA's deliberately mixed stack.
+**Recommended next website story:** the 300-client accounting firm using Claude for bounded drafting, summarisation and investigation, with human approval before anything reaches the books or a client.
 
-Why: it is the closest fit to KaamWithAI's small-business audience, has a first-hand account from a practitioner serving multiple small businesses, and offers a non-hype thesis: reliable data capture and rules first, AI where judgment or language work adds value, human approval for exceptions.
+Why: the account has concrete tasks, a clear review model, a useful privacy/security question and counterevidence in the same thread. It is self-reported, not verified, and has no quantified time-saving claim. Verify current vendor controls and integration details before drafting.
 
-**Alternative:** the staff accountant's VBA story is more vivid and technically detailed. It may work better as a practical LinkedIn post first, with an article later if we can get more detail on actual time saved and controls.
+**Contrast story:** the fractional CPA's OCR/rules/integration stack demonstrates where conventional automation may be more useful than adding AI.
+
+**LinkedIn candidate already ready:** the staff accountant's VBA macro story. Keep it separate from the 300-client firm and fractional CPA accounts.
 
 ## Recurring research workflow
 
@@ -193,3 +230,6 @@ Comments add important limits: some workplaces restrict macros or external conne
 ### Search quality note
 
 A fresh scan of recent small-business AI threads surfaced many open-ended “what are you using?” prompts, vendor/service-provider pitches, coupon/referral content and low-detail anecdotes. These are not strong case-study leads. One r/smallbusiness thread also includes an explicit moderator warning against using the community as a market-research focus group. Keep the radar observational: find existing first-person accounts and comments; do not post research questions or promote KaamWithAI in those communities.
+
+
+**Research correction — 14 November 2026:** The previous version of this brief incorrectly combined the fractional CPA's OCR/rules stack with a separate practitioner's Claude/NumbersGame AI MCP/Loopfour workflow. These are distinct Reddit accounts. The 300-client firm and Claude workflow belongs to the same account that described NumbersGame AI MCP and Loopfour in a separate comment. The brief above now separates them.
