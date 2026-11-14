@@ -1,6 +1,7 @@
 # KaamWithAI Operator Radar — Reddit research
 
 **Started:** 13 November 2026  
+**Last updated:** 14 November 2026  
 **Purpose:** Find real examples of people using AI in everyday work, then investigate the workflow rather than repeating a tool list.  
 **Editorial status:** Research leads only. No story in this brief is independently verified.
 
@@ -173,3 +174,22 @@ Why: it is the closest fit to KaamWithAI's small-business audience, has a first-
 - Turn one validated story into: a website article, a LinkedIn Company Page post, and a practical workflow/checklist when appropriate.
 
 **Do not turn every Reddit anecdote into content. The value is in the investigation, not the volume of links collected.**
+
+
+## Verification update — 14 November 2026
+
+### Staff accountant / VBA story
+
+The original r/Accounting thread was re-opened and checked again on 14 November. It is dated 19 July 2026 and had 266 points at the time of the current search. The author explicitly says they work for a private company, perform Excel-heavy journal-entry and balance-sheet reconciliation work, and use ChatGPT to write VBA tools rather than asking it to perform the accounting directly.
+
+Specific examples in the post include opening a downloaded workbook by filename prefix, finding columns by header names, appending rows to a reconciliation workbook, refreshing pivot-table ranges, rolling dates forward from a filename, and adding error handling. The author says they did not know how to code before using ChatGPT. No measured time saving is reported.
+
+Comments add important limits: some workplaces restrict macros or external connections for IT/security reasons; other commenters describe systems such as SAP where automation can be difficult or unavailable. Do not turn the post into a claim that VBA is universally permitted or that generated macros are safe to run on live finance data.
+
+**Editorial decision:** suitable for a carefully caveated LinkedIn Company Page post, not yet a full case-study article. The author is an employee, not a confirmed owner/operator, and there is no independently verified outcome. Keep the focus on AI helping a person build deterministic code for a known process.
+
+**Primary source:** https://www.reddit.com/r/Accounting/comments/1v12xrz/how_i_use_ai_as_a_staff_accountant/
+
+### Search quality note
+
+A fresh scan of recent small-business AI threads surfaced many open-ended “what are you using?” prompts, vendor/service-provider pitches, coupon/referral content and low-detail anecdotes. These are not strong case-study leads. One r/smallbusiness thread also includes an explicit moderator warning against using the community as a market-research focus group. Keep the radar observational: find existing first-person accounts and comments; do not post research questions or promote KaamWithAI in those communities.
