@@ -166,13 +166,15 @@ One example was a macro that could:
 - Roll dates forward using the month in the file name.
 - Stop with an error message when something it expected was missing.
 
-The accountant said they hadn't known how to code before using ChatGPT.
+The accountant said they hadn't known how to code before using ChatGPT. They also said they learn a new task manually for a month or two before automating it.
 
 That's a more interesting use of AI than asking it to “do the accounting”.
 
 The model helps translate a process the person already understands into a repeatable tool. Once written and checked, the macro—not the language model—does the same steps each month.
 
 But this isn't a green light to run AI-generated code on live finance files. The discussion raises real constraints around IT controls and systems where macros aren't allowed. And a macro can repeat a mistake just as consistently as it repeats the right step.
+
+One commenter made a point worth keeping: the dangerous failure isn't always a macro that crashes. It's one that runs successfully and quietly imports the wrong data. Compare row counts and totals, test on copies, and keep the existing reconciliation checks.
 
 If you want to try this:
 1. Pick one process you can already perform manually.
