@@ -126,7 +126,7 @@ Source file: `editorial/distribution/2026-11-linkedin-drafts.md`
 - Prefer Monday / Wednesday / Friday as a starting rhythm, but only when a post has a clear reader benefit and sufficient evidence.
 - **13 November 2026:** No additional post recommended. KWAI-LI-002 was just published; another post today would add volume without adding a distinct idea.
 - **14 November 2026:** No post recommended. Post #2 was published yesterday, and the next distinct, source-checked operator story is prepared for Monday rather than squeezing in a weekend post.
-- **Next planned posting window:** Monday, 16 November 2026, with KWAI-LI-003 if the final draft and source caveat are sound.
+- **Next planned posting window:** Monday, 16 November 2026. KWAI-LI-003 is drafted and ready for user review; do not post unless the user chooses to publish it.
 - Do not publish from the user's personal profile.
 - Do not schedule or publish automatically.
 
