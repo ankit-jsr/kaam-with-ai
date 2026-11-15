@@ -196,7 +196,7 @@ Then state only genuinely important changes since the last handover. Continue th
 - PR #4 is open. GitHub Actions run #51 completed: site validation passed; Cloudflare PR preview deployed successfully to `https://pr-4.kaamwithai.pages.dev` (deployment ID URL `https://631778a9.kaamwithai.pages.dev`). Production deployment is skipped until merge. The preview was deployed, but a separate browser fetch was not available in this run; source and automated validation were reviewed. Do not call the article live until merged and production URL is verified.
 
 
-## 13. Daily operating update — 14 November 2026
+## 13. Daily operating update — 14 November 2026 (historical snapshot; superseded by Sections 14–15)
 
 ### Website and publishing
 - PR #4 — [Publish ChatGPT Business Hub field guide](https://github.com/ankit-jsr/kaam-with-ai/pull/4) — remains open and mergeable.
@@ -246,3 +246,35 @@ Then state only genuinely important changes since the last handover. Continue th
 
 
 - **Next article draft (14 Nov):** `editorial/drafts/solo-event-agency-claude-back-office.md` created from the Operator Radar source. Status is draft only; it has not been approved or published. The 300-client accounting-firm story is on hold due to a likely vendor relationship that has not been independently confirmed.
+
+
+## 15. Operating update — 15 November 2026
+
+### Website and publishing
+- Published the solo event-staffing agency field report: https://kaamwithai.pages.dev/articles/solo-event-agency-claude-back-office.html.
+- Added the article to the homepage and sitemap. Sitemap now lists eight URLs.
+- Removed duplicate favicon declarations found on the homepage, About and Privacy pages.
+- The article is based on a self-reported Reddit account and comments. It explicitly discloses that no interview, system inspection, independent verification or reproduction was performed; no actual lost deal is claimed.
+- Publication branch: `publish/solo-event-agency-back-office`. Production publication is pending PR validation, preview review and merge; do not call it live until the production deployment succeeds.
+
+### Distribution
+- No LinkedIn post recommended Sunday 15 November. Post #2 was published Friday 13 November; the next distinct post is queued for Monday 16 November.
+- KWAI-LI-003 remains Ready, not posted. Its Reddit source was re-opened on 15 November; copy was corrected to remove an unverified exact post date. It remains a self-reported employee example with no quantified time saving.
+- The user still manually reviews and posts to the Company Page. No scheduling or publishing by the assistant.
+- Direct LinkedIn Company Page URL is still not recorded and a public search did not surface it. This is the only blocker to a precise Page audit and adding a Follow link to the website.
+
+### SEO and measurement
+- Technical source audit found seven URLs in the sitemap before this new article; the eighth is now added. All four existing article pages checked have canonical URLs and meta descriptions. `robots.txt` allows crawling and points to the production sitemap.
+- Google Search Console remains paused at the user's instruction. No GSC work was done.
+- The public Pages URL could not be independently fetched in this run due network access limitations; production status must be based on GitHub Actions deployment evidence after merge.
+
+### Active automations
+- KaamWithAI Daily OS remains enabled daily at 08:00 Asia/Kolkata.
+- Revisit YouTube remains enabled for 1 December 2026; prepare a lightweight faceless/ElevenLabs plan only, with no publishing without approval.
+- Project Vend publishing automation is disabled/completed; workout reminder is disabled.
+
+### Next priorities
+1. Complete PR validation, inspect the preview and merge the solo-agency field report if checks pass; verify the production deployment.
+2. Deliver KWAI-LI-003 for manual review on Monday 16 November; do not publish it.
+3. Continue Operator Radar research for a stronger independent operator story; keep the 300-client accounting-firm account on hold because of the possible vendor relationship.
+4. Obtain the Company's direct LinkedIn Page URL when convenient; no need to delay other work.
