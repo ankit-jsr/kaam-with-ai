@@ -205,12 +205,13 @@ The original Reddit discussion is in the first comment. This is a self-reported 
 
 ### KWAI-LI-007 — The AI back office that nearly cost a solo agency its deals
 
-- **Status:** Website article draft created; not approved or published. No LinkedIn derivative drafted yet.
+- **Status:** Website article published 15 November 2026. LinkedIn derivative KWAI-LI-008 drafted and ready for manual review; not posted.
 - **Audience:** Small-business owners and solo operators using AI for email, vendors, calendars or internal records.
 - **Angle:** A solo event-staffing operator says Claude misread an email preview, claimed a nonexistent draft was staged, confused a vendor with a sponsor and misreported a database table. The operator added source-verification rules and fact labels; they report fewer errors, but no independent measurement is available.
 - **Source:** https://www.reddit.com/r/ClaudeCode/comments/1wd3hgd/anyone_actually_running_a_business_with_claude/
 - **Evidence caveat:** First-person self-report; errors nearly cost deals, but no actual loss is claimed. The reported error reduction is the author's estimate. Comments provide useful counterpoints about state files, source receipts and human approval.
-- **Suggested format:** Website field report first; LinkedIn derivative after publication if the article performs a distinct reader job.
+- **Article:** https://kaamwithai.pages.dev/articles/solo-event-agency-claude-back-office.html
+- **Suggested format:** Text-led Company Page post with article link in first comment; distinct takeaway is source verification and action receipts.
 - **Research brief:** `editorial/research/solo-event-agency-claude-back-office-2026-11-14.md`.
 
 
@@ -221,3 +222,43 @@ The original Reddit discussion is in the first comment. This is a self-reported 
 - **Fresh source check:** The author says they work for a private company, used ChatGPT to create VBA tools for reconciliation work, and recommends learning the manual process before automating it. A commenter specifically warns that a macro can run successfully while producing incorrect output; the author replies that their reconciliations have existing redundancies and that output verification matters. Other comments raise IT controls and access restrictions. No time-saving figure is claimed in the post.
 - **Format:** Text-only Company Page post; place the source link in the first comment. No graphic needed.
 - **Constraint:** Do not mark posted until the user confirms. No scheduling or publishing by the assistant.
+
+
+### KWAI-LI-008 — When an AI back office mistakes a preview for the truth
+
+- **Status:** Ready — drafted 15 November 2026; not posted.
+- **Target window:** Wednesday, 18 November 2026, subject to cadence and the Monday post; not scheduled.
+- **Audience:** Small-business owners and solo operators using AI for email, suppliers, calendars or internal records.
+- **Purpose:** Promote the new field report with a practical takeaway: distinguish source-checked facts, proposed actions and completed actions.
+- **Format:** Text-only Company Page post. Put the article link in the first comment; no graphic needed.
+- **Article:** https://kaamwithai.pages.dev/articles/solo-event-agency-claude-back-office.html
+- **Source:** https://www.reddit.com/r/ClaudeCode/comments/1wd3hgd/anyone_actually_running_a_business_with_claude/
+- **Evidence caveat:** Self-reported Reddit account; no interview, system inspection or independent verification. No actual lost deal is claimed. The reported reduction in errors is the author's estimate.
+
+**Final copy — ready for user review, not posted:**
+
+An AI back office can make a very ordinary mistake: tell you a supplier hasn't replied when the reply is sitting in the email thread.
+
+A solo event-staffing operator described how Claude read an email search preview, not the full conversation.
+
+Other errors included an email draft being described as ready when it didn't exist, a supplier being confused with a sponsor, and a database table being reported missing without being checked.
+
+The shared failure was treating incomplete context as verified business information.
+
+If you use AI for email, suppliers or internal records, separate three states:
+
+- Source checked
+- Action proposed
+- Action completed
+
+Require a receipt before calling something complete: a message record, calendar event or confirmed database change. If there is no receipt, the assistant should say it can't confirm the action.
+
+Keep human approval for commitments.
+
+This is a self-reported account, not an independently verified case study. The operator's reported reduction in errors has not been independently measured.
+
+We unpacked the story and practical guardrails in the field report. Link in the first comment.
+
+#SmallBusiness #PracticalAI #AIAgents
+
+**Status:** Ready. Target Wednesday, 18 November 2026. Do not mark posted until the user confirms.
