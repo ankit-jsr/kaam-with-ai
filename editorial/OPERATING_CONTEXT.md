@@ -251,10 +251,10 @@ Then state only genuinely important changes since the last handover. Continue th
 ## 15. Operating update — 15 November 2026
 
 ### Website and publishing
-- Published the solo event-staffing agency field report: https://kaamwithai.pages.dev/articles/solo-event-agency-claude-back-office.html.
-- Added the article to the homepage and sitemap. Sitemap now lists eight URLs.
-- Removed duplicate favicon declarations found on the homepage, About and Privacy pages.
-- The article is based on a self-reported Reddit account and comments. It explicitly discloses that no interview, system inspection, independent verification or reproduction was performed; no actual lost deal is claimed.
+- Prepared the solo event-staffing agency field report in PR #6: https://github.com/ankit-jsr/kaam-with-ai/pull/6. The intended article URL is https://kaamwithai.pages.dev/articles/solo-event-agency-claude-back-office.html; it is not live yet.
+- Added the article to the homepage and sitemap on the PR branch. The branch sitemap lists eight URLs; production remains unchanged until merge and deployment.
+- Removed duplicate favicon declarations on the homepage, About and Privacy pages in the PR branch.
+- The release candidate is based on a self-reported Reddit account and comments. It explicitly discloses that no interview, system inspection, independent verification or reproduction was performed; no actual lost deal is claimed.
 - Publication branch: `publish/solo-event-agency-back-office`. Production publication is pending PR validation, preview review and merge; do not call it live until the production deployment succeeds.
 
 ### Distribution
