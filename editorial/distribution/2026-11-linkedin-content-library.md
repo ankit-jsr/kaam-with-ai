@@ -3,7 +3,7 @@
 **Destination:** KaamWithAI LinkedIn Company Page only  
 **Workflow:** Assistant researches, drafts and maintains this library. The user manually reviews and publishes.  
 **No publishing or scheduling by the assistant.**  
-**Last updated:** 14 November 2026
+**Last updated:** 15 November 2026
 
 ## Status definitions
 
@@ -156,7 +156,7 @@ No post-level analytics have been supplied yet. Add a row after the user shares 
 A staff accountant didn't ask ChatGPT to do the reconciliation.  
 He asked it to write the macro.
 
-In a July discussion on r/Accounting, a staff accountant at a private company described using ChatGPT to build VBA macros for repetitive reconciliation work.
+In an r/Accounting discussion, a staff accountant at a private company described using ChatGPT to build VBA macros for repetitive reconciliation work.
 
 One example was a macro that could:
 - Open the latest downloaded workbook matching a file-name pattern.
@@ -212,3 +212,12 @@ The original Reddit discussion is in the first comment. This is a self-reported 
 - **Evidence caveat:** First-person self-report; errors nearly cost deals, but no actual loss is claimed. The reported error reduction is the author's estimate. Comments provide useful counterpoints about state files, source receipts and human approval.
 - **Suggested format:** Website field report first; LinkedIn derivative after publication if the article performs a distinct reader job.
 - **Research brief:** `editorial/research/solo-event-agency-claude-back-office-2026-11-14.md`.
+
+
+## Daily decision — Sunday, 15 November 2026
+
+- **Posting decision:** No post recommended today. The page published a post on Friday 13 November; Sunday adds little distribution value, and the next distinct item is already prepared for Monday.
+- **Next target:** Monday, 16 November 2026 — KWAI-LI-003, the staff accountant who used ChatGPT to write VBA macros. It remains **Ready**, not posted. The original Reddit thread was re-opened and comments rechecked on 15 November. The post copy was corrected to avoid an unverified exact posting date; it now refers simply to an r/Accounting discussion.
+- **Fresh source check:** The author says they work for a private company, used ChatGPT to create VBA tools for reconciliation work, and recommends learning the manual process before automating it. A commenter specifically warns that a macro can run successfully while producing incorrect output; the author replies that their reconciliations have existing redundancies and that output verification matters. Other comments raise IT controls and access restrictions. No time-saving figure is claimed in the post.
+- **Format:** Text-only Company Page post; place the source link in the first comment. No graphic needed.
+- **Constraint:** Do not mark posted until the user confirms. No scheduling or publishing by the assistant.
