@@ -102,4 +102,4 @@ This is the strongest current candidate for the next KaamWithAI website field re
 
 ## Publication update — 15 November 2026
 
-The field report is live at https://kaamwithai.pages.dev/articles/solo-event-agency-claude-back-office.html. PR #6 was merged as commit `667151ee47587965eb83a8038f99429384f5d4fb`; GitHub Actions run #62? no, run `43668613249` completed successfully with site validation and production Cloudflare Pages deployment. The article preserves the source's self-reported status, does not claim an actual lost deal, and does not present the author's error-reduction estimate as independently measured.
+The field report is live at https://kaamwithai.pages.dev/articles/solo-event-agency-claude-back-office.html. PR #6 was merged as commit `667151ee47587965eb83a8038f99429384f5d4fb`; GitHub Actions run `43668613249` completed successfully with site validation and production Cloudflare Pages deployment. The article preserves the source's self-reported status, does not claim an actual lost deal, and does not present the author's error-reduction estimate as independently measured.
