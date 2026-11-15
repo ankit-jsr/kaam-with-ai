@@ -214,7 +214,7 @@ A reply raised cybersecurity and maintenance concerns; the owner acknowledged th
 
 ## First editorial candidate
 
-**Recommended next website story:** the solo event-staffing operator whose Claude back office made confident mistakes that nearly cost deals. The source has specific failures, a self-reported guardrail improvement and counterarguments about state files and source verification. It is not independently verified; label it as a Reddit account and do not imply measured financial losses.
+**Current website release candidate:** the solo event-staffing operator whose Claude back office made confident mistakes that nearly cost deals. The article is in PR #6 (https://github.com/ankit-jsr/kaam-with-ai/pull/6); it is not live until validation, preview review, merge and production deployment succeed. The source is self-reported; the article does not claim actual financial losses or independently measured improvement.
 
 **Contrast story:** the fractional CPA's OCR/rules/integration stack demonstrates where conventional automation may be more useful than adding AI.
 
@@ -258,3 +258,10 @@ A fresh scan of recent small-business AI threads surfaced many open-ended “wha
 
 
 **Research update — 14 November 2026:** A stronger direct small-business story has been added: a solo event-staffing operator using Claude as a back office, with concrete near-miss errors and source-verification guardrails. The 300-client accounting firm story has been downgraded to hold because the Reddit account may be commercially connected to NumbersGame/Loopfour. Do not treat that account as an independent customer case without confirmation and disclosure.
+
+
+## Research update — 15 November 2026
+
+- Re-opened the staff accountant's original r/Accounting thread and reviewed the full visible discussion. Confirmed the private-company context, VBA examples, the author's practice of learning a task manually before automating it, IT-control counterpoints, and the warning that a macro can run successfully while producing incorrect output. The Monday Company Page draft remains ready and makes no quantified time-saving claim.
+- A fresh search of small-business and entrepreneur communities surfaced mostly open-ended AI-use prompts, agency/vendor pitches and low-detail self-reports. No stronger independent operator case replaced the solo event-agency field report.
+- The solo event-agency article has been prepared in PR #6. Keep the 300-client accounting-firm account on hold because of the possible NumbersGame/Loopfour vendor relationship.
