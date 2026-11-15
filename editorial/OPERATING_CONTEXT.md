@@ -1,6 +1,6 @@
 # KaamWithAI — Operating Context
 
-**Last updated:** 14 November 2026  
+**Last updated:** 15 November 2026  
 **Purpose:** Durable handover and source of truth for work across ChatGPT conversations. Read this before making project decisions or asking the user to repeat context.
 
 ## 1. Project
@@ -10,7 +10,8 @@ KaamWithAI is a content-led publication/business helping small-business owners u
 - Website: https://kaamwithai.pages.dev/
 - GitHub repository: https://github.com/ankit-jsr/kaam-with-ai
 - Audience: non-technical small-business owners and operators.
-- Editorial promise: useful, grounded explanations and practical workflows; no AI hype, generic copy or unsupported claims.
+- Brand positioning: **AI for practical operators.** Supporting line: **Less hype. More useful work.**
+- Editorial promise: practical workflows, tools and real-world stories for people running businesses; useful, grounded explanations and practical workflows; no AI hype, generic copy or unsupported claims.
 - Primary publishing destination for social distribution: **KaamWithAI LinkedIn Company Page only**. Do not publish to the user's personal LinkedIn profile.
 - The user is currently publishing LinkedIn posts manually. Do not schedule or publish on their behalf.
 
@@ -291,3 +292,11 @@ Then state only genuinely important changes since the last handover. Continue th
 - Production sitemap contains eight URLs. Homepage and article social metadata were standardized; duplicate favicon tags were removed from homepage, About and Privacy.
 - The article is based on one self-reported Reddit operator account and comments. It makes no claim of an actual lost deal or independently verified reduction in errors.
 - Monday 16 November Company Page post KWAI-LI-003 remains Ready, not posted. KWAI-LI-008 is now ready for a possible Wednesday 18 November slot. The user manually reviews and publishes all LinkedIn posts.
+
+
+## 16. Brand positioning update — 15 November 2026
+
+- Approved homepage headline: **AI for practical operators.**
+- Supporting line: **Practical workflows, tools and real-world stories for people running businesses. Less hype. More useful work.**
+- Editorial principle: retain a natural, story-led publication. Search optimisation must improve discovery of genuinely useful reporting; it must not turn the site into a generic SEO content farm or dictate formulaic headlines.
+- Homepage hero eyebrow: **Less hype. More useful work.**
