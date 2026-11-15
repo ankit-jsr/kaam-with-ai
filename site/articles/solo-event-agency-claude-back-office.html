@@ -1,0 +1,53 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Vendor Had Replied. Claude Said They Hadn't. | KaamWithAI</title>
+<meta name="description" content="A solo event-agency operator says Claude misread email, invented a draft and confused a vendor with a sponsor. Here’s how to keep an AI back office accountable.">
+<meta name="robots" content="index,follow"><link rel="canonical" href="https://kaamwithai.pages.dev/articles/solo-event-agency-claude-back-office.html">
+<meta property="og:type" content="article"><meta property="og:title" content="The Vendor Had Replied. Claude Said They Hadn't."><meta property="og:description" content="A solo event-agency operator says Claude misread email, invented a draft and confused a vendor with a sponsor. Here’s how to keep an AI back office accountable."><meta property="og:url" content="https://kaamwithai.pages.dev/articles/solo-event-agency-claude-back-office.html">
+<meta name="twitter:card" content="summary"><meta name="twitter:title" content="The Vendor Had Replied. Claude Said They Hadn't."><meta name="twitter:description" content="A solo event-agency operator says Claude misread email, invented a draft and confused a vendor with a sponsor. Here’s how to keep an AI back office accountable.">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg"><link rel="stylesheet" href="/styles.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"The Vendor Had Replied. Claude Said They Hadn't.","description":"A solo event-agency operator says Claude misread email, invented a draft and confused a vendor with a sponsor. Here’s how to keep an AI back office accountable.","datePublished":"2026-11-15","dateModified":"2026-11-15","author":{"@type":"Organization","name":"KaamWithAI Editorial"},"publisher":{"@type":"Organization","name":"KaamWithAI"},"mainEntityOfPage":"https://kaamwithai.pages.dev/articles/solo-event-agency-claude-back-office.html","inLanguage":"en"}</script></head>
+<body><header class="top"><div class="wrap nav"><a class="brand" href="/"><img class="brand-mark" src="/logo.svg" alt=""><span>Kaam<span>WithAI</span></span></a><nav><a href="/#guides">Field guides</a><a href="/about.html">About</a></nav></div></header>
+<main class="article"><div class="eyebrow">The AI Operator · Field report</div><h1>The Vendor Had Replied. Claude Said They Hadn't.</h1>
+<p class="meta">KaamWithAI Editorial · 15 November 2026 · Approximately 5 minute read</p>
+<p class="intro">The vendor had answered every question that morning. Claude said she hadn't.</p>
+<p>The owner of a small event-staffing agency says Claude had read an email search preview instead of the full thread, then treated that preview as the whole conversation. The reply was there. The assistant had missed it.</p>
+<p>It sounds like a small mistake. But if you're coordinating suppliers, applicants and clients, a false report that someone has gone quiet can send the next decision in the wrong direction.</p>
+<p>The operator described the incident in a September 2026 discussion on r/ClaudeCode. They run the agency alone, they said, and Claude had become part of the back office: email, vendor communication, the applicant database and the calendar. It was useful enough to become part of how they operated. It was also making confident mistakes that, in the owner's words, had nearly cost deals.</p>
+<p>The email preview was only the first example.</p>
+<h2>When a confident answer becomes a business problem</h2>
+<p>On another occasion, Claude said an email was “staged”. The owner went looking in Gmail for the draft. It did not exist.</p>
+<p>Then a naming mistake became a commercial one. Claude referred to suppliers as “brand partner candidates”. The distinction mattered: a vendor gets paid by the agency; a sponsor pays the agency. The operator says they spent two days planning around an opportunity that did not exist.</p>
+<p>Claude also said a table in the business database was missing without checking. It was there.</p>
+<p>None of these errors looks dramatic in isolation. They concern ordinary operating facts: who replied, whether a message was created, what kind of commercial relationship a company has, and whether a record exists. But those facts determine what an owner does next.</p>
+<p>The operator saw a common pattern. Claude was stating things as facts without checking the underlying source. They said the problem became worse in long sessions, when earlier conversation started to be treated as if it were current evidence.</p>
+<h2>The operator added rules, not just another prompt</h2>
+<p>Rather than removing Claude from the workflow, the operator says they added a master state file to carry business context between sessions and labels to distinguish what was known from what was not:</p>
+<ul><li><strong>CONFIRMED</strong></li><li><strong>STATED</strong></li><li><strong>ASSUMED</strong></li><li><strong>OPEN</strong></li></ul>
+<p>They also added two rules: never treat an email preview as the full thread, and never claim an action happened without tool output confirming it.</p>
+<p>The operator reports that errors fell from several per week to a few per month. That is their own estimate. They did not provide an error log or an independent audit, so it should not be read as a measured result.</p>
+<p>The useful change is not simply telling an AI to be more careful. It is making the workflow distinguish between a source it has actually checked, something a person has said, an inference and an unresolved question.</p>
+<h2>A persistent note can preserve a mistake, too</h2>
+<p>The comments under the discussion add an important complication. Another solo-agency operator warned that a state file can make the problem worse if the model itself writes assumptions into its permanent notes. The next session may read that assumption back as established fact.</p>
+<p>Their suggested safeguards were stricter: only verified tool output should update durable state, entries should be dated, and factual claims should be backed by a quotation from the source. Without evidence, the system should say the claim is unverified.</p>
+<p>Other commenters suggested shorter sessions, clearer project instructions and human approval for consequential decisions. One argued that a deterministic dashboard can be safer than relying on a language model to call and edit business systems on its own.</p>
+<p>These are individual practitioners' suggestions, not proven universal fixes. But they point to a useful principle: persistence is not the same as truth, and confidence is not evidence.</p>
+<h2>What a small business should check before trusting the back office</h2>
+<p>The question is not whether an AI assistant can help prepare emails, organise information or move routine work along. It is what must happen before a statement is treated as fact or an action is treated as complete.</p>
+<ol>
+<li><strong>Retrieve the source, not the preview.</strong> If the question is about an email, open the complete thread and check the latest message. If it is about a customer record, inspect the record itself.</li>
+<li><strong>Separate proposed from completed.</strong> “I will draft the reply” is not “the draft exists”. “Ready to send” is not “sent”. Keep those states distinct.</li>
+<li><strong>Require an action receipt.</strong> A sent email should have a message record. A calendar booking should have an event. A database change should have a confirmed result. If the tool cannot confirm it, the assistant should say so.</li>
+<li><strong>Keep durable notes tied to evidence.</strong> Store the date, source and confidence label with important facts. Do not let an assumption quietly become permanent business context.</li>
+<li><strong>Keep a person responsible for commitments.</strong> Money, supplier commitments, client promises, contracts and unusual exceptions should not depend on an AI-generated summary being correct.</li>
+</ol>
+<p>An assistant can prepare a supplier email. A workflow can send it after approval. The email system can record that it was sent. Those are three different steps, and the distinction matters.</p>
+<h2>The back office needs receipts</h2>
+<p>The operator did not describe a business that had stopped using Claude. They described one that had to become more disciplined about how it used it.</p>
+<p>The email system, calendar and database remain the records. An AI assistant's summary of those records is not a replacement for them. If it says a supplier has not replied, check the thread. If it says a draft is ready, check that the draft exists. If it says it changed a record, look for the change.</p>
+<p>The operator says the new rules reduced the number of mistakes. We cannot independently verify that improvement, and the account does not show that the workflow is now error-free. It does show why a useful AI back office needs something less glamorous than another agent: evidence, clear states and a person who remains responsible for the decision.</p>
+<p>For a related example of why long-running agents need boundaries, read our <a href="/articles/claude-blue-blazer-shopkeeper.html">Project Vend field report</a>. If you're considering a first business agent, start with <a href="/articles/first-ai-agent-small-business.html">a narrower job and less authority than you think</a>.</p>
+<h2>Source and verification</h2>
+<ul><li><a href="https://www.reddit.com/r/ClaudeCode/comments/1wd3hgd/anyone_actually_running_a_business_with_claude/">Reddit: Anyone actually running a business with Claude?</a> — first-person account and discussion, September 2026.</li></ul>
+<p class="notice">Editorial note: This article is based on a self-reported Reddit account and its comments. We have not interviewed the operator, inspected their systems, independently verified the reported reduction in errors or reproduced the failures. The author says the mistakes nearly cost deals; they do not report an actual lost deal. The improvement from several errors per week to a few per month is the author's estimate, not a measured result.</p>
+<p><a href="/">← Back to KaamWithAI</a></p></main>
+<footer class="footer"><div class="wrap">© 2026 KaamWithAI · <a href="/about.html">About & editorial standards</a> · <a href="/privacy.html">Privacy</a> · <a href="mailto:d2ccolumn@gmail.com">Contact</a></div></footer></body></html>
