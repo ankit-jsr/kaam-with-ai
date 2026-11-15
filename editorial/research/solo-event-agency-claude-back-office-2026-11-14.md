@@ -2,7 +2,7 @@
 
 **Research date:** 14 November 2026  
 **Source date:** 11 September 2026  
-**Status:** Published 15 November 2026; self-reported, not independently verified  
+**Status:** Release candidate in PR #6; self-reported, not independently verified  
 **Audience:** Small-business owners and solo operators who are considering AI for email, vendors, calendars and internal records
 
 ## The setup
@@ -100,6 +100,6 @@ The guardrail is to make the system show its evidence: retrieve the full source,
 This is the strongest current candidate for the next KaamWithAI website field report after the Business Hub article. It is a concrete, first-person small-business account with a meaningful failure mode, practical controls and counterarguments. It has low visible engagement and no independent verification; do not treat Reddit votes as evidence of representativeness. No direct interview, independent reproduction or access to the operator's systems has been obtained.
 
 
-## Publication update — 15 November 2026
+## Release update — 15 November 2026
 
-The field report was published at https://kaamwithai.pages.dev/articles/solo-event-agency-claude-back-office.html. The article preserves the source's self-reported status, does not claim an actual lost deal, and does not present the author's error-reduction estimate as independently measured.
+The field report is prepared in PR #6. It is not live until validation, preview review, merge and production deployment are confirmed. The article preserves the source's self-reported status, does not claim an actual lost deal, and does not present the author's error-reduction estimate as independently measured.
