@@ -1,6 +1,6 @@
 # The Vendor Had Replied. Claude Said They Hadn't.
 
-**Status:** Release candidate — PR #6 open; not yet live. Intended URL: https://kaamwithai.pages.dev/articles/solo-event-agency-claude-back-office.html  
+**Status:** Published 15 November 2026 — https://kaamwithai.pages.dev/articles/solo-event-agency-claude-back-office.html  
 **Audience:** Small-business owners and solo operators considering AI for email, vendors, calendars and internal records  
 **Source:** First-person Reddit account from a solo event-staffing/activation operator, posted 11 September 2026  
 **Research brief:** `editorial/research/solo-event-agency-claude-back-office-2026-11-14.md`
