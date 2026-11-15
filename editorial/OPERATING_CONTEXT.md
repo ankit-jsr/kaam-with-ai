@@ -251,12 +251,14 @@ Then state only genuinely important changes since the last handover. Continue th
 ## 15. Operating update — 15 November 2026
 
 ### Website and publishing
-- Prepared the solo event-staffing agency field report in PR #6: https://github.com/ankit-jsr/kaam-with-ai/pull/6. The intended article URL is https://kaamwithai.pages.dev/articles/solo-event-agency-claude-back-office.html; it is not live yet.
-- Added the article to the homepage and sitemap on the PR branch. The branch sitemap lists eight URLs; production remains unchanged until merge and deployment.
+- Published the solo event-staffing agency field report: https://kaamwithai.pages.dev/articles/solo-event-agency-claude-back-office.html.
+- PR #6 merged on 15 November 2026 as `667151ee47587965eb83a8038f99429384f5d4fb`. GitHub Actions run `43668613249` completed successfully: site validation and production Cloudflare Pages deployment both passed.
+- PR preview deployed successfully at https://pr-6.kaamwithai.pages.dev. Direct browser retrieval from this runtime was unavailable; automated validation and deployment logs were inspected.
+- Article is in the homepage and production sitemap, which now lists eight URLs.
 - Removed duplicate favicon declarations on the homepage, About and Privacy pages in the PR branch.
 - Added Open Graph and Twitter summary metadata to the homepage and the two older article pages that lacked social-sharing metadata.
 - The release candidate is based on a self-reported Reddit account and comments. It explicitly discloses that no interview, system inspection, independent verification or reproduction was performed; no actual lost deal is claimed.
-- Publication branch: `publish/solo-event-agency-back-office`. Production publication is pending PR validation, preview review and merge; do not call it live until the production deployment succeeds.
+- Article publication is complete; do not confuse it with LinkedIn distribution, which remains manual.
 
 ### Distribution
 - No LinkedIn post recommended Sunday 15 November. Post #2 was published Friday 13 November; the next distinct post is queued for Monday 16 November.
@@ -267,7 +269,7 @@ Then state only genuinely important changes since the last handover. Continue th
 ### SEO and measurement
 - Technical source audit found seven URLs in the sitemap before this new article; the eighth is now added on the PR branch. All article pages checked have canonical URLs and meta descriptions. Open Graph/Twitter metadata is now present on the homepage and all article pages. `robots.txt` allows crawling and points to the production sitemap.
 - Google Search Console remains paused at the user's instruction. No GSC work was done.
-- The public Pages URL could not be independently fetched in this run due network access limitations; production status must be based on GitHub Actions deployment evidence after merge.
+- Direct browser retrieval of the Pages URL was unavailable in this run; production deployment success is confirmed by GitHub Actions.
 
 ### Active automations
 - KaamWithAI Daily OS remains enabled daily at 08:00 Asia/Kolkata.
@@ -275,7 +277,17 @@ Then state only genuinely important changes since the last handover. Continue th
 - Project Vend publishing automation is disabled/completed; workout reminder is disabled.
 
 ### Next priorities
-1. Complete PR validation, inspect the preview and merge the solo-agency field report if checks pass; verify the production deployment.
-2. Deliver KWAI-LI-003 for manual review on Monday 16 November; do not publish it.
+1. Deliver KWAI-LI-003 for manual review on Monday 16 November; do not publish it.
+2. Keep KWAI-LI-008 ready for a Wednesday 18 November window; avoid overlapping angles and do not schedule it.
 3. Continue Operator Radar research for a stronger independent operator story; keep the 300-client accounting-firm account on hold because of the possible vendor relationship.
 4. Obtain the Company's direct LinkedIn Page URL when convenient; no need to delay other work.
+
+
+## 16. Publication close-out — 15 November 2026
+
+- The solo event-agency field report is live at https://kaamwithai.pages.dev/articles/solo-event-agency-claude-back-office.html.
+- PR #6 merged as `667151ee47587965eb83a8038f99429384f5d4fb`.
+- GitHub Actions run [#43668613249](https://github.com/ankit-jsr/kaam-with-ai/actions/runs/43668613249) passed both site validation and production Cloudflare Pages deployment. PR preview was deployed at https://pr-6.kaamwithai.pages.dev.
+- Production sitemap contains eight URLs. Homepage and article social metadata were standardized; duplicate favicon tags were removed from homepage, About and Privacy.
+- The article is based on one self-reported Reddit operator account and comments. It makes no claim of an actual lost deal or independently verified reduction in errors.
+- Monday 16 November Company Page post KWAI-LI-003 remains Ready, not posted. KWAI-LI-008 is now ready for a possible Wednesday 18 November slot. The user manually reviews and publishes all LinkedIn posts.
