@@ -255,9 +255,9 @@ Then state only genuinely important changes since the last handover. Continue th
 - PR #6 merged on 15 November 2026 as `667151ee47587965eb83a8038f99429384f5d4fb`. GitHub Actions run `43668613249` completed successfully: site validation and production Cloudflare Pages deployment both passed.
 - PR preview deployed successfully at https://pr-6.kaamwithai.pages.dev. Direct browser retrieval from this runtime was unavailable; automated validation and deployment logs were inspected.
 - Article is in the homepage and production sitemap, which now lists eight URLs.
-- Removed duplicate favicon declarations on the homepage, About and Privacy pages in the PR branch.
+- Removed duplicate favicon declarations on the homepage, About and Privacy pages.
 - Added Open Graph and Twitter summary metadata to the homepage and the two older article pages that lacked social-sharing metadata.
-- The release candidate is based on a self-reported Reddit account and comments. It explicitly discloses that no interview, system inspection, independent verification or reproduction was performed; no actual lost deal is claimed.
+- The published article is based on a self-reported Reddit account and comments. It explicitly discloses that no interview, system inspection, independent verification or reproduction was performed; no actual lost deal is claimed.
 - Article publication is complete; do not confuse it with LinkedIn distribution, which remains manual.
 
 ### Distribution
@@ -267,7 +267,7 @@ Then state only genuinely important changes since the last handover. Continue th
 - Direct LinkedIn Company Page URL is still not recorded and a public search did not surface it. This is the only blocker to a precise Page audit and adding a Follow link to the website.
 
 ### SEO and measurement
-- Technical source audit found seven URLs in the sitemap before this new article; the eighth is now added on the PR branch. All article pages checked have canonical URLs and meta descriptions. Open Graph/Twitter metadata is now present on the homepage and all article pages. `robots.txt` allows crawling and points to the production sitemap.
+- Technical source audit confirmed eight URLs in the production sitemap, including the new article. All article pages checked have canonical URLs and meta descriptions. Open Graph/Twitter metadata is now present on the homepage and all article pages. `robots.txt` allows crawling and points to the production sitemap.
 - Google Search Console remains paused at the user's instruction. No GSC work was done.
 - Direct browser retrieval of the Pages URL was unavailable in this run; production deployment success is confirmed by GitHub Actions.
 
