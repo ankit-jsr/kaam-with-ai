@@ -254,6 +254,7 @@ Then state only genuinely important changes since the last handover. Continue th
 - Prepared the solo event-staffing agency field report in PR #6: https://github.com/ankit-jsr/kaam-with-ai/pull/6. The intended article URL is https://kaamwithai.pages.dev/articles/solo-event-agency-claude-back-office.html; it is not live yet.
 - Added the article to the homepage and sitemap on the PR branch. The branch sitemap lists eight URLs; production remains unchanged until merge and deployment.
 - Removed duplicate favicon declarations on the homepage, About and Privacy pages in the PR branch.
+- Added Open Graph and Twitter summary metadata to the homepage and the two older article pages that lacked social-sharing metadata.
 - The release candidate is based on a self-reported Reddit account and comments. It explicitly discloses that no interview, system inspection, independent verification or reproduction was performed; no actual lost deal is claimed.
 - Publication branch: `publish/solo-event-agency-back-office`. Production publication is pending PR validation, preview review and merge; do not call it live until the production deployment succeeds.
 
@@ -264,7 +265,7 @@ Then state only genuinely important changes since the last handover. Continue th
 - Direct LinkedIn Company Page URL is still not recorded and a public search did not surface it. This is the only blocker to a precise Page audit and adding a Follow link to the website.
 
 ### SEO and measurement
-- Technical source audit found seven URLs in the sitemap before this new article; the eighth is now added. All four existing article pages checked have canonical URLs and meta descriptions. `robots.txt` allows crawling and points to the production sitemap.
+- Technical source audit found seven URLs in the sitemap before this new article; the eighth is now added on the PR branch. All article pages checked have canonical URLs and meta descriptions. Open Graph/Twitter metadata is now present on the homepage and all article pages. `robots.txt` allows crawling and points to the production sitemap.
 - Google Search Console remains paused at the user's instruction. No GSC work was done.
 - The public Pages URL could not be independently fetched in this run due network access limitations; production status must be based on GitHub Actions deployment evidence after merge.
 
