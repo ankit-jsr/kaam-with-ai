@@ -214,7 +214,7 @@ A reply raised cybersecurity and maintenance concerns; the owner acknowledged th
 
 ## First editorial candidate
 
-**Current website release candidate:** the solo event-staffing operator whose Claude back office made confident mistakes that nearly cost deals. The article is in PR #6 (https://github.com/ankit-jsr/kaam-with-ai/pull/6); it is not live until validation, preview review, merge and production deployment succeed. The source is self-reported; the article does not claim actual financial losses or independently measured improvement.
+**Published website story (15 Nov 2026):** the solo event-staffing operator whose Claude back office made confident mistakes that nearly cost deals. Article: https://kaamwithai.pages.dev/articles/solo-event-agency-claude-back-office.html. The source is self-reported; the article does not claim actual financial losses or independently measured improvement.
 
 **Contrast story:** the fractional CPA's OCR/rules/integration stack demonstrates where conventional automation may be more useful than adding AI.
 
@@ -264,4 +264,4 @@ A fresh scan of recent small-business AI threads surfaced many open-ended “wha
 
 - Re-opened the staff accountant's original r/Accounting thread and reviewed the full visible discussion. Confirmed the private-company context, VBA examples, the author's practice of learning a task manually before automating it, IT-control counterpoints, and the warning that a macro can run successfully while producing incorrect output. The Monday Company Page draft remains ready and makes no quantified time-saving claim.
 - A fresh search of small-business and entrepreneur communities surfaced mostly open-ended AI-use prompts, agency/vendor pitches and low-detail self-reports. No stronger independent operator case replaced the solo event-agency field report.
-- The solo event-agency article has been prepared in PR #6. Keep the 300-client accounting-firm account on hold because of the possible NumbersGame/Loopfour vendor relationship.
+- The solo event-agency article was published on 15 November at https://kaamwithai.pages.dev/articles/solo-event-agency-claude-back-office.html. Keep the 300-client accounting-firm account on hold because of the possible NumbersGame/Loopfour vendor relationship.
