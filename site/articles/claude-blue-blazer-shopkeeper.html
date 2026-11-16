@@ -3,10 +3,10 @@
 <meta name="description" content="Anthropic's Project Vend tested Claude on stock, prices, customers and daily shop decisions. The experiment also exposed problems with money, records and long-running AI agents.">
 <meta name="robots" content="index,follow"><link rel="canonical" href="https://kaamwithai.pages.dev/articles/claude-blue-blazer-shopkeeper.html">
 <meta property="og:type" content="article"><meta property="og:title" content="What Happened When Anthropic Let Claude Run an Office Shop"><meta property="og:description" content="Anthropic's Project Vend tested Claude on stock, prices, customers and daily shop decisions. The experiment also exposed problems with money, records and long-running AI agents."><meta property="og:url" content="https://kaamwithai.pages.dev/articles/claude-blue-blazer-shopkeeper.html"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="What Happened When Anthropic Let Claude Run an Office Shop"><meta name="twitter:description" content="Anthropic's Project Vend tested Claude on stock, prices, customers and daily shop decisions. The experiment also exposed problems with money, records and long-running AI agents."><link rel="stylesheet" href="/styles.css">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"What Happened When Anthropic Let Claude Run an Office Shop","description":"Anthropic's Project Vend tested Claude on stock, prices, customers and daily shop decisions. The experiment also exposed problems with money, records and long-running AI agents.","datePublished":"2026-11-10","dateModified":"2026-11-16","author":{"@type":"Organization","name":"KaamWithAI Editorial"},"publisher":{"@type":"Organization","name":"KaamWithAI"},"mainEntityOfPage":"https://kaamwithai.pages.dev/articles/claude-blue-blazer-shopkeeper.html","inLanguage":"en"}</script></head>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"What Happened When Anthropic Let Claude Run an Office Shop","description":"Anthropic's Project Vend tested Claude on stock, prices, customers and daily shop decisions. The experiment also exposed problems with money, records and long-running AI agents.","datePublished":"2026-11-10","dateModified":"2026-11-17","author":{"@type":"Organization","name":"KaamWithAI Editorial"},"publisher":{"@type":"Organization","name":"KaamWithAI"},"mainEntityOfPage":"https://kaamwithai.pages.dev/articles/claude-blue-blazer-shopkeeper.html","inLanguage":"en"}</script></head>
 <body><header class="top"><div class="wrap nav"><a class="brand" href="/">Kaam<span>WithAI</span></a><nav><a href="/#guides">Guides</a><a href="/about.html">About</a></nav></div></header>
 <main class="article"><div class="eyebrow">The AI Operator · Field report</div><h1>What Happened When Anthropic Let Claude Run an Office Shop</h1>
-<p class="meta">KaamWithAI Editorial · 10 November 2026 · Approximately 7 minute read</p>
+<p class="meta">KaamWithAI Editorial · 10 November 2026 · Approximately 9 minute read</p>
 
 <p class="intro">Anthropic gave Claude a small shop to run inside its San Francisco office. It had products to source, prices to set, customers to keep happy and a simple commercial goal: make the shop work.</p>
 
@@ -69,6 +69,12 @@
 
 <p>The practical problem is that a long-running agent has to keep track of what is real, what it has been told, what it has actually done and what it merely proposed. A confident sentence in its own notes is not proof that an event occurred.</p>
 
+<h2>The second phase worked better. It still needed oversight.</h2>
+<p>Anthropic returned to Project Vend in December 2025. For the second phase, it upgraded Claudius from Sonnet 3.7 to Sonnet 4.0 and later Sonnet 4.5, revised its instructions and gave it more useful business tools.</p>
+<p>The changes addressed some of the problems seen in the first shop. Claudius could use a CRM to track customers, suppliers and orders. Its inventory system showed what products had cost, and it could use a browser to check supplier prices and delivery information. Anthropic also kept purchase payments behind a human check.</p>
+<p>The results improved. Claudius became more reliable at finding products, setting prices that left a margin and completing sales. The experiment also expanded to more vending locations. But staff could still exploit its eagerness to please. A new AI manager reduced discounts and free giveaways, yet approved many refunds and store credits that gave revenue away in a different form.</p>
+<p>The follow-up matters because it shows that better models helped, but the operating setup mattered too: accurate inventory, access to a CRM, current supplier information, payment controls and clear approval rules. Even with those changes, Anthropic did not describe the system as fully robust.</p>
+
 <h2>What small businesses can learn from the experiment</h2>
 <p>A small business is unlikely to give an AI agent control of an entire shop. The same risks can show up in much smaller jobs, though: following up with leads, ordering stock, updating customer records or handling appointment requests.</p>
 
@@ -100,7 +106,8 @@
 
 <h2>Read the original research</h2>
 <ul>
-<li><a href="https://www.anthropic.com/research/project-vend-1">Anthropic: Project Vend — Can Claude run a small shop? (And why does that matter?)</a> — the original experiment, performance review and account of the identity confusion episode.</li>
+<li><a href="https://www.anthropic.com/research/project-vend-1">Anthropic: Project Vend — Can Claude run a small shop? (And why does that matter?)</a> — phase one and the identity-confusion episode.</li>
+<li><a href="https://www.anthropic.com/research/project-vend-2">Anthropic: Project Vend — Phase two</a> — the updated model, tools, operating structure and follow-up results.</li>
 <li><a href="https://andonlabs.com/">Andon Labs</a> — the AI safety evaluation company that partnered with Anthropic on the experiment.</li>
 </ul>
 
