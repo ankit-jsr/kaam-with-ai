@@ -11,33 +11,33 @@ A vendor had answered every question that morning.
 
 But when the owner of a small event-staffing agency asked Claude about the conversation, it said the vendor had gone quiet.
 
-The reply was there. Claude had simply relied on an email search preview instead of reading the full thread.
+The owner later found the answers in the full email thread. Claude had looked at the short search preview and missed the vendor's actual reply.
 
 That sounds like a small mistake. In an event business, it can change what you tell a client, which supplier you chase, and whether you believe a job is moving forward.
 
 The operator described the incident in a Reddit discussion about running a business with Claude. They work alone, they said, and Claude had gradually become part of the back office: email, vendor communication, the applicant database and the calendar.
 
-The arrangement was useful enough to become part of how the business operated. It also produced several confident errors that, in the owner's words, nearly cost deals.
+Claude had become a regular part of the work, though several mistakes had nearly cost the business deals.
 
 The email preview was only the beginning.
 
-## The problem wasn't that Claude couldn't write an email
+## The mistakes affected everyday business decisions
 
 The operator described another occasion when Claude said an email had been “staged”. They went looking in Gmail for the draft. It did not exist.
 
-In a separate incident, Claude referred to suppliers as “brand partner candidates”. That was not just an awkward label. The business distinction mattered: a vendor is paid by the agency; a sponsor pays the agency. The operator spent two days planning around an opportunity that was never there.
+In a separate incident, Claude referred to suppliers as “brand partner candidates”. The distinction mattered: a vendor is paid by the agency; a sponsor pays the agency. The operator spent two days planning around an opportunity that was never there.
 
 Claude also said a table in the business database did not exist, without checking. It was there.
 
-These are not spectacular science-fiction failures. They are ordinary operational facts: who replied, whether a message was created, what kind of commercial relationship a company has, and whether a record exists.
+Each mistake involved a basic piece of business information: whether someone had replied, whether an email draft existed, what kind of relationship a company had with the agency, or whether a database record was present.
 
-The dangerous part is how plausible the answers can sound. A supplier really can go quiet. An email really can be staged. A database table really can be missing. The operator says Claude presented these things as facts without verifying the underlying record.
+Each answer sounded plausible. Suppliers do go quiet, email drafts can be saved and database records can be missing. The problem was that Claude presented these claims as facts without checking the underlying record.
 
 They also noticed a pattern in long sessions: details from earlier conversation began to be treated as if they were current evidence.
 
-## The operator changed the rules
+## The rules the operator added
 
-Rather than removing Claude from the workflow, the operator says they added a few guardrails.
+The operator kept using Claude and added a few checks around the work it was doing.
 
 The first was a master state file to carry business context between sessions. The second was a set of labels for the certainty of a fact:
 
@@ -50,27 +50,25 @@ They also added two explicit rules: never treat an email preview as the full thr
 
 The operator reports that errors fell from several per week to a few per month after these changes. That is their own estimate; no independent error log or audit was provided.
 
-Still, the direction of the fix is worth noticing. The answer was not simply to write a longer prompt asking Claude to be careful. It was to make the workflow distinguish between what the system had actually checked, what someone had said, what it had inferred and what remained unknown.
+The changes gave Claude a clearer way to label information: what it had checked in a source, what someone had told it, what it had inferred and what was still unknown.
 
 ## A state file can preserve a mistake, too
 
 The comments under the discussion add an important complication.
 
-Another solo-agency operator agreed that models can mistake a summary of a tool result for the tool result itself. An email preview is an index into a conversation, not the conversation. A summary of a database lookup is not the database.
+Another solo-agency operator said models can mistake a summary of a tool result for the result itself. An email preview is only a short extract from a conversation. A database summary is not a substitute for checking the record.
 
-But that commenter also warned about the state file. If the model itself is allowed to write assumptions into its permanent notes, an unverified claim can become durable context. The next session may read it back as established fact.
+The commenter also warned about the state file. If the model itself is allowed to write assumptions into its permanent notes, an unverified claim can become durable context. The next session may read it back as established fact.
 
 Their proposed safeguards were stricter: only verified tool output should update durable state, entries should be dated, and a factual assertion should include a quotation from the source. If there is no source, the system should say it is unverified.
 
 Other commenters suggested using shorter sessions, explicit project instructions and human approval for consequential decisions. One argued that a deterministic dashboard can be safer than relying on a language model to call and edit business systems reliably.
 
-These are suggestions from individual practitioners, not proven fixes. But they point to the same underlying principle: persistence is not the same as truth, and confidence is not evidence.
+These are suggestions from individual practitioners, not fixes tested across different businesses. They are worth considering whenever an AI system carries notes from one session to the next: an old assumption can be repeated until someone checks the original record.
 
-## What should a small business let an AI assistant do?
+## Check the record before acting
 
-The useful question is not whether Claude or another model can help with email, vendors or scheduling. It clearly can help prepare, summarise and organise that work.
-
-The question is what must happen before the system is allowed to treat a statement as fact or an action as complete.
+AI can help prepare emails, organise information and move routine work along. Before acting on its answer, check what source it used and whether the action it describes actually happened.
 
 A practical starting point:
 
@@ -80,21 +78,21 @@ A practical starting point:
 4. **Keep durable notes evidence-linked.** Store the date, source and confidence label with important facts. Do not let an assumption quietly become permanent business context.
 5. **Use human approval for commitments.** Money, supplier commitments, client promises, contracts and unusual exceptions should not depend on an AI-generated summary being correct.
 
-The aim is not to stop using AI. It is to give it a job that matches what it can reliably prove.
+Use it for the parts of the job it can handle, and check the records before relying on its account of what happened.
 
 An assistant can draft a supplier email. A workflow can send it after approval. The business system should record that it was sent. Those are three different steps, and the distinction matters.
 
-## The back office needs receipts
+## Keep the business record as the source of truth
 
-The operator did not describe a business that had stopped using Claude. They described one that had to become more disciplined about how it used it.
+The operator continued using Claude, but added checks around the work it was doing.
 
-That is the useful lesson for a small business owner. A model can help move work along, but it should not be the only witness to what happened. The email system, calendar, database or accounting software remains the record. A model's summary of that record is not a replacement for it.
+Keep the email system, calendar and database as the records. When Claude says a supplier has not replied, open the thread. When it says a draft is ready, look for the draft in Gmail. When it reports a database change, check the record itself.
 
 If an AI assistant says a supplier has not replied, check the thread. If it says a draft is ready, check that the draft exists. If it says it changed a record, look for the actual change.
 
-The operator says the new rules reduced the number of mistakes. We cannot independently verify that result, and the account does not show that the workflow is now error-free. It does show why a useful AI back office needs something less glamorous than another agent: evidence, clear states and a person who remains responsible for the decision.
+The operator says the new rules reduced the number of mistakes. We cannot independently verify that result, and the account does not show that the workflow is now error-free. For a small business considering a similar setup, the practical steps are straightforward: keep important facts linked to their source, check that actions really happened and have a person review decisions that affect customers or money.
 
-For a related example of why long-running agents need stronger boundaries, see our [Project Vend field report](/articles/claude-blue-blazer-shopkeeper.html). And if you're considering a first business agent, start with [a narrower job and less authority than you think](/articles/first-ai-agent-small-business.html).
+For a related example of why long-running agents need stronger boundaries, see our [Project Vend field report](/articles/claude-blue-blazer-shopkeeper.html). And if you're considering a first business agent, start with [one clearly defined task and carefully limited permissions](/articles/first-ai-agent-small-business.html).
 
 ---
 
