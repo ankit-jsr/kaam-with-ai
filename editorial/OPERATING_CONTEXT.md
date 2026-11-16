@@ -405,3 +405,11 @@ Potential editorial angle: how an accountant decides which bookkeeping tasks nee
 - Google Search Console remains paused. No GSC access or action was taken.
 - No LinkedIn publishing or scheduling was performed.
 - Remaining checks: inspect the production pages in a real desktop/mobile browser and confirm the GitHub Actions runs for the latest content commits. Neither could be independently verified from this runtime.
+
+
+### Editorial QA addendum — 17 November 2026
+- The Project Vend article now includes Anthropic's December 2025 Phase Two findings. The new section explains the model upgrades, CRM/inventory/browser/payment controls, improved business performance and remaining vulnerabilities. The Phase Two report is linked in the source list.
+- The first-agent guide now identifies the Upwork survey sample precisely (195 U.S. business leaders at companies with 10–99 employees), attributes the 74% productivity figure as self-reported and gives the 49% data privacy/security barrier figure. Its ending was also rewritten to remove the formulaic "then—and only then" construction.
+- The Business Hub article's opening now identifies the beta launch, its visibility section has been tightened, and its official-source review date is 17 November.
+- Source review included the original Anthropic Project Vend Phase One and Phase Two reports, OpenAI's Business Hub release/help/policy pages, the Upwork 2026 SMB survey, NIST AI 600-1 and Zapier's Google Sheets workflow documentation. Practitioner-sourced stories retain their self-report caveats.
+- Latest content commits include `46dccda5c3c93616caed09ced5b9d0336c2c3cd7` (Project Vend Phase Two), `d3dfefaa018c3444039bb83ddfa1cd172a472797` (Upwork survey attribution), and `23fd1d2b400927ec1ec252cee186eda4de050d91` (Business Hub final copy pass). Workflow results for these newer commits were not available through the GitHub run lookup used in this session; do not mark them as Actions-verified yet.
