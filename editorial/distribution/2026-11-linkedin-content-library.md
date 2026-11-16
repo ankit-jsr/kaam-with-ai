@@ -158,9 +158,9 @@ No post-level analytics have been supplied yet. Add a row after the user shares 
 A staff accountant didn't ask ChatGPT to do the reconciliation.  
 They asked it to write the macro.
 
-In an r/Accounting discussion, an accountant at a private company described using ChatGPT to build VBA macros for repetitive Excel reconciliation work.
+In an r/Accounting discussion, a staff accountant at a private company described using ChatGPT to write VBA — small scripts that run inside Excel — for repetitive reconciliation work.
 
-The examples included opening the latest downloaded workbook matching a file-name pattern, finding columns by their headers instead of fixed column letters, appending relevant rows to a reconciliation workbook, refreshing pivot tables and rolling dates forward from the file name. The author also describes adding error handling for missing inputs.
+The examples were practical: pull the latest exported data into a reconciliation workbook, refresh the pivot table, roll dates forward for a new month, and find columns by header name instead of assuming “Amount” will always be in column F. The author also describes adding clear error messages when an input is missing.
 
 The useful distinction: the model wasn't being asked to judge the accounts. It was helping someone who understood the process build a repeatable tool for the mechanical steps.
 
