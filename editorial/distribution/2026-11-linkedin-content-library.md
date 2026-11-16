@@ -3,7 +3,7 @@
 **Destination:** KaamWithAI LinkedIn Company Page only  
 **Workflow:** Assistant researches, drafts and maintains this library. The user manually reviews and publishes.  
 **No publishing or scheduling by the assistant.**  
-**Last updated:** 15 November 2026
+**Last updated:** 16 November 2026
 
 ## Status definitions
 
@@ -91,7 +91,7 @@ Source file: `editorial/distribution/2026-11-linkedin-drafts.md`
 
 ### KWAI-LI-003 — The accountant who used AI to write the macro
 
-- **Status:** Ready — drafted and source rechecked 14 November; awaiting user review, not posted.
+- **Status:** Posted — user confirmed publication on 16 November 2026.
 - **Target window:** Monday, 16 November 2026, subject to user review.
 - **Audience:** Small-business operators, accountants and non-technical people who work in spreadsheets.
 - **Angle:** A staff accountant on Reddit did not ask AI to perform the accounting. They used ChatGPT to write VBA macros that automate repetitive reconciliation steps.
@@ -128,7 +128,7 @@ Source file: `editorial/distribution/2026-11-linkedin-drafts.md`
 - Prefer Monday / Wednesday / Friday as a starting rhythm, but only when a post has a clear reader benefit and sufficient evidence.
 - **13 November 2026:** No additional post recommended. KWAI-LI-002 was just published; another post today would add volume without adding a distinct idea.
 - **14 November 2026:** No post recommended. Post #2 was published yesterday, and the next distinct, source-checked operator story is prepared for Monday rather than squeezing in a weekend post.
-- **Next planned posting window:** Monday, 16 November 2026. KWAI-LI-003 is drafted and ready for user review; do not post unless the user chooses to publish it.
+- **16 November 2026:** KWAI-LI-003 was posted after the user confirmed publication. Exact copy is preserved below; post URL was not supplied.
 - Do not publish from the user's personal profile.
 - Do not schedule or publish automatically.
 
@@ -140,50 +140,49 @@ No post-level analytics have been supplied yet. Add a row after the user shares 
 |---|---|---:|---:|---:|---:|---:|---:|---:|---|
 | KWAI-LI-001 | 10 Nov 2026 | — | — | — | — | — | — | — | Awaiting metrics |
 | KWAI-LI-002 | 13 Nov 2026 | — | — | — | — | — | — | — | Awaiting metrics |
+| KWAI-LI-003 | 16 Nov 2026 | — | — | — | — | — | — | — | Posted; awaiting metrics |
 
 
 
-### KWAI-LI-003 — Ready-to-review copy (updated 16 November 2026)
+### KWAI-LI-003 — Published copy (16 November 2026)
 
-**Purpose:** Show a grounded, non-agentic use of AI: generating deterministic VBA for a process the accountant already understands.
+**Purpose:** Share a practical example of an accountant using ChatGPT to write small Excel macros for repetitive reconciliation work.
 
-**Format:** Text-only Company Page post. Put the Reddit source link in the first comment; no graphic needed.
+**Format:** Text-only Company Page post. Reddit source link in the comments.
 
-**Source:** https://www.reddit.com/r/Accounting/comments/1v12xrz/how_i_use_ai_as_a_staff_accountant/ (original post, 19 July 2026; 266 points at time of research).
+**Source:** https://www.reddit.com/r/Accounting/comments/1v12xrz/how_i_use_ai_as_a_staff_accountant/
 
-**Evidence:** The original author says they work at a private company and used ChatGPT to write VBA for repetitive reconciliation steps. They say they did not know how to code before. The post gives concrete examples but no quantified time saving. Commenters raise IT controls and system restrictions; do not imply macros are permitted in every workplace.
+**Evidence caveat:** One self-reported employee account at a private company; no independent verification or quantified time saving. The thread raises IT policy, security and output-verification considerations.
 
-**Final copy — ready for user review, not posted:**
+**Final copy — published, as supplied by the user-confirmed version:**
 
-A staff accountant didn't ask ChatGPT to do the reconciliation.  
-They asked it to write the macro.
+I came across an interesting discussion on Reddit by a staff accountant who has been using ChatGPT to automate some of his Excel work.
 
-In an r/Accounting discussion, a staff accountant at a private company described using ChatGPT to write VBA — small scripts that run inside Excel — for repetitive reconciliation work.
+His examples were refreshingly practical.
 
-The examples were practical: pull the latest exported data into a reconciliation workbook, refresh the pivot table, roll dates forward for a new month, and find columns by header name instead of assuming “Amount” will always be in column F. The author also describes adding clear error messages when an input is missing.
+He uses it to write small VBA macros that handle repetitive reconciliation tasks — importing exported data, refreshing pivot tables, updating dates for a new month and finding columns by their headers.
 
-The useful distinction: the model wasn't being asked to judge the accounts. It was helping someone who understood the process build a repeatable tool for the mechanical steps.
+One detail I particularly liked: he waits until he's done a task manually for a month or two before trying to automate it.
 
-The accountant said they first learn a new task manually for a month or two before automating it. That matters. If you don't know what a correct result looks like, you can't reliably check the macro.
+Makes sense. You need to understand a process before you can automate it properly.
 
-And a successful run doesn't prove the output is right. A commenter suggested comparing source row counts and totals with the imported output. The author said their existing reconciliation process already had checks, and agreed that output verification matters.
+He also mentioned building in error messages for missing inputs and checks to make sure the imported data matches the original. A few people in the discussion raised sensible questions around verification, IT policies and data security too.
 
-One caveat: this was a private-company example. The thread also raises IT controls and security restrictions. Don't run AI-generated code on company or client files without approval.
+There's a useful idea here for small accounting firms and finance teams.
 
-If you're trying this:
-1. Pick one process you already know.
-2. Describe the steps, source files and column headers.
-3. Ask for comments, error handling and clear failure messages.
-4. Test on copies against a manually completed example.
-5. Compare row counts and totals before any live use.
+Think about the work your team repeats every week or every month. Some of those tasks probably involve moving data between spreadsheets, formatting reports or following the same sequence of steps.
 
-AI helped write the macro. The accountant still owns the reconciliation.
+Those are good places to start experimenting with AI.
 
-The original Reddit discussion is in the first comment. This is a self-reported example, not an independently verified case study; no time-saving figure was provided.
+The accountant still needs to understand the numbers, check the output and take responsibility for the work. And any AI-generated code should be tested on copies of files and cleared under your organisation's IT and data policies.
+
+The original discussion is worth a read: I'll leave the link in the comments.
 
 #Accounting #SmallBusiness #PracticalAI
 
-**Status:** Ready for user review on Monday, 16 November 2026. Do not mark approved or posted until the user confirms.
+- **Post URL:** Not supplied.
+- **Performance:** Awaiting metrics.
+
 
 ### KWAI-LI-006 — A 300-client accounting firm uses Claude, but keeps approval human
 
@@ -217,8 +216,8 @@ The original Reddit discussion is in the first comment. This is a self-reported 
 - **Source recheck (16 Nov):** Re-opened the original r/Accounting discussion and checked the author's post and relevant comments. The author says they work at a private company, uses ChatGPT to write VBA macros for repetitive reconciliation steps, and learns a task manually before automating it. The thread notes ITGC/security constraints. A commenter recommends comparing source row counts and totals with the imported output; the author says existing reconciliation checks provide redundancy and agrees output verification matters.
 - **Evidence limits:** One self-reported employee account, not independently verified; no quantified time saving in the author's post. Do not attribute a 30-to-5-minute saving mentioned by a different commenter to the author.
 - **Format:** Text-only Company Page post. Put the source link in the first comment; no graphic needed.
-- **User action:** Review and post manually if satisfied. The assistant has not published or scheduled anything.
-- **Next target:** Wednesday, 18 November — KWAI-LI-008, the solo agency AI back-office story, if Monday's post goes live and the derivative still adds a distinct takeaway. No automatic scheduling.
+- **Publication confirmation:** User confirmed KWAI-LI-003 went live on 16 November 2026. The assistant did not publish or schedule it.
+- **Next target:** Wednesday, 18 November — KWAI-LI-008, the solo agency AI back-office story. Reassess whether it is sufficiently distinct and whether the humanised editorial voice is maintained before recommending it. No automatic scheduling.
 - **Performance:** No new post metrics supplied. Do not infer reach or engagement from follower-count snapshots.
 
 ### KWAI-LI-008 — When an AI back office mistakes a preview for the truth
