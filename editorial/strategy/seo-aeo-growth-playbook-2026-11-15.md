@@ -1,7 +1,7 @@
 # KaamWithAI SEO + AEO Growth Playbook
 
 **Created:** 15 November 2026  
-**Status:** Working strategy; technical diagnosis partly verified, Search Console account evidence pending.  
+**Status:** Working strategy; repository-level technical review partly verified. Google Search Console work is paused at the user's explicit instruction and must not resume without explicit reopening.  
 **Site:** https://kaamwithai.pages.dev/  
 **Audience:** Small-business owners and operators who want practical, trustworthy ways to get work done with AI.
 
@@ -31,34 +31,13 @@ As checked on 15 November 2026:
 
 These checks confirm repository configuration, not the actual HTTP response Googlebot receives. The live URLs could not be independently fetched through the current web inspection route. Verify status codes, headers, CDN/bot behaviour and rendered output separately.
 
-## Search Console incident: investigate, don't spam requests
+## Google Search Console: paused by user
 
-The user reports:
-- Search Console property is verified.
-- Google has not indexed any page.
-- Sitemap submission/processing has not succeeded.
-- URL indexing requests have returned “quota exceeded” for five days, including after a two-day gap.
+The user has explicitly asked us to leave Google Search Console alone. Until the user explicitly reopens this work, do not access or investigate the property, inspect reports, run URL Inspection or Live Test, request screenshots, submit or resubmit a sitemap, request indexing, or change any property or account setting.
 
-Google's own documentation says URL Inspection requests have a daily limit; repeated requests for the same URL do not make crawling faster. Search Console documentation also says a request may fail silently after the quota is exceeded. This is separate from the Sitemaps report, which records whether Google could read a submitted sitemap.
+The previously reported “quota exceeded” message is a historical, unverified symptom—not a diagnosed cause. If the user reopens this work, first distinguish sitemap fetch/processing status from the separate URL Inspection request quota. Do not repeat indexing requests as a substitute for diagnosis.
 
-Do not keep pressing Request Indexing. Collect the exact evidence:
-1. Sitemaps report: submitted sitemap URL, last read, status, discovered URLs, exact error details.
-2. URL Inspection for homepage and one article: Page indexing verdict, last crawl, crawl allowed, fetch result, indexing allowed, user-declared canonical, Google-selected canonical, referring page, sitemap association.
-3. Live Test result for homepage and one article: fetch status, robots, rendered HTML/screenshot, resources.
-4. Page Indexing report: exact exclusion/error reasons, affected URLs, validation state.
-5. Confirm whether property is Domain property or URL-prefix property and that sitemap/canonicals all use the exact same host/protocol.
-6. Do not assume URL Inspection quota and sitemap read errors share one cause. Capture the exact text and report location for each.
-
-Check from outside Search Console:
-- HTTP 200 for homepage, every article, robots.txt and sitemap.xml.
-- No redirects to another hostname or unexpected Cloudflare challenge.
-- Sitemap is valid XML, correct content type, no HTML error page, all URLs canonical and return 200.
-- Googlebot is not blocked or served a challenge by Cloudflare/WAF/rate-limits.
-- Inspect Cloudflare security events and request logs if available.
-- Verify Googlebot by reverse and forward DNS if analysing logs; do not trust a user-agent string alone.
-- Check for accidental duplicate host versions and redirect/canonical disagreement.
-
-Important: a sitemap being listed in robots.txt does not prove Google successfully fetched it. A sitemap being “submitted” does not guarantee page indexing. Google's crawl, indexing and serving stages are distinct.
+External website checks that do not access or change Search Console may continue where useful, but they must not be represented as evidence from Search Console.
 
 ## Current strategic diagnosis
 
@@ -206,13 +185,12 @@ Do not use raw publishing volume, DR/DA, word count, or number of schema types a
 
 ## 30-day execution plan
 
-### Days 1–3: establish the baseline and fix technical unknowns
-- Obtain the exact Search Console sitemap and URL Inspection errors.
-- Test live HTTP status, redirects, content type, robots, sitemap XML and Cloudflare bot handling.
-- Confirm host/property/canonical consistency.
-- Verify Googlebot access from logs if possible.
-- Run Bing Webmaster Tools URL inspection/sitemap diagnostics as a second discovery channel.
-- Do not repeatedly request individual indexing while quota errors persist.
+### Days 1–3: establish the non-GSC technical baseline
+- Test live HTTP status, redirects, content type, robots.txt, sitemap XML and Cloudflare bot handling without accessing Search Console.
+- Confirm host, canonical and sitemap URL consistency from the public site.
+- If available, review server/CDN logs for crawler access; do not infer Googlebot identity from a user-agent string alone.
+- Use Bing Webmaster Tools as a separate discovery channel only if already available and appropriate.
+- Search Console diagnostics remain paused; do not request screenshots or indexing.
 
 ### Days 4–7: improve trust and structure
 - Strengthen About/editorial methodology and accurate authorship.
@@ -230,10 +208,10 @@ Do not use raw publishing volume, DR/DA, word count, or number of schema types a
 - Publish 2–3 tightly related supporting pages only if each addresses a distinct intent.
 - Produce one original visual/checklist/data asset.
 - Distribute through the Company Page and targeted practitioner outreach.
-- Review Search Console and Bing crawl/indexing evidence; revise the plan based on data.
+- Review non-GSC crawl, referral and distribution evidence. Revisit Search Console only if the user explicitly reopens it.
 
 ## Decisions and constraints
-- Do not re-enable Search Console automation or change its settings without user instruction. Manual diagnostic review is allowed.
+- Do not access or investigate Search Console, request screenshots, submit URLs or sitemaps, request indexing, or change settings until the user explicitly reopens the work.
 - Do not buy a domain or migrate until the user selects/approves the domain. A custom domain is recommended for brand ownership and long-term continuity, not as a guaranteed ranking fix.
 - Do not publish LinkedIn posts automatically. User manually posts to the Company Page.
 - Website publishing can proceed through the established PR/validation/deployment workflow.
