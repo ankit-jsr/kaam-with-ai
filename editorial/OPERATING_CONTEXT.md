@@ -296,7 +296,7 @@ Then state only genuinely important changes since the last handover. Continue th
 
 ## 16. Brand positioning update — 15 November 2026
 
-- Approved homepage headline: **AI for practical operators.**
+- Approved homepage headline: **AI for practical operators**
 - Supporting line: **Practical workflows, tools and real-world stories for people running businesses. Less hype. More useful work.**
 - Editorial principle: retain a natural, story-led publication. Search optimisation must improve discovery of genuinely useful reporting; it must not turn the site into a generic SEO content farm or dictate formulaic headlines.
 - Homepage hero eyebrow: **Less hype. More useful work.**
@@ -307,7 +307,7 @@ Then state only genuinely important changes since the last handover. Continue th
 ### Website and publishing
 - Corrected the homepage H1 to **AI for practical operators** with no trailing full stop, as requested. PR #9 merged as `95cacde6a8a7976f464091780541e5dd80353429`; GitHub Actions run [#43792921468](https://github.com/ankit-jsr/kaam-with-ai/actions/runs/43792921468) passed validation and production Cloudflare Pages deployment.
 - Expanded the About page with the publication's audience, editorial scope, reporting method, evidence labels, what we will not claim, AI-assistance policy and corrections/contact route. No individual editor credentials were invented. PR #10 merged as `87850a205a43373ce3990a29e6d4e1813e4ffffd`; run [#43792998562](https://github.com/ankit-jsr/kaam-with-ai/actions/runs/43792998562) passed validation and production deployment.
-- Refreshed the LinkedIn content library and Monday recommendation. PR #11 merged as `5e739bdffa04598e61c228eef0e539a7f9386cbf`; run [#43793004848](https://github.com/ankit-jsr/kaam-with-ai/actions/runs/43793004848) passed validation and production deployment.
+- Refreshed the LinkedIn content library and Monday recommendation. PR #11 merged as `5e739bdffa04598e61c228eef0e539a7f9386cbf`; run [#43793004848](https://github.com/ankit-jsr/kaam-with-ai/actions/runs/43793004848) passed validation and production deployment. PR #13 then tightened the accountant post so multiple VBA examples are not incorrectly described as one macro, and linked the CPA research brief; it is merged as `1bece22f6896c1fceb428a8a6244dce16b93d340`.
 - Merged the SEO/AEO growth playbook as PR #7, commit `06b55ea362578f8661e61ddc6920ffdd6b645c7e`. The playbook now explicitly parks all Search Console work until the user reopens it.
 - GitHub Actions confirms production deployment success for the above commits. Direct retrieval of the Pages site was unavailable through this runtime, so do not claim a separate browser-render verification.
 
@@ -318,7 +318,7 @@ Then state only genuinely important changes since the last handover. Continue th
 - KWAI-LI-008 remains a possible Wednesday 18 November post, conditional on Monday's post going live and the angle remaining distinct. No post-level performance metrics have been supplied.
 
 ### Editorial research
-- Created PR #12 with a research brief on a Canadian fractional CPA's bookkeeping stack: Dext/OCR and supplier rules, Float, QBO, spreadsheets, Synder, Shopify and a small Zapier flow. Official product documentation was checked for capability descriptions. The source is one self-reported practitioner account, with no quantified savings or independent verification. It is a strong article candidate, not yet approved for publication.
+- Merged PR #12 as `dd87ccb60a1da99c66d79bbd355cb3ab883d957b`, adding `editorial/research/fractional-cpa-bookkeeping-stack-2026-11-16.md`. It covers a Canadian fractional CPA's Dext/OCR and supplier rules, Float, QBO, spreadsheets, Synder, Shopify and Zapier workflow. Official product documentation was checked for capability descriptions. The source is one self-reported practitioner account, with no quantified savings or independent verification. It is a strong article candidate, not yet approved for publication.
 - Keep the 300-client accounting-firm/Claude story on hold because of a possible commercial relationship with NumbersGame/Loopfour that remains unconfirmed.
 - Reviewed the search results for the enquiry/follow-up cluster. Results are crowded with free lead-tracker templates and vendor-led CRM pages; the existing enquiry article already covers the basic spreadsheet-and-follow-up system. Do not publish a near-duplicate template article. A stronger, original angle or genuinely useful asset is needed.
 
@@ -334,6 +334,6 @@ Then state only genuinely important changes since the last handover. Continue th
 ### Next priorities
 1. Deliver KWAI-LI-003 for the user's manual review; never publish or schedule it.
 2. Keep Wednesday's KWAI-LI-008 conditional on confirmation that Monday's post went live.
-3. Finish validation/review of PR #12, then complete a tighter search-intent review before deciding whether to draft the CPA article.
+3. Complete a tighter search-intent review for the CPA article; draft only if it adds a distinct, evidence-rich answer.
 4. Add contextual internal links only where they genuinely help readers move between related guides.
 5. The Company Page URL is still not recorded; this limits a precise page audit but does not block editorial work.
