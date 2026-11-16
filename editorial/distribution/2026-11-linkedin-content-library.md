@@ -103,8 +103,10 @@ Source file: `editorial/distribution/2026-11-linkedin-drafts.md`
 
 ### KWAI-LI-004 — A fractional CPA relies on OCR and rules before AI
 
-- **Status:** Researched; idea.
-- **Target window:** After KWAI-LI-003.
+- **Status:** Research brief completed 16 November; candidate, not ready for a post or article.
+- **Research brief:** `editorial/research/fractional-cpa-bookkeeping-stack-2026-11-16.md`.
+- **Evidence update:** Official Dext, Float, Synder, Intuit and Zapier documentation checked for feature descriptions. One Canadian practitioner's self-report; no quantified savings or independent verification. Keep it separate from the 300-client Claude/Loopfour account.
+- **Target window:** After KWAI-LI-003 and further search-intent review.
 - **Angle:** A fractional CPA in Canada says OCR, supplier rules, QBO, Dext, Gmail filters, Float, Google Sheets, Synder and a small Zapier flow do most of the repetitive work. This is a separate account from the practitioner using Claude/Loopfour.
 - **Reader takeaway:** Automate the predictable parts with reliable rules and integrations; use AI where interpretation helps; keep a human approver.
 - **Source:** https://www.reddit.com/r/Accounting/comments/1ri7g98/best_ai_tools_for_accountants_in_2026_looking_to/
@@ -158,7 +160,7 @@ They asked it to write the macro.
 
 In an r/Accounting discussion, an accountant at a private company described using ChatGPT to build VBA macros for repetitive Excel reconciliation work.
 
-One macro opened the latest downloaded workbook matching a file-name pattern, found columns by their headers, appended the relevant rows to the reconciliation workbook, refreshed pivot tables and rolled dates forward from the file name. It also included error handling for missing inputs.
+The examples included opening the latest downloaded workbook matching a file-name pattern, finding columns by their headers instead of fixed column letters, appending relevant rows to a reconciliation workbook, refreshing pivot tables and rolling dates forward from the file name. The author also describes adding error handling for missing inputs.
 
 The useful distinction: the model wasn't being asked to judge the accounts. It was helping someone who understood the process build a repeatable tool for the mechanical steps.
 
