@@ -31,7 +31,7 @@ Write for one real reader about one concrete problem. If a sentence could appear
 
 Do not manufacture significance through phrasing. A useful point can be stated plainly; it does not need a dramatic setup.
 
-- Never use a "not X, but Y" construction just because it sounds punchy. Use a contrast only when X is a real, common belief or option the reader might genuinely choose, and explaining the difference changes their understanding or decision.
+- Do not build sentences around "not X, but Y" or similar reversals by default. Keep a contrast when it describes a real distinction the reader needs to understand, or when the contrast is the actual event being reported. Otherwise, state the point directly.
 - Do not invent a weak opposing position to make our recommendation look insightful. If the "not this" half is irrelevant to the reader, delete it.
 - Avoid inflated stakes, suspense, grand claims and artificial urgency. The importance of a point should come from evidence, consequences or a recognisable problem.
 - Match the emotional volume of the sentence to the substance behind it. If the evidence is modest, say something modest. If a finding is genuinely surprising or consequential, show the evidence and let the reader feel its weight.
@@ -54,11 +54,11 @@ Assume the reader is intelligent, busy and unfamiliar with AI terminology. They 
 ## Patterns to remove on edit
 - Stock openers: "In today's rapidly evolving...", "As businesses navigate...", "In an increasingly digital world..."
 - Inflated importance: "pivotal", "game-changing", "revolutionary", "transformative", "critical role", "underscores the importance".
-- Empty signposting: "Let's dive in", "Here's the thing", "It's important to note", "The key takeaway".
-- Formulaic contrasts: "It's not about X, it's about Y" when the contrast adds no real distinction.
+- Empty signposting: "Let's dive in", "Here's the thing", "It's important to note", "The key takeaway", "the useful distinction", "the real question", "the sensible takeaway", "that matters" when these phrases merely announce the next sentence.
+- Formulaic contrasts and reversals, especially when several appear in one article. Do not force an opposing idea into a paragraph just to make the sentence sound memorable.
 - Forced triads and repeated parallel lists.
 - Every section ending with a summary sentence.
-- Overuse of em dashes, bold lead-ins, rhetorical questions and one-line paragraphs.
+- Overuse of em dashes, bold lead-ins, rhetorical questions, one-line paragraphs and tidy concluding sentences after every section. Vary the rhythm; let some paragraphs simply explain what happened.
 - Vague sourcing: "experts say", "studies show", "research suggests" without naming the source and what it found.
 - Fake precision, unsourced statistics, invented quotations and unsupported causal claims.
 - Synonym-swapping that makes prose less clear.
