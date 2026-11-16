@@ -1,7 +1,7 @@
 # Field brief: A Canadian fractional CPA automates bookkeeping with rules before AI
 
 **Research date:** 16 November 2026  
-**Status:** Strong editorial candidate; not yet a publish-ready article  
+**Status:** Full draft created 17 November 2026; awaiting editorial review and publication approval  
 **Audience:** Small-business owners who use QuickBooks Online, receive invoices and receipts, sell through payment platforms, or rely on an external accountant  
 **Source type:** One detailed first-person practitioner comment, supported by current product documentation for feature descriptions only
 
@@ -135,3 +135,20 @@ This table is an editorial framework derived from the reported workflow and prod
 The initial broad SERP review is vendor-heavy. Search volume and keyword difficulty have not been established. Do not claim a low-competition opportunity without further SERP and query research.
 
 **Editorial decision:** Strong candidate for a reported field guide or field report. Do not call it a case study, claim savings, or imply the CPA's stack is universally best. Before drafting, recheck the product documentation and decide whether the page can answer a distinct reader question better than existing vendor pages.
+
+
+## Search-intent review and draft outcome — 17 November 2026
+
+A focused search review was run for:
+- bookkeeping automation for small businesses
+- automate bookkeeping in QuickBooks Online
+- automate invoice entry in QuickBooks Online
+- bookkeeping workflow using OCR, supplier rules and integrations
+
+The visible results for broad invoice-automation and QuickBooks automation queries remain heavily vendor-led: software comparison pages, vendor help centres and product-specific workflow guides. The searches did not establish search volume, keyword difficulty or a clear low-competition query. Do not describe this as a validated SEO opportunity.
+
+The distinct editorial value is the practitioner's decision process across OCR, supplier rules, integrations, spreadsheets, selective AI and human judgment. That is a useful reported field guide for operators already using an accountant or QuickBooks Online, even if the search opportunity is not yet proven.
+
+A full draft now exists at `editorial/drafts/cpa-bookkeeping-automation-without-ai.md`, with the working headline **The CPA Who Automates Bookkeeping Without Chasing AI**. It builds the workflow progressively, includes a practical decision table, links the practitioner account and product documentation, and states that this is one self-reported account with no independent interview or measured savings.
+
+**Editorial status:** Draft only. Before publication, review the story for accuracy and natural voice, verify the current product documentation again, and decide whether the audience value justifies publication without a proven search-volume case. Do not publish without user approval.
