@@ -3,7 +3,7 @@
 **Destination:** KaamWithAI LinkedIn Company Page only  
 **Workflow:** Assistant researches, drafts and maintains this library. The user manually reviews and publishes.  
 **No publishing or scheduling by the assistant.**  
-**Last updated:** 16 November 2026
+**Last updated:** 16 November 2026 (editorial voice review)
 
 ## Status definitions
 
@@ -231,30 +231,26 @@ The original discussion is worth a read: I'll leave the link in the comments.
 - **Source:** https://www.reddit.com/r/ClaudeCode/comments/1wd3hgd/anyone_actually_running_a_business_with_claude/
 - **Evidence caveat:** Self-reported Reddit account; no interview, system inspection or independent verification. No actual lost deal is claimed. The reported reduction in errors is the author's estimate.
 
-**Final copy — ready for user review, not posted:**
+**Final copy — revised 16 November 2026; ready for user review, not posted:**
 
-An AI back office can make a very ordinary mistake: tell you a supplier hasn't replied when the reply is sitting in the email thread.
+I read a post from someone running a small event-staffing agency who had started using Claude for a lot of the admin.
 
-A solo event-staffing operator described how Claude read an email search preview, not the full conversation.
+One morning, a vendor had answered all the questions. Claude checked the short email preview, missed the reply in the full thread and told the owner the vendor hadn't responded.
 
-Other errors included an email draft being described as ready when it didn't exist, a supplier being confused with a sponsor, and a database table being reported missing without being checked.
+There were a few other problems. Claude said an email draft was ready, but there was no draft in Gmail. It confused a supplier with a sponsor. It said a database table was missing when it was there.
 
-The shared failure was treating incomplete context as verified business information.
+These sound like small mix-ups until you're relying on the information to decide who to call, what to tell a client or whether a job is moving ahead.
 
-If you use AI for email, suppliers or internal records, separate three states:
+The owner changed the workflow. Claude now has to check the full email thread, label what is confirmed and what is assumed, and show evidence before saying an action is complete.
 
-- Source checked
-- Action proposed
-- Action completed
+They say the number of mistakes dropped after these changes. That's their estimate; there is no independent audit.
 
-Require a receipt before calling something complete: a message record, calendar event or confirmed database change. If there is no receipt, the assistant should say it can't confirm the action.
+If you're using an AI assistant for business admin, check the original record before acting on its summary. Open the email. Look for the draft in Gmail. Confirm the calendar event or database change.
 
-Keep human approval for commitments.
+It takes a few seconds, and it can save a lot of confusion.
 
-This is a self-reported account, not an independently verified case study. The operator's reported reduction in errors has not been independently measured.
-
-We unpacked the story and practical guardrails in the field report. Link in the first comment.
+We looked at the full story and the changes the owner made in the field report. Link in the first comment.
 
 #SmallBusiness #PracticalAI #AIAgents
 
-**Status:** Ready. Target Wednesday, 18 November 2026. Do not mark posted until the user confirms.
+**Status:** Ready for manual review. Target Wednesday, 18 November 2026 only if the cadence still makes sense. Do not mark posted until the user confirms.
