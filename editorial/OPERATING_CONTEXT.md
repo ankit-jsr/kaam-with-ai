@@ -337,3 +337,45 @@ Then state only genuinely important changes since the last handover. Continue th
 3. Complete a tighter search-intent review for the CPA article; draft only if it adds a distinct, evidence-rich answer.
 4. Add contextual internal links only where they genuinely help readers move between related guides.
 5. The Company Page URL is still not recorded; this limits a precise page audit but does not block editorial work.
+
+
+## 11. Editorial voice and next story — 16 November 2026
+
+### Voice decision
+The user explicitly asked for a human editorial voice after noting the articles sounded like generic AI copy. The review identified repeated artificial contrasts, formulaic signposting, repeated lessons, over-polished section endings and generic dramatic narration.
+
+The writing standard in `editorial/WRITING_STANDARD.md` has been updated:
+- Avoid default "not X, but Y" constructions; retain contrasts when they explain a real distinction or are central to the event.
+- Avoid empty signposting such as "the useful distinction", "the real question", "the sensible takeaway" and "that matters" when they merely announce a point.
+- Reduce unnecessary metaphors, tidy conclusions after every section and repetitive rhetorical patterns.
+- Vary sentence and paragraph rhythm; write like a person explaining a real business situation.
+- Preserve evidence caveats, specificity and narrative build-up.
+
+### 16 November site review and deployment
+- Revised headlines, article copy and metadata across the homepage and published articles.
+- Updated:
+  - `site/articles/chatgpt-business-hub-small-business.html`
+  - `site/articles/claude-blue-blazer-shopkeeper.html`
+  - `site/articles/first-ai-agent-small-business.html`
+  - `site/articles/solo-event-agency-claude-back-office.html`
+  - `site/articles/stop-losing-customer-enquiries.html` (internal link only)
+  - `site/index.html`
+- Updated `editorial/distribution/2026-11-linkedin-content-library.md` with a rewritten next post draft about the solo event agency story.
+- Updated `editorial/drafts/solo-event-agency-claude-back-office.md` to align the source draft with the published article's revised voice.
+- Updated metadata (title, description, Open Graph, Twitter and Article schema) to match revised headlines.
+- Latest GitHub Actions deployment for commit `a8cf676d75649d06ffded3ce94c7d1c9870b8cf4` completed successfully. Site validation/deployment succeeded. This verifies the workflow, not a manual visual QA of every live page.
+- The LinkedIn post about the solo event agency is drafted in the content library, not published. User continues to publish manually.
+
+### Next website story — revised editorial decision
+The 300-client accounting firm / Claude story is **on hold**. Research surfaced a material potential vendor-affiliation issue: the Reddit account describes NumbersGame MCP and Loopfour, and public sources suggest a possible connection to their founder. Identity is not independently confirmed. Do not present this as an independent customer case or recommend those vendors from this account.
+
+The stronger next candidate is the separate Canadian fractional CPA workflow described in `editorial/research/fractional-cpa-bookkeeping-stack-2026-11-16.md`. Its reported stack uses Dext/OCR, supplier rules, QuickBooks Online, Float, Google Sheets, Synder and selective Zapier; the CPA says much of the repetitive work is handled by rules and integrations rather than AI. This is one self-reported practitioner account, not a representative case study, and there are no quantified savings.
+
+Potential editorial angle: how an accountant decides which bookkeeping tasks need OCR, rules, integrations, spreadsheets, AI or human judgment. Do not turn it into a generic "best invoice automation software" list. Initial SERP review found substantial vendor-led coverage for broad invoice-automation queries; validate a narrower search intent and the reader's unique need before drafting.
+
+### Immediate next steps
+1. Confirm the latest production pages visually on desktop/mobile when a browser preview is available; the Actions deployment has passed.
+2. Complete a focused SERP and reader-intent check for the fractional CPA story before committing to a full article.
+3. If the search intent is distinct, draft a reported field guide with clear attribution and a practical workflow decision framework. No claims of time saved or independent testing.
+4. Review the ready LinkedIn post draft; do not publish or schedule it without the user's manual action.
+5. Continue to respect the user's pause on Google Search Console work. Do not reopen it unless explicitly asked.
