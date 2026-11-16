@@ -68,31 +68,15 @@ These are suggestions from individual practitioners, not fixes tested across dif
 
 ## Check the record before acting
 
-AI can help prepare emails, organise information and move routine work along. Before acting on its answer, check what source it used and whether the action it describes actually happened.
+AI can help prepare emails, organise information and move routine work along. Before acting on its answer, check the original record:
 
-A practical starting point:
+- When it says a supplier has not replied, open the full email thread.
+- When it says a draft is ready, look for the draft in Gmail.
+- When it reports a database change or calendar booking, check that record in the system itself.
 
-1. **Retrieve the source, not the preview.** If the question is about an email, open the complete thread and check the latest message. If it is about a customer record, inspect the record itself.
-2. **Separate proposed from completed.** “I will draft the reply” is not “the draft exists”. “Ready to send” is not “sent”. Give each state a distinct label.
-3. **Require an action receipt.** A sent email should have a message ID or a visible sent record. A calendar booking should have an event. A database change should have a confirmed result. If the tool cannot confirm it, the assistant should say it cannot confirm it.
-4. **Keep durable notes evidence-linked.** Store the date, source and confidence label with important facts. Do not let an assumption quietly become permanent business context.
-5. **Use human approval for commitments.** Money, supplier commitments, client promises, contracts and unusual exceptions should not depend on an AI-generated summary being correct.
+Preparing an email, sending it after approval and seeing it in the Sent folder are three separate steps. A business should be able to check each one. The operator says the new rules reduced the number of mistakes, but we cannot independently verify that improvement or conclude that the workflow is now error-free.
 
-Use it for the parts of the job it can handle, and check the records before relying on its account of what happened.
-
-An assistant can draft a supplier email. A workflow can send it after approval. The business system should record that it was sent. Those are three different steps, and the distinction matters.
-
-## Keep the business record as the source of truth
-
-The operator continued using Claude, but added checks around the work it was doing.
-
-Keep the email system, calendar and database as the records. When Claude says a supplier has not replied, open the thread. When it says a draft is ready, look for the draft in Gmail. When it reports a database change, check the record itself.
-
-If an AI assistant says a supplier has not replied, check the thread. If it says a draft is ready, check that the draft exists. If it says it changed a record, look for the actual change.
-
-The operator says the new rules reduced the number of mistakes. We cannot independently verify that result, and the account does not show that the workflow is now error-free. For a small business considering a similar setup, the practical steps are straightforward: keep important facts linked to their source, check that actions really happened and have a person review decisions that affect customers or money.
-
-For a related example of why long-running agents need stronger boundaries, see our [Project Vend field report](/articles/claude-blue-blazer-shopkeeper.html). And if you're considering a first business agent, start with [one clearly defined task and carefully limited permissions](/articles/first-ai-agent-small-business.html).
+For a related example of why long-running agents need boundaries, read our [Project Vend field report](/articles/claude-blue-blazer-shopkeeper.html). If you're considering a first business agent, start with a narrower job and less authority than you think.
 
 ---
 
