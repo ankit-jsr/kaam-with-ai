@@ -10,7 +10,7 @@ KaamWithAI is a content-led publication/business helping small-business owners u
 - Website: https://kaamwithai.pages.dev/
 - GitHub repository: https://github.com/ankit-jsr/kaam-with-ai
 - Audience: non-technical small-business owners and operators.
-- Brand positioning: **AI for practical operators.** Supporting line: **Less hype. More useful work.**
+- Brand positioning: **AI for practical operators** Supporting line: **Less hype. More useful work.**
 - Editorial promise: practical workflows, tools and real-world stories for people running businesses; useful, grounded explanations and practical workflows; no AI hype, generic copy or unsupported claims.
 - Primary publishing destination for social distribution: **KaamWithAI LinkedIn Company Page only**. Do not publish to the user's personal LinkedIn profile.
 - The user is currently publishing LinkedIn posts manually. Do not schedule or publish on their behalf.
@@ -300,3 +300,40 @@ Then state only genuinely important changes since the last handover. Continue th
 - Supporting line: **Practical workflows, tools and real-world stories for people running businesses. Less hype. More useful work.**
 - Editorial principle: retain a natural, story-led publication. Search optimisation must improve discovery of genuinely useful reporting; it must not turn the site into a generic SEO content farm or dictate formulaic headlines.
 - Homepage hero eyebrow: **Less hype. More useful work.**
+
+
+## 17. Operating update — 16 November 2026
+
+### Website and publishing
+- Corrected the homepage H1 to **AI for practical operators** with no trailing full stop, as requested. PR #9 merged as `95cacde6a8a7976f464091780541e5dd80353429`; GitHub Actions run [#43792921468](https://github.com/ankit-jsr/kaam-with-ai/actions/runs/43792921468) passed validation and production Cloudflare Pages deployment.
+- Expanded the About page with the publication's audience, editorial scope, reporting method, evidence labels, what we will not claim, AI-assistance policy and corrections/contact route. No individual editor credentials were invented. PR #10 merged as `87850a205a43373ce3990a29e6d4e1813e4ffffd`; run [#43792998562](https://github.com/ankit-jsr/kaam-with-ai/actions/runs/43792998562) passed validation and production deployment.
+- Refreshed the LinkedIn content library and Monday recommendation. PR #11 merged as `5e739bdffa04598e61c228eef0e539a7f9386cbf`; run [#43793004848](https://github.com/ankit-jsr/kaam-with-ai/actions/runs/43793004848) passed validation and production deployment.
+- Merged the SEO/AEO growth playbook as PR #7, commit `06b55ea362578f8661e61ddc6920ffdd6b645c7e`. The playbook now explicitly parks all Search Console work until the user reopens it.
+- GitHub Actions confirms production deployment success for the above commits. Direct retrieval of the Pages site was unavailable through this runtime, so do not claim a separate browser-render verification.
+
+### Distribution
+- **Monday 16 November:** Recommend KWAI-LI-003 for manual review and possible Company Page publication. The source was re-opened and comments rechecked today. The copy distinguishes the original accountant's account from a separate commenter's time-saving claim, includes the private-company/IT-controls caveat, and adds output verification.
+- Format: text-only; place the Reddit source link in the first comment. No graphic is needed.
+- The assistant has not published or scheduled the post. Do not mark it posted until the user confirms.
+- KWAI-LI-008 remains a possible Wednesday 18 November post, conditional on Monday's post going live and the angle remaining distinct. No post-level performance metrics have been supplied.
+
+### Editorial research
+- Created PR #12 with a research brief on a Canadian fractional CPA's bookkeeping stack: Dext/OCR and supplier rules, Float, QBO, spreadsheets, Synder, Shopify and a small Zapier flow. Official product documentation was checked for capability descriptions. The source is one self-reported practitioner account, with no quantified savings or independent verification. It is a strong article candidate, not yet approved for publication.
+- Keep the 300-client accounting-firm/Claude story on hold because of a possible commercial relationship with NumbersGame/Loopfour that remains unconfirmed.
+- Reviewed the search results for the enquiry/follow-up cluster. Results are crowded with free lead-tracker templates and vendor-led CRM pages; the existing enquiry article already covers the basic spreadsheet-and-follow-up system. Do not publish a near-duplicate template article. A stronger, original angle or genuinely useful asset is needed.
+
+### SEO and measurement
+- Search Console remains paused at the user's explicit instruction. No GSC access, report inspection, URL Inspection, Live Test, screenshot request, sitemap submission, indexing request or settings change was made.
+- The repository remains static HTML with canonical URLs and a sitemap; validation passed on the latest site changes. Public Pages retrieval could not be independently checked through this runtime.
+
+### Active automations
+- KaamWithAI Daily OS remains enabled daily at 08:00 Asia/Kolkata.
+- Revisit YouTube remains enabled for 1 December 2026. Prepare a lightweight faceless/ElevenLabs plan only; no publishing without approval.
+- Project Vend publishing and the workout reminder remain disabled.
+
+### Next priorities
+1. Deliver KWAI-LI-003 for the user's manual review; never publish or schedule it.
+2. Keep Wednesday's KWAI-LI-008 conditional on confirmation that Monday's post went live.
+3. Finish validation/review of PR #12, then complete a tighter search-intent review before deciding whether to draft the CPA article.
+4. Add contextual internal links only where they genuinely help readers move between related guides.
+5. The Company Page URL is still not recorded; this limits a precise page audit but does not block editorial work.
