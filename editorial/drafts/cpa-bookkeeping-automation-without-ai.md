@@ -13,7 +13,7 @@ A Canadian fractional CPA described a month-end process built around collecting 
 
 The CPA has organised much of the routine around a few repeatable steps: read a document, apply a known rule, move the record to the right system and send exceptions to a person for review.
 
-This is one practitioner's account, not a survey or an independently audited case study. It is useful because it shows how an accountant decides which parts of bookkeeping can follow a rule and where someone still needs to check the work.
+The account is self-reported and has not been independently audited. It gives a practical view of how one accountant decides which parts of bookkeeping can follow a rule and where someone still needs to check the work.
 
 ## Invoices go through extraction first
 
@@ -59,9 +59,7 @@ Before connecting anything, decide what the books need to show: daily summaries 
 
 ## The month-end tracker lives in Google Sheets
 
-The CPA also reuses a Google Sheets model to track missing information and follow up with clients during month-end close. They have not found another tool worth adopting for that job.
-
-The tracker lists what is missing, who needs to provide it and what is still open. The CPA has not found another tool worth adopting for that job. If the team uses the sheet consistently, replacing it may add work rather than remove it.
+The CPA reuses a Google Sheets model to track missing information and follow up with clients during month-end close. It shows what is missing, who needs to send it and what remains open. They have not found another tool worth adopting for that job. If the team uses the sheet consistently, replacing it may add work rather than remove it.
 
 ## Where this accountant chooses not to use AI
 
