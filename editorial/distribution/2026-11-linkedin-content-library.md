@@ -103,10 +103,11 @@ Source file: `editorial/distribution/2026-11-linkedin-drafts.md`
 
 ### KWAI-LI-004 — A fractional CPA relies on OCR and rules before AI
 
-- **Status:** Research brief completed 16 November; candidate, not ready for a post or article.
+- **Status:** Website article draft created and editorially revised 17 November; awaiting user review. LinkedIn derivative remains on hold until the article is approved and the launch angle can be kept distinct.
 - **Research brief:** `editorial/research/fractional-cpa-bookkeeping-stack-2026-11-16.md`.
+- **Article draft:** `editorial/drafts/cpa-bookkeeping-automation-without-ai.md`.
 - **Evidence update:** Official Dext, Float, Synder, Intuit and Zapier documentation checked for feature descriptions. One Canadian practitioner's self-report; no quantified savings or independent verification. Keep it separate from the 300-client Claude/Loopfour account.
-- **Target window:** After KWAI-LI-003 and further search-intent review.
+- **Target window:** Revisit after the website article is approved; do not turn the same workflow into an immediate duplicate post.
 - **Angle:** A fractional CPA in Canada says OCR, supplier rules, QBO, Dext, Gmail filters, Float, Google Sheets, Synder and a small Zapier flow do most of the repetitive work. This is a separate account from the practitioner using Claude/Loopfour.
 - **Reader takeaway:** Automate the predictable parts with reliable rules and integrations; use AI where interpretation helps; keep a human approver.
 - **Source:** https://www.reddit.com/r/Accounting/comments/1ri7g98/best_ai_tools_for_accountants_in_2026_looking_to/
