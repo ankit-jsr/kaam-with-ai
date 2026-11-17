@@ -1,21 +1,19 @@
 # The CPA Who Automates Bookkeeping Without Chasing AI
 
-**Status:** Draft for editorial review — not published  
+**Status:** Editorially revised 17 November 2026; awaiting user review — not published  
 **Audience:** Small-business owners using QuickBooks Online, accountants and operators managing invoices, expenses and month-end work  
 **Source:** One first-person Reddit account from a Canadian fractional CPA, plus official product documentation  
 **Research brief:** `editorial/research/fractional-cpa-bookkeeping-stack-2026-11-16.md`
 
 ---
 
-A Canadian fractional CPA was asked what AI tools they use.
+The question was about AI tools for accountants. The answer started with supplier invoices.
 
-Their answer was mostly about tools that have been doing bookkeeping work for years: document extraction, supplier rules, email filters, integrations and Google Sheets.
+A Canadian fractional CPA described a month-end process built around collecting invoices, coding recurring suppliers, getting payment data into QuickBooks and chasing missing documents. They work with several small businesses, from around CAD $100,000 to $9 million in annual revenue.
 
-They describe working with several small businesses, from around CAD $100,000 to $9 million in annual revenue. For that client mix, the recurring work is familiar: collect invoices, code expenses, get payment data into the books, chase missing documents and close the month.
+The CPA has organised much of the routine around a few repeatable steps: read a document, apply a known rule, move the record to the right system and send exceptions to a person for review.
 
-The CPA's view is that much of this work does not need a chatbot. It needs a process that can read a document, apply a rule, move a record to the right system and leave exceptions for someone to check.
-
-This is one practitioner's account, not a survey or an independently audited case study. But the workflow is useful because it shows how an accountant decides what to automate and what to leave alone.
+The account is self-reported and has not been independently audited. It gives a practical view of how one accountant decides which parts of bookkeeping can follow a rule and where someone still needs to check the work.
 
 ## Invoices go through extraction first
 
@@ -25,7 +23,7 @@ The next step is where the process becomes specific to each business. For suppli
 
 Dext supports supplier rules for fields such as category, tax rate, payment method, currency and description. Those rules can be applied to future documents from the supplier. The software also has auto-publish settings, but Dext's own guidance recommends starting with suppliers whose documents are predictable and checking that the coding is correct before allowing documents to publish automatically.
 
-That last part matters. A rule that works for a monthly software invoice may be wrong when the supplier changes the tax treatment, adds a new service or issues a credit note. The CPA describes using auto-publish for selected suppliers after a period of checking; they are not saying every invoice should go straight into the ledger.
+A rule that works for a monthly software invoice may be wrong when the supplier changes the tax treatment, adds a new service or issues a credit note. The CPA describes enabling auto-publishing only for selected suppliers after a period of checking.
 
 ## Receipts and expenses follow a different route
 
@@ -59,11 +57,9 @@ These are examples from particular client configurations, not a verdict on the p
 
 Before connecting anything, decide what the books need to show: daily summaries or individual transactions, fees, refunds, tax, payout timing and the link between a sale and its bank deposit. Then test a complete period and reconcile the totals. A connection that imports data is not automatically a correct accounting workflow.
 
-## The month-end tracker is still a spreadsheet
+## The month-end tracker lives in Google Sheets
 
-The CPA also reuses a Google Sheets model to track missing information and follow up with clients during month-end close. They have not found another tool worth adopting for that job.
-
-The spreadsheet is not a temporary embarrassment in an otherwise automated system. It gives the accountant a shared list of what is missing, who needs to provide it and what is still open. If the process is clear and the team uses it consistently, replacing it may add work rather than remove it.
+The CPA reuses a Google Sheets model to track missing information and follow up with clients during month-end close. It shows what is missing, who needs to send it and what remains open. They have not found another tool worth adopting for that job. If the team uses the sheet consistently, replacing it may add work rather than remove it.
 
 ## Where this accountant chooses not to use AI
 
@@ -71,7 +67,7 @@ The CPA says they do not use AI to draft routine client emails or marketing copy
 
 They have also tried QuickBooks Online's AI financial-analysis feature. In one example, a query about the five largest vendor expenses returned poor results because journal entries affected the vendor attribution. That is one person's experience with one query; it does not establish that the feature is generally unreliable.
 
-The broader point is that the tool should fit the task. If a rule can code a recurring invoice accurately, a language model may add another step. If a spreadsheet can reshape a predictable bank export, there may be little to gain from asking AI to interpret it.
+If a supplier rule can code a recurring invoice accurately, adding a language model may create another step. If a spreadsheet can reshape a predictable bank export, the accountant can check the rows and totals directly.
 
 ## A simple way to choose what to automate
 
@@ -88,9 +84,9 @@ The CPA's workflow suggests a useful order for reviewing bookkeeping tasks:
 
 This is an editorial framework drawn from one reported workflow and the vendors' documentation. It is not accounting advice or a tested implementation recipe.
 
-For a small business, a useful first step is to write down how one month of transactions actually moves: where documents arrive, who checks them, how they are coded, which system receives them and what gets reconciled at month-end. Mark the repeated steps, the exceptions and the decisions that require judgment. Then choose the simplest tool that handles each part.
+For a small business, start by tracing how one month's transactions move: where documents arrive, who checks them, how they are coded, which system receives them and what gets reconciled at month-end. Mark the repeated steps, the exceptions and the decisions that require judgment.
 
-You may find that the first improvement is a supplier rule, a better import template or a clearer approval step. An AI assistant can still help with tasks such as explaining an unfamiliar transaction or drafting a note from verified records. It does not need to be the centre of the workflow.
+A supplier rule may be enough for a recurring invoice. A saved import template may handle a predictable bank file. An AI assistant may help explain an unfamiliar transaction if it can refer to the supporting records. Choose the tool for each step and keep the checks that protect the books.
 
 ## What we could and couldn't verify
 

@@ -3,7 +3,7 @@
 **Destination:** KaamWithAI LinkedIn Company Page only  
 **Workflow:** Assistant researches, drafts and maintains this library. The user manually reviews and publishes.  
 **No publishing or scheduling by the assistant.**  
-**Last updated:** 16 November 2026 (editorial voice review)
+**Last updated:** 17 November 2026 (daily cadence review and KWAI-LI-008 copy polish)
 
 ## Status definitions
 
@@ -103,10 +103,11 @@ Source file: `editorial/distribution/2026-11-linkedin-drafts.md`
 
 ### KWAI-LI-004 — A fractional CPA relies on OCR and rules before AI
 
-- **Status:** Research brief completed 16 November; candidate, not ready for a post or article.
+- **Status:** Website article draft created and editorially revised 17 November; awaiting user review. LinkedIn derivative remains on hold until the article is approved and the launch angle can be kept distinct.
 - **Research brief:** `editorial/research/fractional-cpa-bookkeeping-stack-2026-11-16.md`.
+- **Article draft:** `editorial/drafts/cpa-bookkeeping-automation-without-ai.md`.
 - **Evidence update:** Official Dext, Float, Synder, Intuit and Zapier documentation checked for feature descriptions. One Canadian practitioner's self-report; no quantified savings or independent verification. Keep it separate from the 300-client Claude/Loopfour account.
-- **Target window:** After KWAI-LI-003 and further search-intent review.
+- **Target window:** Revisit after the website article is approved; do not turn the same workflow into an immediate duplicate post.
 - **Angle:** A fractional CPA in Canada says OCR, supplier rules, QBO, Dext, Gmail filters, Float, Google Sheets, Synder and a small Zapier flow do most of the repetitive work. This is a separate account from the practitioner using Claude/Loopfour.
 - **Reader takeaway:** Automate the predictable parts with reliable rules and integrations; use AI where interpretation helps; keep a human approver.
 - **Source:** https://www.reddit.com/r/Accounting/comments/1ri7g98/best_ai_tools_for_accountants_in_2026_looking_to/
@@ -231,26 +232,31 @@ The original discussion is worth a read: I'll leave the link in the comments.
 - **Source:** https://www.reddit.com/r/ClaudeCode/comments/1wd3hgd/anyone_actually_running_a_business_with_claude/
 - **Evidence caveat:** Self-reported Reddit account; no interview, system inspection or independent verification. No actual lost deal is claimed. The reported reduction in errors is the author's estimate.
 
-**Final copy — revised 16 November 2026; ready for user review, not posted:**
+**Final copy — revised 17 November 2026; ready for user review, not posted:**
 
-I read a post from someone running a small event-staffing agency who had started using Claude for a lot of the admin.
+A solo event-staffing operator had started using Claude to help with email and other back-office work.
 
-One morning, a vendor had answered all the questions. Claude checked the short email preview, missed the reply in the full thread and told the owner the vendor hadn't responded.
+One morning, Claude told them a vendor had gone quiet. The vendor had actually answered every question that morning. Claude had read the email search preview instead of opening the full thread.
 
-There were a few other problems. Claude said an email draft was ready, but there was no draft in Gmail. It confused a supplier with a sponsor. It said a database table was missing when it was there.
+The operator describes three other mistakes too. Claude said a Gmail draft had been staged when no draft existed. It described a supplier as a potential brand partner, mixing up someone the agency pays with someone who pays the agency. It also said a database table was missing without checking whether it was there.
 
-These sound like small mix-ups until you're relying on the information to decide who to call, what to tell a client or whether a job is moving ahead.
+The owner added some rules. Claude has to retrieve the full email thread, label information as confirmed, stated, assumed or open, and show evidence before reporting that an action is complete.
 
-The owner changed the workflow. Claude now has to check the full email thread, label what is confirmed and what is assumed, and show evidence before saying an action is complete.
+They say the number of errors fell from several a week to a few a month. That's the owner's estimate; it has not been independently measured.
 
-They say the number of mistakes dropped after these changes. That's their estimate; there is no independent audit.
+If you use an AI assistant for business admin, ask it to show the record behind an important update. Open the email. Find the actual draft. Check the calendar event or database entry. A status message on its own is not confirmation.
 
-If you're using an AI assistant for business admin, check the original record before acting on its summary. Open the email. Look for the draft in Gmail. Confirm the calendar event or database change.
-
-It takes a few seconds, and it can save a lot of confusion.
-
-We looked at the full story and the changes the owner made in the field report. Link in the first comment.
+We looked at what went wrong and the checks the operator added in the field report. Link in the first comment.
 
 #SmallBusiness #PracticalAI #AIAgents
 
-**Status:** Ready for manual review. Target Wednesday, 18 November 2026 only if the cadence still makes sense. Do not mark posted until the user confirms.
+**Status:** Ready for manual review. Candidate for Wednesday, 18 November 2026. Do not mark posted until the user confirms.
+
+
+## Daily decision — Tuesday, 17 November 2026
+
+- **Posting decision:** No post recommended today. KWAI-LI-003 was confirmed live on Monday 16 November. Tuesday is outside the starting Monday / Wednesday / Friday rhythm, and posting again after one day would compress the gap without adding a distinct piece of value.
+- **Next candidate:** KWAI-LI-008 for Wednesday, 18 November. Its copy has been tightened to remove the generic contrast and closing lines, while retaining the source's four concrete errors and the owner's unmeasured estimate.
+- **Format:** Text-only Company Page post. Put the article link in the first comment; no graphic is needed.
+- **Review boundary:** Ready for the user's manual review only. The assistant has not published or scheduled it.
+- **Performance:** No post-level metrics supplied. The performance log remains unchanged.
