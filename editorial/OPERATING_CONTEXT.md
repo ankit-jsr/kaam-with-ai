@@ -431,6 +431,10 @@ Potential editorial angle: how an accountant decides which bookkeeping tasks nee
 - KWAI-LI-008 remains the candidate for Wednesday 18 November. Its copy was polished on 17 November to remove generic contrast and closing language while preserving the source caveats. It remains unpublished and unscheduled.
 - No post-level performance data has been supplied.
 
+### Editorial research and publishing
+- The CPA bookkeeping draft received a targeted natural-voice pass: the opening now builds from the invoice workflow, empty signposting and repeated wording were removed, and the practical close is more direct.
+- The underlying evidence limits remain unchanged: one self-reported Canadian practitioner, no independent interview or system inspection, and no quantified time savings. The article remains a draft awaiting user review; it has not been published.
+
 ### Boundaries and automation status
 - Google Search Console remains paused. No GSC access, investigation, screenshot request or setting change was made.
 - No LinkedIn post was published or scheduled.
