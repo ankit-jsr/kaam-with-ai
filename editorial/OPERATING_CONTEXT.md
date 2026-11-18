@@ -1,6 +1,6 @@
 # KaamWithAI — Operating Context
 
-**Last updated:** 17 November 2026  
+**Last updated:** 18 November 2026  
 **Purpose:** Durable handover and source of truth for work across ChatGPT conversations. Read this before making project decisions or asking the user to repeat context.
 
 ## 1. Project
@@ -439,3 +439,36 @@ Potential editorial angle: how an accountant decides which bookkeeping tasks nee
 - Google Search Console remains paused. No GSC access, investigation, screenshot request or setting change was made.
 - No LinkedIn post was published or scheduled.
 - The Daily OS and 1 December YouTube revisit automations remain enabled. The Project Vend publishing and workout automations remain disabled.
+
+
+## 14. Morning operating update — 18 November 2026
+
+### Website and SEO
+- Latest main-branch commit at cycle start: `c9569e08909720f52aaba1c055ab3d2848dda46d`. GitHub Actions run #133 was independently checked: site validation and production Cloudflare Pages deployment both completed successfully; the pull-request preview job was skipped for this main-branch run.
+- Source-level SEO audit checked the homepage, About, Privacy and all five published article pages. The homepage and article pages have canonical URLs and meta descriptions. All five article pages have matching Open Graph and Twitter titles.
+- Found a homepage Twitter title that did not match the approved page title; corrected it to `KaamWithAI — AI for practical operators`. The sitemap's homepage and solo-agency article last-modified dates were stale; aligned them to 18 November and 17 November respectively. The sitemap still contains eight URLs.
+- A direct live-site fetch and rendered desktop/mobile inspection remain unavailable in this runtime because outbound DNS/network access failed. Source-level checks are not a substitute for visual QA.
+- Google Search Console remains paused exactly as instructed. No GSC access, screenshots, requests or changes were made.
+
+### Editorial research
+- The CPA bookkeeping article remains a draft awaiting user review; it has not been published.
+- Added a new cross-industry research brief on Echo Janitorial Services, a Canadian cleaning company whose owner described using AI for customer intake, phone answering and admin. Fortune says it reviewed the company's revenue records, but the story does not establish that AI caused the revenue growth. Jobber's current receptionist pricing differs from the $99 figure reported in the March Fortune story; the brief records the discrepancy and current official documentation.
+- The Journal of Accountancy's Agate CPA prospect-form example was also screened. It is a credible future lead, but is not being queued now because the current editorial pipeline already contains multiple accounting stories.
+
+### LinkedIn distribution
+- Wednesday 18 November is a recommended Company Page posting day. KWAI-LI-008 is ready for manual review, with copy rechecked against the original Reddit thread and revised for the KaamWithAI voice.
+- KWAI-LI-003 was confirmed posted by the user on 16 November. No post-level performance data has been supplied for any published post.
+- No LinkedIn post has been published or scheduled by the assistant. The Company Page URL is still not recorded, so a precise Page audit and website Follow link remain blocked.
+
+### Active automations
+- KaamWithAI Daily OS: enabled.
+- Revisit YouTube: enabled for 1 December 2026.
+- Publish Project Vend story: disabled/completed.
+- Start workout: disabled.
+
+### Remaining priorities
+1. User manually reviews and publishes KWAI-LI-008 if approved; then supplies the post URL and later metrics if available.
+2. User reviews the CPA bookkeeping article before publication.
+3. Complete rendered desktop/mobile QA when browser/network access is available.
+4. Continue cross-industry operator research; keep the Echo Janitorial story as the next non-accounting article candidate, subject to editorial review.
+5. Obtain the direct Company Page URL when convenient. No work is blocked on it other than Page-specific auditing and the website Follow link.
