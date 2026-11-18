@@ -234,19 +234,19 @@ The original discussion is worth a read: I'll leave the link in the comments.
 
 **Final copy — revised 17 November 2026; ready for user review, not posted:**
 
-A solo event-staffing operator had started using Claude to help with email and other back-office work.
+A vendor had replied to every question that morning. Claude told the owner of a small event-staffing agency that the vendor had gone quiet.
 
-One morning, Claude told them a vendor had gone quiet. The vendor had actually answered every question that morning. Claude had read the email search preview instead of opening the full thread.
+It had read the email preview, not the full thread.
 
-The operator describes three other mistakes too. Claude said a Gmail draft had been staged when no draft existed. It described a supplier as a potential brand partner, mixing up someone the agency pays with someone who pays the agency. It also said a database table was missing without checking whether it was there.
+That was one of four mistakes the owner described. On another occasion, Claude said an email was “staged” when no draft existed. It called a supplier a potential brand partner, even though the agency pays suppliers and sponsors pay the agency. It also reported a database table missing without checking.
 
-The owner added some rules. Claude has to retrieve the full email thread, label information as confirmed, stated, assumed or open, and show evidence before reporting that an action is complete.
+The owner added a few rules: open the full email thread, label facts as confirmed, stated, assumed or open, and don't say an action is complete unless the tool confirms it.
 
-They say the number of errors fell from several a week to a few a month. That's the owner's estimate; it has not been independently measured.
+They estimate errors fell from several a week to a few a month. That's their own estimate, not a measured result.
 
-If you use an AI assistant for business admin, ask it to show the record behind an important update. Open the email. Find the actual draft. Check the calendar event or database entry. A status message on its own is not confirmation.
+If you're using AI for business admin, ask it to show you the record behind important updates. Open the email thread. Find the draft. Check the database entry.
 
-We looked at what went wrong and the checks the operator added in the field report. Link in the first comment.
+We wrote up the four mistakes and the checks the owner added. Link in the first comment.
 
 #SmallBusiness #PracticalAI #AIAgents
 
@@ -260,3 +260,14 @@ We looked at what went wrong and the checks the operator added in the field repo
 - **Format:** Text-only Company Page post. Put the article link in the first comment; no graphic is needed.
 - **Review boundary:** Ready for the user's manual review only. The assistant has not published or scheduled it.
 - **Performance:** No post-level metrics supplied. The performance log remains unchanged.
+
+
+## Daily decision — Wednesday, 18 November 2026
+
+- **Posting decision:** Recommend one Company Page post today. KWAI-LI-003 was confirmed live on Monday 16 November; Wednesday is the next planned slot in the approximately three-post weekly rhythm. A distinct, source-checked article derivative is ready.
+- **Recommended item:** KWAI-LI-008 — the solo event-staffing operator's AI back-office errors.
+- **Purpose:** Drive readers to the field report and give small-business owners a concrete verification habit: check the original email, draft or record before acting on an AI summary.
+- **Source recheck (18 Nov):** Reopened the Reddit thread. Confirmed the four examples: missed vendor reply after reading an email preview, nonexistent staged draft, supplier/sponsor confusion, and a database table reported missing without checking. The author says errors fell from several per week to a few per month; this is the author's estimate and is not independently measured. No actual deal loss is claimed.
+- **Format:** Text-only Company Page post. Put the article link in the first comment; no graphic required.
+- **Review boundary:** Copy above is ready for the user's manual review. No publishing or scheduling by the assistant.
+- **Performance:** No post-level metrics supplied; no new performance notes.
