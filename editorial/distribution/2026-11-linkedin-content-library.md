@@ -3,7 +3,7 @@
 **Destination:** KaamWithAI LinkedIn Company Page only  
 **Workflow:** Assistant researches, drafts and maintains this library. The user manually reviews and publishes.  
 **No publishing or scheduling by the assistant.**  
-**Last updated:** 17 November 2026 (daily cadence review and KWAI-LI-008 copy polish)
+**Last updated:** 18 November 2026 (posting decision, final copy recheck and new research lead)
 
 ## Status definitions
 
