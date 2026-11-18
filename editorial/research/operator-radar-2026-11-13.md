@@ -1,7 +1,7 @@
 # KaamWithAI Operator Radar — Reddit research
 
 **Started:** 13 November 2026  
-**Last updated:** 14 November 2026  
+**Last updated:** 18 November 2026  
 **Purpose:** Find real examples of people using AI in everyday work, then investigate the workflow rather than repeating a tool list.  
 **Editorial status:** Research leads only. No story in this brief is independently verified.
 
@@ -265,3 +265,36 @@ A fresh scan of recent small-business AI threads surfaced many open-ended “wha
 - Re-opened the staff accountant's original r/Accounting thread and reviewed the full visible discussion. Confirmed the private-company context, VBA examples, the author's practice of learning a task manually before automating it, IT-control counterpoints, and the warning that a macro can run successfully while producing incorrect output. The Monday Company Page draft remains ready and makes no quantified time-saving claim.
 - A fresh search of small-business and entrepreneur communities surfaced mostly open-ended AI-use prompts, agency/vendor pitches and low-detail self-reports. No stronger independent operator case replaced the solo event-agency field report.
 - The solo event-agency article was published on 15 November at https://kaamwithai.pages.dev/articles/solo-event-agency-claude-back-office.html. Keep the 300-client accounting-firm account on hold because of the possible NumbersGame/Loopfour vendor relationship.
+
+
+## 18 November 2026 — cross-industry research
+
+### 8. Echo Janitorial Services: a cleaning-company owner puts AI between the phone and the jobsite
+
+**Primary reporting:** [Fortune, 28 March 2026 — Meet a 29-year-old blue-collar founder who used AI to triple his revenue in 3 years](https://fortune.com/2026/03/28/ai-small-business-entrepreneur-1-million-blue-collar/)
+
+**Source type:** Reported interview with Rick Chorney, co-founder of Echo Janitorial Services in Abbotsford, British Columbia. Fortune says it reviewed the company's business records for its reported revenue figures. Jobber's co-founder/CTO is also quoted, and Jobber powers the AI receptionist in the story; disclose that vendor context.
+
+**Reported workflow:** An intake form routes new inquiries into the job-management platform; an AI receptionist handles phone inquiries and can escalate; new clients receive automatic acknowledgements. Chorney also describes using Claude for BC labour-law research, client case studies and operating documentation; ChatGPT for email polishing; Perplexity for research; Fixer AI for inbox triage and a daily text briefing; and a Synthesia training-video pilot.
+
+**Evidence and attribution limits:**
+- Fortune reports revenue of $242,000 in 2024 and just under $1 million in 2025, and says it reviewed company records. The $1.3 million figure is a 2026 projection in the March article, not a verified result.
+- The founder says AI helped speed quoting and reduce admin burden. The revenue figures do not prove AI caused the growth; sales experience, SEO, hiring, service demand and other operating changes are also part of the story.
+- The owner-reported 15 calls per hour, eight-hour workday and 20 minutes of daily email are not independently measured in the article.
+- Fortune reports $99/month for the receptionist in March 2026. Jobber's current help page, updated 28 October 2026, lists a $29/month add-on with 30 conversations and $0.79 per additional conversation on eligible plans, or inclusion with unlimited usage on Plus. Plan and usage context may differ; do not repeat $99 as current pricing.
+- Jobber's current documentation says its AI Receptionist can answer inquiries and book jobs within owner-configured boundaries. It requires a dedicated Jobber phone number and is documented as available in the US, Canada and UK. Recheck before publication.
+- No call-to-booking conversion rate, missed-call baseline, accuracy rate or independently measured time saving is available.
+
+**Potential editorial angle:** The phone rings while the cleaner is on a job. What happens to the enquiry? Focus on intake, call handling, job-system handoff and human escalation—not the claim that AI created a million-dollar business.
+
+**Potential reader:** Cleaning, trades and other local service businesses where owners spend time on-site and cannot always answer calls.
+
+**Editorial decision:** Strong future non-accounting article candidate. Do not create a LinkedIn derivative yet: today's post already covers AI in back-office operations, so wait until a distinct article angle is developed. Research brief: `editorial/research/echo-janitorial-ai-operations-2026-11-18.md`.
+
+### Screened but not queued: Agate CPA prospect qualification form
+
+[Journal of Accountancy, 1 August 2026 — Real-life ways small firms use AI](https://www.journalofaccountancy.com/issues/2026/aug/real-life-ways-small-firms-use-ai/)
+
+AICPA & CIMA's Journal of Accountancy reports that Agate CPA, a six-person firm, built a richer prospect form with Lovable, used Claude to embed it on the website and sent responses to ClickUp. The form asks about industry, headcount, revenue, business stage and why the prospect is seeking a CPA. Cofounder Sarah Harris said the firm's conversion rate rose about 25%. This is the firm's reported outcome, not an independently measured experiment.
+
+The example is credible and concrete, but it remains in the backlog because the current pipeline already has two accounting workflow stories. Revisit after the CPA bookkeeping draft is reviewed; do not publish another accounting example immediately.
