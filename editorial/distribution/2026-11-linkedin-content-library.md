@@ -3,7 +3,7 @@
 **Destination:** KaamWithAI LinkedIn Company Page only  
 **Workflow:** Assistant researches, drafts and maintains this library. The user manually reviews and publishes.  
 **No publishing or scheduling by the assistant.**  
-**Last updated:** 18 November 2026 (posting decision, final copy recheck and new research lead)
+**Last updated:** 19 November 2026 (cadence decision, publication-state reconciliation and new retail marketing research)
 
 ## Status definitions
 
@@ -224,7 +224,7 @@ The original discussion is worth a read: I'll leave the link in the comments.
 ### KWAI-LI-008 — When an AI back office mistakes a preview for the truth
 
 - **Status:** Ready — drafted 15 November 2026; not posted.
-- **Target window:** Wednesday, 18 November 2026, subject to cadence and the Monday post; not scheduled.
+- **Next possible target:** Friday, 20 November 2026, subject to user review; not scheduled.
 - **Audience:** Small-business owners and solo operators using AI for email, suppliers, calendars or internal records.
 - **Purpose:** Promote the new field report with a practical takeaway: distinguish source-checked facts, proposed actions and completed actions.
 - **Format:** Text-only Company Page post. Put the article link in the first comment; no graphic needed.
@@ -250,7 +250,7 @@ We wrote up the four mistakes and the checks the owner added. Link in the first 
 
 #SmallBusiness #PracticalAI #AIAgents
 
-**Status:** Ready for manual review. Candidate for Wednesday, 18 November 2026. Do not mark posted until the user confirms.
+**Status:** Ready for manual review. The Wednesday 18 November recommendation passed without publication confirmation. Next possible target is Friday, 20 November 2026. Do not mark posted until the user confirms.
 
 
 ## Daily decision — Tuesday, 17 November 2026
@@ -271,3 +271,25 @@ We wrote up the four mistakes and the checks the owner added. Link in the first 
 - **Format:** Text-only Company Page post. Put the article link in the first comment; no graphic required.
 - **Review boundary:** Copy above is ready for the user's manual review. No publishing or scheduling by the assistant.
 - **Performance:** No post-level metrics supplied; no new performance notes.
+
+
+### KWAI-LI-009 — Myer's Bagels: customers noticed when AI changed the shop
+
+- **Status:** Researched; hold. Not drafted or approved.
+- **Audience:** Independent retailers, cafés, restaurants and owner-operated brands.
+- **Angle:** Myer's Bagels owner Adam Jones told Business Insider that an AI social-media service edited real shop photos into scenes that did not match the bakery, including a fabricated handwritten review note and a changed shop layout. Customers called out the mismatch; Jones says he removed the posts and apologised.
+- **Reader takeaway:** Use AI to help plan posts or draft captions, but keep product, premises, staff and customer evidence true to life. A customer-facing image is a representation of the business, not just decoration.
+- **Primary source:** https://www.businessinsider.com/bagel-shop-owner-removes-ai-social-media-marketing-2026-5 (as-told-to essay based on an interview with the owner, 16 May 2026).
+- **Evidence caveat:** One owner's account, not independently audited. The owner estimated 25–30 comments on each of two posts and said some customers left one-star Google reviews about the imagery; no exact review count, sales impact or lost revenue was established. Do not imply the business lost customers or sales.
+- **Suggested format:** Text-led Company Page post or reported article; no generated image. Do not reuse publication photography without permission.
+- **Editorial decision:** Hold until after the current AI back-office story has had space. The topic is distinct (customer-facing brand representation rather than operational record verification) but shares a broader truth-and-trust theme, so avoid running the two close together.
+- **Research brief:** `editorial/research/myers-bagels-ai-marketing-backlash-2026-11-19.md`.
+
+
+## Daily decision — Thursday, 19 November 2026
+
+- **Posting decision:** No post recommended today. The last confirmed Company Page post remains KWAI-LI-003 on Monday, 16 November. Wednesday's KWAI-LI-008 recommendation was not followed by a user confirmation, so it remains Ready and must not be treated as posted.
+- **Why no post today:** Thursday is outside the starting Monday / Wednesday / Friday rhythm. There is no need to compress the cadence to make up for an unconfirmed Wednesday slot.
+- **Next possible target:** Friday, 20 November — KWAI-LI-008, after a fresh copy check and only if the user still wants to publish it. The article is still recent, and its angle remains distinct from the earlier accountant and Business Hub posts.
+- **Queue development:** KWAI-LI-009 (Myer's Bagels) is researched but held; do not run it immediately after KWAI-LI-008 because both touch the broader theme of AI-generated inaccuracies and trust.
+- **Performance:** No new post-level metrics supplied. Do not infer performance from follower counts or publication timing.

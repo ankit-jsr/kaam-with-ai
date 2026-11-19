@@ -1,7 +1,7 @@
 # KaamWithAI Operator Radar — Reddit research
 
 **Started:** 13 November 2026  
-**Last updated:** 18 November 2026  
+**Last updated:** 19 November 2026  
 **Purpose:** Find real examples of people using AI in everyday work, then investigate the workflow rather than repeating a tool list.  
 **Editorial status:** Research leads only. No story in this brief is independently verified.
 
@@ -203,6 +203,29 @@ A reply raised cybersecurity and maintenance concerns; the owner acknowledged th
 **Why it is interesting:** AI-assisted coding can help a domain expert build a workflow that fits the business better than a generic package. But the security and maintenance caveats are central, not footnotes.
 
 **Editorial priority:** Archive / lower priority due to age.
+
+
+
+### 8. Myer's Bagels: AI-edited social posts crossed the line between presentation and misrepresentation
+
+**Source:** https://www.businessinsider.com/bagel-shop-owner-removes-ai-social-media-marketing-2026-5  
+**Published:** 16 May 2026.  
+**Source type:** Business Insider as-told-to essay based on a conversation with Adam Jones, owner of Myer's Bagels in Burlington, Vermont.  
+**Evidence status:** First-person owner account reported by a publication; not independently audited.
+
+Jones says he tried a small-business AI service that could plan a month of Instagram posts and adapt photos the shop supplied. The service altered real bakery images with details that did not match the actual premises and created a fake handwritten note around a real customer review. It also generated a new view of the shop's layout. Jones says customers noticed the mismatch, that two posts drew an estimated 25–30 comments each, and that some people left one-star Google reviews specifically about the posts rather than the food. He removed the posts and apologised.
+
+**What is grounded:** The owner describes the AI tool, the altered imagery, the customer reaction and his response. Business Insider identifies the piece as an as-told-to account and dates the interview-based essay to 16 May 2026.
+
+**What is not established:** There is no independent review-count audit, sales impact, lost-customer figure or evidence that the posts changed the shop's revenue. Do not turn the owner's estimate of comments into a verified metric. The vendor/product name is not disclosed in the article.
+
+**Why it is interesting:** This is a customer-facing version of the trust problem. In a local business, customers know the shop, its staff and its products. An AI-edited image can be technically polished and still misrepresent the place people recognise.
+
+**Potential angle:** “Your customers know what your business actually looks like.” AI can help with a content calendar or first-draft caption; the business owner still needs to check that photos, testimonials, premises and claims are real.
+
+**Editorial decision:** Researched; hold. It is a distinct marketing/brand story, but do not publish it immediately after the solo-agency AI back-office story. Both concern AI-generated inaccuracies, so give readers a different positive workflow story between them.
+
+**Research brief:** `editorial/research/myers-bagels-ai-marketing-backlash-2026-11-19.md`.
 
 ## Early patterns worth investigating
 
