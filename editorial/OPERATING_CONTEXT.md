@@ -472,3 +472,37 @@ Potential editorial angle: how an accountant decides which bookkeeping tasks nee
 3. Complete rendered desktop/mobile QA when browser/network access is available.
 4. Continue cross-industry operator research; keep the Echo Janitorial story as the next non-accounting article candidate, subject to editorial review.
 5. Obtain the direct Company Page URL when convenient. No work is blocked on it other than Page-specific auditing and the website Follow link.
+
+
+## 15. Morning operating update — 19 November 2026
+
+### Repository and website
+- Latest main-branch commit at cycle start: `d2221c47b5d38f1586e3dd87e21a586b5d8b0800`. PR #16 is closed and merged.
+- GitHub Actions run #134 was checked directly. Site validation and the pull-request preview deployment succeeded; the production deployment job was skipped because this was a pull-request run. The latest independently verified production deployment remains run #133 from 17 November. Do not claim the 18 November merge has a verified production deployment until a main-branch run is checked.
+- Source-level audit fetched the homepage, About, Privacy and all five published article pages. All eight pages have a title, canonical URL and meta description. The homepage headline, title and Twitter title align at “AI for practical operators”. The eight-URL sitemap and permissive robots.txt were checked. A local-link pass found no broken page targets; root links were treated as valid.
+- Direct retrieval of the live Pages domain still fails in this runtime with temporary DNS resolution failure. Rendered desktop/mobile QA remains open. Source checks and preview deployment are not a substitute for production visual QA.
+- Google Search Console remains paused. No GSC access, inspection, screenshot request or change was made.
+
+### Editorial research and publishing
+- The CPA bookkeeping article remains a draft awaiting user review; no publication approval has been given.
+- Echo Janitorial remains the next non-accounting article candidate. Fortune's interview describes an intake form feeding Jobber, an AI receptionist and automatic acknowledgements. Fortune says it reviewed the company's revenue records, but that does not establish that AI caused the revenue growth. Jobber's current official Receptionist documentation was rechecked: it is dated 28 October 2026 and lists $29 for 30 conversations on eligible plans, then $0.79 per additional conversation, or unlimited use on Plus. Fortune's March article reported the owner's $99 payment; treat these as different dated reports, not a direct like-for-like comparison.
+- Added a researched, held lead on Myer's Bagels and AI-edited social posts. The owner told Business Insider that generated edits misrepresented the bakery's real premises and customer review presentation; the owner says posts were removed and an apology issued. No sales impact or exact review count is established. Keep this story away from the solo-agency article in the publishing sequence because both touch AI-generated inaccuracies.
+
+### LinkedIn distribution
+- Thursday 19 November is a non-posting day. The last confirmed post remains KWAI-LI-003 on 16 November. Wednesday 18 November's KWAI-LI-008 recommendation has no publication confirmation; keep it Ready, not Posted.
+- Friday 20 November is the next possible slot for KWAI-LI-008, subject to a fresh copy check and the user's manual review. No publishing or scheduling has taken place.
+- Added KWAI-LI-009 (Myer's Bagels) as researched/hold, not drafted or approved. It should not immediately follow KWAI-LI-008.
+- No post-level performance metrics have been supplied. The Company Page URL is still missing for Page-specific auditing and a website Follow link.
+
+### Active automations
+- KaamWithAI Daily OS: enabled.
+- Revisit YouTube: enabled for 1 December 2026.
+- Publish Project Vend story: disabled/completed.
+- Start workout: disabled.
+
+### Next priorities
+1. User reviews the CPA bookkeeping draft; do not publish without approval.
+2. If desired, manually publish KWAI-LI-008 on Friday after reviewing the copy; then provide the post URL and later metrics so the library can be updated.
+3. Continue the Echo Janitorial article only after the CPA review decision; recheck Jobber product details before publication.
+4. Verify the post-merge production deployment and complete rendered desktop/mobile QA when the site can be reached.
+5. Keep the Myer's Bagels lead in reserve for a later, spaced-out marketing-trust story.
