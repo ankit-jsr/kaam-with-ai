@@ -293,3 +293,48 @@ We wrote up the four mistakes and the checks the owner added. Link in the first 
 - **Next possible target:** Friday, 20 November — KWAI-LI-008, after a fresh copy check and only if the user still wants to publish it. The article is still recent, and its angle remains distinct from the earlier accountant and Business Hub posts.
 - **Queue development:** KWAI-LI-009 (Myer's Bagels) is researched but held; do not run it immediately after KWAI-LI-008 because both touch the broader theme of AI-generated inaccuracies and trust.
 - **Performance:** No new post-level metrics supplied. Do not infer performance from follower counts or publication timing.
+
+
+
+### KWAI-LI-010 — 3R Plumbing: 36 AI-assisted workflows, one system of record
+
+- **Status:** Researched; future queue candidate, not drafted or approved.
+- **Source:** Zapier customer story, 14 October 2026 — https://zapier.com/blog/3r-plumbing-next-gen-zaps/
+- **Research brief:** `editorial/research/3r-plumbing-next-gen-zaps-2026-11-20.md`.
+- **Angle:** A 15-person plumbing and HVAC company uses Claude connected through Zapier to build workflows, while ServiceTitan remains the source of truth. The automations feed role-specific portals, callbacks, sales follow-ups, purchasing, marketing and owner reporting.
+- **Reported:** 36 live Next-Gen Zaps, about 1,400 runs a week and 30 connected apps. The story says the owner reviews, tests and checks where the data lands.
+- **Reader takeaway:** Before adding AI, decide where business data lives. Automate the handoffs around that system and create clear queues/alerts for work that can slip.
+- **Evidence caveat:** Vendor-authored customer story, not independently verified. No quantified time saving. Zapier reports revenue grew from around $300,000 to nearly $3.8 million since 2022; do not attribute that growth to AI.
+- **Suggested format:** Text-only Company Page post. Avoid the revenue-growth hook; focus on the system-of-record architecture and role-specific workflow.
+- **Next possible slot:** Monday, 23 November, subject to a fresh editorial check. Do not publish just to fill the cadence.
+
+## Daily decision — Friday, 20 November 2026
+
+- **Posting decision:** Recommend KWAI-LI-008 today. Friday is the next planned slot; KWAI-LI-003 is the last confirmed post (16 November). Wednesday's recommendation was not confirmed live, so it remains Ready and is not counted as posted.
+- **Fresh source check (20 Nov):** Reopened the original Reddit thread and confirmed the four reported failures and the owner's safeguards. The reduction from several errors per week to a few per month remains the author's estimate, not a measured result.
+- **Purpose:** Drive readers to the solo-agency field report and give operators one specific safeguard: require the source record behind important AI updates.
+- **Format:** Text-only post; article link in the first comment. No graphic required.
+- **Status:** Ready for manual review. The assistant has not posted or scheduled anything.
+- **Next research candidate:** KWAI-LI-010 (3R Plumbing) for next week. KWAI-LI-009 (Myer's Bagels) stays on hold because its AI-image/trust angle is too close to today's source-verification story.
+
+**Copy rechecked and tightened for today's review:**
+
+Claude told a solo event-staffing owner that a vendor hadn't replied.
+
+The vendor had answered every question that morning. Claude had read an email preview instead of the full thread.
+
+The same assistant said a draft was staged when it wasn't, confused a supplier with a potential sponsor, and reported a database table missing without checking.
+
+The owner added three rules: open the full thread, label information as confirmed/stated/assumed/open, and never report an action complete without tool confirmation.
+
+He says errors dropped from several a week to a few a month. That's his estimate, not a measured result.
+
+If you're using AI for business admin, ask it to show the record behind its answer. A summary isn't proof.
+
+We wrote up the mistakes and the safeguards. Link in the first comment.
+
+#SmallBusiness #PracticalAI #AIAgents
+
+- **Article:** https://kaamwithai.pages.dev/articles/solo-event-agency-claude-back-office.html
+- **Post URL:** Not supplied.
+- **Performance:** Awaiting user confirmation and metrics.

@@ -1,6 +1,6 @@
 # KaamWithAI — Operating Context
 
-**Last updated:** 18 November 2026  
+**Last updated:** 20 November 2026
 **Purpose:** Durable handover and source of truth for work across ChatGPT conversations. Read this before making project decisions or asking the user to repeat context.
 
 ## 1. Project
@@ -506,3 +506,34 @@ Potential editorial angle: how an accountant decides which bookkeeping tasks nee
 3. Continue the Echo Janitorial article only after the CPA review decision; recheck Jobber product details before publication.
 4. Verify the post-merge production deployment and complete rendered desktop/mobile QA when the site can be reached.
 5. Keep the Myer's Bagels lead in reserve for a later, spaced-out marketing-trust story.
+
+
+## 16. Morning operating update — 20 November 2026
+
+### Repository and website
+- Latest main commit at cycle start: `d6ce95073c0cd39356b5f1f567bb60f850e256b4`, merged PR #19 strengthening the Echo Janitorial headline. The visible H1, homepage card, document title, Open Graph/Twitter metadata and schema headline were updated together.
+- GitHub Actions run [#44567423704](https://github.com/ankit-jsr/kaam-with-ai/actions/runs/44567423704) completed successfully: site validation and Cloudflare production deployment both passed. Pull-request preview was skipped on the main-branch run, as expected.
+- The deployment is verified by Actions, but a direct live-page fetch still fails from this runtime due to DNS/network resolution. Rendered desktop/mobile QA and independent live-headline confirmation remain unverified.
+- Google Search Console remains paused. No GSC investigation, screenshot request or change was made.
+
+### Editorial research and publishing
+- The CPA bookkeeping draft remains awaiting user review; it is not approved or published. Echo Janitorial is the next website article candidate after that review.
+- Researched KWAI-LI-010, 3R Plumbing & Mechanical, from Zapier's 14 October customer story: 36 live Next-Gen Zaps, about 1,400 weekly runs and ServiceTitan as the system of record. Vendor claims are not independently verified; revenue growth is not attributed to AI. Research brief saved under `editorial/research/3r-plumbing-next-gen-zaps-2026-11-20.md`.
+- No new website article was drafted today; the CPA review remains the editorial bottleneck, and adding another draft would widen the backlog.
+
+### LinkedIn distribution
+- Friday 20 November is a recommended posting day. KWAI-LI-008 was rechecked against its Reddit source and is ready for manual review. The post copy and today's decision are recorded in `editorial/distribution/2026-11-linkedin-content-library.md`.
+- KWAI-LI-003 remains the last confirmed post (16 November). KWAI-LI-008 was recommended Wednesday but not confirmed live; do not mark posted. No post metrics supplied.
+- KWAI-LI-009 (Myer's Bagels) remains held to avoid running two trust/accuracy stories close together. KWAI-LI-010 (3R Plumbing) is a research candidate for next week; no copy approved.
+- No LinkedIn publishing or scheduling performed. The user manually publishes to the KaamWithAI Company Page.
+
+### Active automations and pending commitments
+- KaamWithAI Daily OS: active; this run completed the current operating review and updated the durable project record.
+- Revisit YouTube: active, 1 December 2026. Faceless format, ElevenLabs narration, low hands-on production; no production/publishing started.
+- Pending user actions: review the CPA draft; optionally review and manually publish KWAI-LI-008 today, then provide the post URL/metrics if available. No additional decision is required for research or deployment.
+
+### Next priorities
+1. Publish KWAI-LI-008 manually if approved; record confirmation only after the user reports it live.
+2. Review the CPA article and decide whether to publish; then proceed with Echo Janitorial.
+3. Turn the 3R Plumbing research into a distinct LinkedIn post for next week, with the system-of-record angle and vendor caveats.
+4. Complete desktop/mobile rendered QA when production can be accessed from a network-enabled browser.
