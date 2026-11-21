@@ -3,7 +3,7 @@
 **Destination:** KaamWithAI LinkedIn Company Page only  
 **Workflow:** Assistant researches, drafts and maintains this library. The user manually reviews and publishes.  
 **No publishing or scheduling by the assistant.**  
-**Last updated:** 21 November 2026 (fresh operator research and Monday distribution queue)
+**Last updated:** 21 November 2026 (post KWAI-LI-011 confirmed; copy and status recorded)
 
 ## Status definitions
 
@@ -142,6 +142,7 @@ No post-level analytics have been supplied yet. Add a row after the user shares 
 | KWAI-LI-001 | 10 Nov 2026 | — | — | — | — | — | — | — | Awaiting metrics |
 | KWAI-LI-002 | 13 Nov 2026 | — | — | — | — | — | — | — | Awaiting metrics |
 | KWAI-LI-003 | 16 Nov 2026 | — | — | — | — | — | — | — | Posted; awaiting metrics |
+| KWAI-LI-011 | 21 Nov 2026 | — | — | — | — | — | — | — | Posted; awaiting metrics |
 
 
 
@@ -378,3 +379,34 @@ One unverified owner's account, not a survey. Still, it's a question worth askin
 - **Publication reconciliation:** KWAI-LI-003 remains the last confirmed post (16 November). KWAI-LI-008's Friday 20 November recommendation has no publication confirmation; it remains Ready and is not counted as posted.
 - **Next candidate:** KWAI-LI-011 is prepared for Monday, 23 November. It is a distinct, recent owner-reported maintenance concern; final selection and source/copy check belong to Monday's cycle.
 - **Performance:** No post-level metrics supplied. No publication or scheduling by the assistant.
+
+
+### KWAI-LI-011 — Automation failure reporting (21 November 2026)
+
+- **Status:** Posted — user confirmed publication on 21 November 2026.
+- **Topic:** AI automation silently failing and creating a checking burden.
+- **Angle:** Don't just automate the task; automate the check/report that tells you what did not get done.
+- **Reader takeaway:** Build a failure/exception report into the workflow (e.g., 10 enquiries received, 8 processed, 2 failed) so missing work is visible immediately.
+- **Purpose:** Give operators one concrete reliability improvement they can implement.
+- **Format:** Text-only Company Page post.
+- **Post URL:** Not supplied.
+- **Performance:** No metrics supplied.
+- **Final copy:**
+
+> You set up an AI automation to save yourself 30 minutes a day.
+>
+> Three weeks later, you're spending that time checking whether it actually worked.
+>
+> Did the email go out? Did the lead get added? Are the numbers right?
+>
+> Here's one thing I'd do before automating anything else:
+>
+> **Make it report what didn't get done.**
+>
+> If 10 enquiries came in and only 8 made it into your CRM, you want to know about the other 2. You don't want to find out three days later when a customer calls asking for an update.
+>
+> The automation isn't finished when it does the job.
+>
+> It's finished when you know whether it did the job.
+>
+> #SmallBusiness #PracticalAI
