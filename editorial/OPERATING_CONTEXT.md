@@ -573,6 +573,7 @@ Potential editorial angle: how an accountant decides which bookkeeping tasks nee
 4. Keep the research queue cross-industry and avoid another near-duplicate AI-reliability story immediately.
 
 
-### PR #22 follow-up status
-- Today's cycle changes are in [PR #22](https://github.com/ankit-jsr/kaam-with-ai/pull/22), which remains open and unmerged. The latest head's site validation passed in run [#149](https://github.com/ankit-jsr/kaam-with-ai/actions/runs/44856894704); the Cloudflare preview deployment is still in progress. No production deployment has been triggered by this PR.
+### PR #22 final status
+- [PR #22](https://github.com/ankit-jsr/kaam-with-ai/pull/22) was merged with commit `136b3faaac340dc96ba50f4707d8a42eca12bd4e`. The latest branch validation passed; the sitemap correction and editorial updates are now on main.
+- Main-branch workflow run [#152](https://github.com/ankit-jsr/kaam-with-ai/actions/runs/44856985697) completed successfully: site validation and Cloudflare production deployment both passed. The production workflow verifies deployment, but live-page fetch and visual QA remain blocked by DNS resolution in this runtime.
 - The “no open PRs or issues” statement above refers to the cycle-start snapshot, before PR #22 was created.
