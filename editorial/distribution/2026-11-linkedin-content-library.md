@@ -3,7 +3,7 @@
 **Destination:** KaamWithAI LinkedIn Company Page only  
 **Workflow:** Assistant researches, drafts and maintains this library. The user manually reviews and publishes.  
 **No publishing or scheduling by the assistant.**  
-**Last updated:** 19 November 2026 (cadence decision, publication-state reconciliation and new retail marketing research)
+**Last updated:** 21 November 2026 (fresh operator research and Monday distribution queue)
 
 ## Status definitions
 
@@ -338,3 +338,45 @@ We wrote up the mistakes and the safeguards. Link in the first comment.
 - **Article:** https://kaamwithai.pages.dev/articles/solo-event-agency-claude-back-office.html
 - **Post URL:** Not supplied.
 - **Performance:** Awaiting user confirmation and metrics.
+
+
+### KWAI-LI-011 — Who maintains the automation when it stops?
+
+- **Status:** Ready for manual review; not posted or scheduled.
+- **Target window:** Monday, 23 November 2026, subject to the morning copy check.
+- **Audience:** Small-business owners using connected tools for orders, invoices or customer follow-up.
+- **Angle:** A 15-person ecommerce owner describes data-sync problems, workflows stopping partway and the manual checking that remains. The useful question is who owns maintenance when the business has no in-house tech team.
+- **Reader takeaway:** Before relying on an automation, name who owns failures, where unfinished work becomes visible, and what the manual fallback is. Include maintenance and exception handling when evaluating whether time is actually saved.
+- **Source:** https://www.reddit.com/r/smallbusiness/comments/1xyahsx/running_a_business_is_starting_to_feel_like_a/
+- **Evidence caveat:** One unverified Reddit account. The original post is self-reported and does not establish a representative pattern. Comments contain both practical advice and vendor pitches; do not treat them as independent consensus.
+- **Suggested format:** Text-only Company Page post. Reddit source link in the first comment; no graphic needed.
+- **Purpose:** Surface the overlooked maintenance cost of AI workflows and offer a short checklist operators can use before adopting one.
+- **Final copy — ready for manual review:**
+
+An ecommerce owner with 15 employees wrote on Reddit this week that they tried Codex and Anvita Mate for order checks, invoice matching and customer follow-ups.
+
+Data didn't always sync. Some workflows stopped halfway. They still had to check the results manually.
+
+The question: who maintains these workflows when you don't have an in-house tech team?
+
+Before relying on an automation, I'd want:
+- Someone responsible for failures.
+- A visible place for unfinished work to land.
+- A manual fallback when it stops.
+
+Otherwise the admin work hasn't gone away; it's become troubleshooting.
+
+One unverified owner's account, not a survey. But the maintenance question is worth asking before you automate.
+
+#SmallBusiness #PracticalAI
+
+- **Post URL:** Not supplied.
+- **Performance:** Awaiting user confirmation and metrics.
+
+
+## Daily decision — Saturday, 21 November 2026
+
+- **Posting decision:** No post recommended today. Saturday is outside the starting Monday / Wednesday / Friday rhythm; there is no reason to add a weekend post to make up for an unconfirmed slot.
+- **Publication reconciliation:** KWAI-LI-003 remains the last confirmed post (16 November). KWAI-LI-008's Friday 20 November recommendation has no publication confirmation; it remains Ready and is not counted as posted.
+- **Next candidate:** KWAI-LI-011 is prepared for Monday, 23 November. It is a distinct, recent owner-reported maintenance concern; final selection and source/copy check belong to Monday's cycle.
+- **Performance:** No post-level metrics supplied. No publication or scheduling by the assistant.
