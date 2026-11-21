@@ -1,6 +1,6 @@
 # KaamWithAI — Operating Context
 
-**Last updated:** 20 November 2026  
+**Last updated:** 21 November 2026  
 **Purpose:** Durable handover and source of truth for work across ChatGPT conversations. Read this before making project decisions or asking the user to repeat context.
 
 ## 1. Project
@@ -538,3 +538,41 @@ Potential editorial angle: how an accountant decides which bookkeeping tasks nee
 2. Review the CPA article and decide whether to publish; then proceed with Echo Janitorial.
 3. Turn the 3R Plumbing research into a distinct LinkedIn post for next week, with the system-of-record angle and vendor caveats.
 4. Complete desktop/mobile rendered QA when production can be accessed from a network-enabled browser.
+
+
+## 17. Morning operating update — 21 November 2026
+
+### Repository, website and SEO
+- Main is at `c7a32fc84ec913c06e4d5e8a69272851c8b033b2`. GitHub Actions run [#146](https://github.com/ankit-jsr/kaam-with-ai/actions/runs/44662141111) was checked: site validation and production deployment to Cloudflare Pages both succeeded. PR #20 and #21 are merged; there are no open PRs or issues.
+- Source-level metadata check across the homepage, About, Privacy and six published articles found titles, canonicals and meta descriptions on all pages. Article Open Graph and Twitter titles were manually checked against visible article headings; the first regex audit had false positives because apostrophes were treated as quote delimiters. About and Privacy do not have OG/Twitter titles; optional, not a blocker.
+- Sitemap has nine URLs; robots.txt allows crawling and references the sitemap. The homepage lastmod was still 18 November despite the homepage card/headline update on 19 November; corrected to 19 November in today's branch.
+- Independent live-site fetch remains blocked by DNS resolution failure for `kaamwithai.pages.dev` in this runtime. Rendered desktop/mobile QA is still unverified; source and deployment checks do not substitute for it.
+- Google Search Console remains paused. No GSC investigation, screenshot request or change was made.
+
+### Editorial
+- CPA bookkeeping draft remains awaiting user review and publication approval. Echo Janitorial is published in source and its production deployment was verified; independent live-page fetch is still blocked.
+- 3R Plumbing remains a vendor-authored customer story candidate; its reported workflow counts and revenue are not independently verified and revenue growth is not attributed to AI. No new website article was added.
+- Added a fresh research brief from a 17 November Reddit post by an unverified ecommerce operator describing sync failures, workflows stopping midway and manual checks. It is a lead, not a case study or representative evidence.
+
+### LinkedIn
+- Saturday 21 November is a non-posting day; no filler recommended.
+- KWAI-LI-008 (solo event-agency source verification) remains Ready, but the 20 November recommendation window passed without user confirmation. Do not mark posted or reuse it automatically.
+- KWAI-LI-011 (automation maintenance) is Ready for manual review for Monday 23 November, subject to the morning check. Text-only; link in first comment. The source is one unverified Reddit account, not a survey.
+- No LinkedIn post was published or scheduled by the assistant. No post-level metrics supplied
+
+### Automations and pending commitments
+- KaamWithAI Daily OS: active.
+- Revisit YouTube: active for 1 December 2026; no production or publishing started.
+- Publish Project Vend story and Start workout: disabled/completed.
+- Pending: user review of CPA draft; confirmation/URL if a LinkedIn post is published; Company Page URL remains unavailable for a page-specific audit. Visual QA is blocked by the runtime DNS/network issue.
+
+### Priorities
+1. On Monday, choose between the ready LI-008 and LI-011 after a fresh source/copy check; do not force a post if neither is appropriate.
+2. User review of the CPA draft remains the main publishing bottleneck. Do not publish without approval.
+3. Complete rendered desktop/mobile QA when the Pages domain is reachable from a browser.
+4. Keep the research queue cross-industry and avoid another near-duplicate AI-reliability story immediately.
+
+
+### PR #22 follow-up status
+- Today's cycle changes are in [PR #22](https://github.com/ankit-jsr/kaam-with-ai/pull/22), which remains open and unmerged. The latest head's site validation passed in run [#149](https://github.com/ankit-jsr/kaam-with-ai/actions/runs/44856894704); the Cloudflare preview deployment is still in progress. No production deployment has been triggered by this PR.
+- The “no open PRs or issues” statement above refers to the cycle-start snapshot, before PR #22 was created.
