@@ -571,3 +571,8 @@ Potential editorial angle: how an accountant decides which bookkeeping tasks nee
 2. User review of the CPA draft remains the main publishing bottleneck. Do not publish without approval.
 3. Complete rendered desktop/mobile QA when the Pages domain is reachable from a browser.
 4. Keep the research queue cross-industry and avoid another near-duplicate AI-reliability story immediately.
+
+
+### PR #22 follow-up status
+- Today's cycle changes are in [PR #22](https://github.com/ankit-jsr/kaam-with-ai/pull/22), which remains open and unmerged. The latest head's site validation passed in run [#149](https://github.com/ankit-jsr/kaam-with-ai/actions/runs/44856894704); the Cloudflare preview deployment is still in progress. No production deployment has been triggered by this PR.
+- The “no open PRs or issues” statement above refers to the cycle-start snapshot, before PR #22 was created.
