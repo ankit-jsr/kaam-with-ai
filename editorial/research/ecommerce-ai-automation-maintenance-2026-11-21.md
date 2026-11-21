@@ -28,25 +28,20 @@ Several comments suggest starting with one narrow workflow, reducing the number 
 
 ## Company Page draft (ready for manual review)
 
-An ecommerce owner with 15 employees wrote on Reddit this week that they tried Codex and Anvita Mate for order checks, invoice matching and customer follow-ups.
-
+An ecommerce owner with 15 employees posted about trying Codex and Anvita Mate for order checks, invoice matching and customer follow-ups.
 
 Data didn't always sync. Some workflows stopped halfway. They still had to check the results manually.
 
+The question was simple: who maintains this when there's no in-house tech team?
 
-The question: who maintains these workflows when you don't have an in-house tech team?
+Before relying on an automation, I'd want three things:
+- Someone responsible when it fails.
+- A visible place for unfinished work.
+- A manual fallback.
 
+The time saved on the task needs to be weighed against the time spent checking and fixing the workflow.
 
-Before relying on an automation, I'd want:
-- Someone responsible for failures.
-- A visible place for unfinished work to land.
-- A manual fallback when it stops.
-
-
-Otherwise the admin work hasn't gone away; it's become troubleshooting.
-
-
-One unverified owner's account, not a survey. But the maintenance question is worth asking before you automate.
+One unverified owner's account, not a survey. Still, it's a question worth asking before automating.
 
 #SmallBusiness #PracticalAI
 
