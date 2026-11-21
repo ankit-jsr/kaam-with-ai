@@ -353,11 +353,9 @@ We wrote up the mistakes and the safeguards. Link in the first comment.
 - **Purpose:** Surface the overlooked maintenance cost of AI workflows and offer a short checklist operators can use before adopting one.
 - **Final copy — ready for manual review:**
 
-An ecommerce owner with 15 employees posted about trying Codex and Anvita Mate for order checks, invoice matching and customer follow-ups.
+An ecommerce owner with 15 employees wrote on Reddit that they'd tried Codex and Anvita Mate, but data didn't always sync and workflows sometimes stopped halfway. They still had to check the results manually.
 
-Data didn't always sync. Some workflows stopped halfway. They still had to check the results manually.
-
-The question was simple: who maintains this when there's no in-house tech team?
+They want AI to handle order checks, invoice matching and customer follow-ups. The question: who maintains those workflows without an in-house tech team?
 
 Before relying on an automation, I'd want three things:
 - Someone responsible when it fails.
